@@ -1,0 +1,6 @@
+# Ignore design config and secrets
+Figma_config.json
+*.env
+.DS_Store
+.vscode/
+node_modules/

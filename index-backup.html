@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Wealth Finder — Recover Your Unclaimed Wealth in India</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Raleway:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ========== HEADER / NAVIGATION ========== -->
+  <!-- Figma Node: 9002:6422 -->
+  <header class="site-header" id="siteHeader">
+    <div class="header-container">
+      <a href="#" class="logo">
+        <img src="images/logo.png" alt="The Wealth Finder" width="132" height="48">
+      </a>
+
+      <nav class="main-nav" id="mainNav">
+        <ul class="nav-links">
+          <li class="nav-item has-dropdown has-mega">
+            <a href="/services">Our Services <svg class="chevron" width="12" height="8" viewBox="0 0 12 8" fill="none"><path d="M1 1.5L6 6.5L11 1.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+            <div class="nav-dropdown nav-mega">
+              <div class="mega-col">
+                <h4 class="mega-heading">For Investors & Families</h4>
+                <a href="/services/iepf-recovery">Recovery Of Unclaimed Shares & Dividends From IEPF</a>
+                <a href="/services/share-tracing">Search & Tracing Of Lost Shares</a>
+                <a href="/services/iepf-claim-support">IEPF Claim Support</a>
+                <a href="/services/demat-physical-shares">DEMAT Of Physical Shares</a>
+                <a href="/services/nri-assistance">NRI Assistance</a>
+                <a href="/services/legal-support">Legal Support</a>
+              </div>
+              <div class="mega-col">
+                <h4 class="mega-heading">For Companies</h4>
+                <a href="/services/suspended-company-advisory">Suspended Company Advisory (BSE/NSE)</a>
+                <a href="/services/compulsory-delisting-advisory">Compulsory Delisting Advisory (BSE/NSE)</a>
+                <a href="/services/nbfc-registration">NBFC Registration</a>
+                <a href="/services/nbfc-consulting">NBFC Consulting & Advisory</a>
+                <a href="/services/company-revival">Company Revival / Restoration</a>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item has-dropdown">
+            <a href="/your-situation">Your Situation <svg class="chevron" width="12" height="8" viewBox="0 0 12 8" fill="none"><path d="M1 1.5L6 6.5L11 1.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+            <div class="nav-dropdown">
+              <a href="/your-situation/nri">I'm An NRI</a>
+              <a href="/your-situation/suspended-company">My Company Is Suspended (BSE/NSE)</a>
+              <a href="/your-situation/delisted-company">My Company Compulsory Delisted (BSE/NSE)</a>
+              <a href="/your-situation/nbfc-company">I'm An NBFC Company</a>
+            </div>
+          </li>
+          <li class="nav-item has-dropdown">
+            <a href="/resources">Resources <svg class="chevron" width="12" height="8" viewBox="0 0 12 8" fill="none"><path d="M1 1.5L6 6.5L11 1.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+            <div class="nav-dropdown">
+              <a href="/resources/blogs">Blogs</a>
+              <a href="/resources/guides">Guides</a>
+              <a href="/resources/faqs">FAQs</a>
+              <a href="/resources/regulatory-updates">Regulatory Updates</a>
+              <a href="/resources/glossary">Glossary</a>
+            </div>
+          </li>
+          <li class="nav-item has-dropdown">
+            <a href="/about">About Us <svg class="chevron" width="12" height="8" viewBox="0 0 12 8" fill="none"><path d="M1 1.5L6 6.5L11 1.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+            <div class="nav-dropdown">
+              <a href="/about">About TWF</a>
+              <a href="/about/team">Team</a>
+              <a href="/about/reviews">Reviews / Case Stories</a>
+              <a href="/about/careers">Careers</a>
+            </div>
+          </li>
+          <li class="nav-item"><a href="/partner-with-us">Partner With Us</a></li>
+          <li class="nav-item"><a href="/contact">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-cta">
+        <a href="#contact" class="btn btn-secondary">
+          <span>Book a Call</span>
+          <span class="btn-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </a>
+        <a href="#search" class="btn btn-primary">
+          <span>Free Search</span>
+          <span class="btn-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </a>
+      </div>
+
+      <!-- Hamburger Button -->
+      <button class="hamburger" id="hamburgerBtn" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Menu Overlay -->
+  <div class="mobile-menu-overlay" id="mobileMenu">
+    <ul class="mobile-nav-links">
+      <li class="mobile-nav-item has-dropdown">
+        <a href="/services">Our Services <svg class="chevron" width="12" height="8" viewBox="0 0 12 8" fill="none"><path d="M1 1.5L6 6.5L11 1.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        <div class="mobile-dropdown">
+          <span class="mobile-mega-heading">For Investors & Families</span>
+          <a href="/services/iepf-recovery">Recovery Of Unclaimed Shares & Dividends From IEPF</a>
+          <a href="/services/share-tracing">Search & Tracing Of Lost Shares</a>
+          <a href="/services/iepf-claim-support">IEPF Claim Support</a>
+          <a href="/services/demat-physical-shares">DEMAT Of Physical Shares</a>
+          <a href="/services/nri-assistance">NRI Assistance</a>
+          <a href="/services/legal-support">Legal Support</a>
+          <span class="mobile-mega-heading">For Companies</span>
+          <a href="/services/suspended-company-advisory">Suspended Company Advisory (BSE/NSE)</a>
+          <a href="/services/compulsory-delisting-advisory">Compulsory Delisting Advisory (BSE/NSE)</a>
+          <a href="/services/nbfc-registration">NBFC Registration</a>
+          <a href="/services/nbfc-consulting">NBFC Consulting & Advisory</a>
+          <a href="/services/company-revival">Company Revival / Restoration</a>
+        </div>
+      </li>
+      <li class="mobile-nav-item has-dropdown">
+        <a href="/your-situation">Your Situation <svg class="chevron" width="12" height="8" viewBox="0 0 12 8" fill="none"><path d="M1 1.5L6 6.5L11 1.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        <div class="mobile-dropdown">
+          <a href="/your-situation/nri">I'm An NRI</a>
+          <a href="/your-situation/suspended-company">My Company Is Suspended (BSE/NSE)</a>
+          <a href="/your-situation/delisted-company">My Company Compulsory Delisted (BSE/NSE)</a>
+          <a href="/your-situation/nbfc-company">I'm An NBFC Company</a>
+        </div>
+      </li>
+      <li class="mobile-nav-item has-dropdown">
+        <a href="/resources">Resources <svg class="chevron" width="12" height="8" viewBox="0 0 12 8" fill="none"><path d="M1 1.5L6 6.5L11 1.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        <div class="mobile-dropdown">
+          <a href="/resources/blogs">Blogs</a>
+          <a href="/resources/guides">Guides</a>
+          <a href="/resources/faqs">FAQs</a>
+          <a href="/resources/regulatory-updates">Regulatory Updates</a>
+          <a href="/resources/glossary">Glossary</a>
+        </div>
+      </li>
+      <li class="mobile-nav-item has-dropdown">
+        <a href="/about">About Us <svg class="chevron" width="12" height="8" viewBox="0 0 12 8" fill="none"><path d="M1 1.5L6 6.5L11 1.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        <div class="mobile-dropdown">
+          <a href="/about">About TWF</a>
+          <a href="/about/team">Team</a>
+          <a href="/about/reviews">Reviews / Case Stories</a>
+          <a href="/about/careers">Careers</a>
+        </div>
+      </li>
+      <li class="mobile-nav-item"><a href="/partner-with-us">Partner With Us</a></li>
+      <li class="mobile-nav-item"><a href="/contact">Contact Us</a></li>
+    </ul>
+    <div class="mobile-cta">
+      <a href="#contact" class="btn btn-secondary">
+        <span>Book a Call</span>
+        <span class="btn-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      </a>
+      <a href="#search" class="btn btn-primary">
+        <span>Free Search</span>
+        <span class="btn-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      </a>
+    </div>
+  </div>
+
+  <!-- ========== HERO SECTION ========== -->
+  <!-- Figma Node: 9002:6420 -->
+  <section class="hero" id="hero">
+    <div class="hero-inner">
+      <div class="hero-content">
+        <h1>Recover Unclaimed Shares &amp; Dividends — With End-to-End Support</h1>
+        <p class="hero-subtitle">Many families still have shares and dividends they don't even know about—especially from the physical share era. Start with a quick check and we'll guide the right route: <strong>IEPF, transmission, demat, or tracing.</strong></p>
+        <div class="hero-buttons">
+          <a href="#search" class="btn btn-primary">
+            <span>Search Your Wealth</span>
+            <span class="btn-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </a>
+          <a href="#contact" class="btn btn-secondary">
+            <span>Book a Call</span>
+            <span class="btn-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== STATS SECTION ========== -->
+  <!-- Figma Node: 9002:6458 -->
+  <section class="stats" id="stats">
+    <div class="container">
+      <h2 class="stats-title">Our Impact &amp; Reach</h2>
+      <div class="stats-grid">
+        <div class="stat-card">
+          <span class="stat-number">100 +</span>
+          <span class="stat-label">Associates Network</span>
+        </div>
+        <div class="stat-card stat-card--active">
+          <span class="stat-number">50 +</span>
+          <span class="stat-label">Team Size</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">350 +</span>
+          <span class="stat-label">Clients Handling</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">₹500Cr +</span>
+          <span class="stat-label">Value of Shares Recovered</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== START HERE SECTION ========== -->
+  <!-- Figma Node: 9002:6474 -->
+  <section class="start-here" id="search">
+    <div class="container">
+      <div class="start-here-grid">
+        <div class="start-here-content">
+          <div class="section-badge">
+            <span class="badge-arrow"><img src="images/leftSvg.svg" class="w-auto"/></span>
+            <span class="badge-text">Start Here</span>
+            <span class="badge-arrow"><img src="images/rightSvg.svg" class="w-auto"/></span>
+          </div>
+          <h2>Start With a Free Search</h2>
+          <p>Share basic details like investor name, father's name, and address. We'll help identify the likely route and next steps.</p>
+          <a href="#contact" class="btn btn-primary">
+            <span>Find Your Wealth</span>
+            <span class="btn-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </a>
+        </div>
+        <div class="start-here-visual">
+          <img src="images/StatWithAFreeSearch.png" alt="Start Here Illustration" class="w-100">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SERVICES SECTION ========== -->
+
+  <!-- ========== SERVICES SECTION ========== -->
+  <!-- Figma Node: 9002:6552 -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="services-layout">
+        <div class="services-header">
+          <div class="section-badge">
+          <span class="badge-arrow"><img src="images/leftSvg.svg" class="w-auto"/></span>
+              <span class="badge-text">Our Services</span>
+            <span class="badge-arrow"><img src="images/rightSvg.svg" class="w-auto"/></span>
+          </div>
+          <h2>Unclaimed Wealth Recovery Services</h2>
+          <p>Comprehensive support to help investors, NRIs, and businesses recover unclaimed investments.</p>
+          <a href="#" class="btn btn-primary">
+            <span>Learn More</span>
+            <span class="btn-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </a>
+        </div>
+        <div class="services-tabs-area">
+          <div class="services-tabs">
+            <button class="tab-btn active" data-tab="investors">For Investors &amp; Families</button>
+            <button class="tab-btn" data-tab="companies">For Companies</button>
+          </div>
+          <div class="services-cards" id="servicesCards">
+            <!-- Card 1 -->
+            <div class="service-card">
+              <div class="service-icon">
+               <img src="images/investorIconOne.svg" alt="IEPF Recovery Icon" width="50" height="50">
+              </div>
+              <div class="service-info">
+                <h3>Recovery of Unclaimed Shares &amp; Dividends from IEPF</h3>
+                <p>Recover shares/dividends that became unclaimed due to missed communication, address change, lost papers, or family not knowing about investments.</p>
+                <a href="#" class="btn btn-secondary btn-sm">
+                  <span>Learn More</span>
+                  <span class="btn-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+                </a>
+              </div>
+              <span class="service-number">01</span>
+            </div>
+            <!-- Card 2 -->
+            <div class="service-card">
+              <div class="service-icon">
+                <img src="images/investorIconTwo.svg" alt="Search & Tracing Icon" width="50" height="50">
+              </div>
+              <div class="service-info">
+                <h3>Search &amp; Tracing of Lost Shares</h3>
+                <p>We trace forgotten/lost investments (often of parents/grandparents) even when you have minimum information—using our database and investigation approach.</p>
+                <a href="#" class="btn btn-secondary btn-sm">
+                  <span>Learn More</span>
+                  <span class="btn-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+                </a>
+              </div>
+              <span class="service-number">02</span>
+            </div>
+            <!-- Card 3 -->
+            <div class="service-card">
+              <div class="service-icon">
+                <img src="images/investorIconThree.svg" alt="IEPF Claim Support Icon" width="50" height="50">
+              </div>
+              <div class="service-info">
+                <h3>IEPF Claim Support</h3>
+                <p>Complete support for claiming shares/dividends back from IEPF, including coordination with Company/RTA and the required verification flow.</p>
+                <a href="#" class="btn btn-secondary btn-sm">
+                  <span>Learn More</span>
+                  <span class="btn-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+                </a>
+              </div>
+              <span class="service-number">03</span>
+            </div>
+            <!-- Card 4 -->
+            <div class="service-card">
+              <div class="service-icon">
+                <img src="images/investorIconFour.svg" alt="DEMAT of Physical Shares Icon" width="50" height="50">
+              </div>
+              <div class="service-info">
+                <h3>DEMAT of Physical Shares</h3>
+                <p>Support for converting physical certificates into demat, including solving common blockers like name/signature mismatch, address change, and joint holder issues.</p>
+                <a href="#" class="btn btn-secondary btn-sm">
+                  <span>Learn More</span>
+                  <span class="btn-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+                </a>
+              </div>
+              <span class="service-number">04</span>
+            </div>
+            <!-- Card 5 -->
+            <div class="service-card">
+              <div class="service-icon">
+                <img src="images/investorIconFive.svg" alt="NRI Assistance Icon" width="50" height="50">
+              </div>
+              <div class="service-info">
+                <h3>NRI Assistance</h3>
+                <p>Support for NRIs to recover shares/dividends and complete related needs such as PAN support, NRE/NRO + demat setup guidance, and apostille support where required.</p>
+                <a href="#" class="btn btn-secondary btn-sm">
+                  <span>Learn More</span>
+                  <span class="btn-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+                </a>
+              </div>
+              <span class="service-number">05</span>
+            </div>
+            <!-- Card 6 -->
+            <div class="service-card">
+              <div class="service-icon">
+                <img src="images/investorIconSix.svg" alt="Legal Support Icon" width="50" height="50">
+              </div>
+              <div class="service-info">
+                <h3>Legal Support</h3>
+                <p>Support through legal steps linked to share recovery—like probate, succession certificate, legal heir certificate, and family dispute settlement through mediation support.</p>
+                <a href="#" class="btn btn-secondary btn-sm">
+                  <span>Learn More</span>
+                  <span class="btn-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+                </a>
+              </div>
+              <span class="service-number">06</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== YOUR SITUATION SECTION ========== -->
+  <!-- Figma Node: 9265:11652 -->
+  <section class="situation" id="situation">
+    <div class="situation-sticky-wrapper">
+      <div class="situation-sticky">
+        <div class="section-badge center">
+          <span class="badge-arrow"><img src="images/leftSvg.svg" class="w-auto"/></span>
+          <span class="badge-text">Your Situation</span>
+          <span class="badge-arrow"><img src="images/rightSvg.svg" class="w-auto"/></span>
+        </div>
+        <h2 class="section-title-center situation-title">
+          <span class="title-left">Find the<br>Path for</span>
+          <span class="title-right">Right<br>You</span>
+        </h2>
+      </div>
+    </div>
+    <div class="container">
+      <div class="situation-cards">
+        <div class="situation-card">
+          <div class="situation-card-content">
+            <h3>I'm an NRI</h3>
+            <p>Recover shares/dividends from outside India with a remote-friendly process. Start with route clarity and a simple checklist.</p>
+            <a href="#" class="btn btn-secondary btn-sm">
+              <span>Explore More</span>
+              <span class="btn-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            </a>
+          </div>
+          <div class="situation-card-bg"></div>
+        </div>
+        <div class="situation-card">
+          <div class="situation-card-content">
+            <h3>I'm a Legal Heir / Family Member</h3>
+            <p>Handling recovery after a death case? Understand transmission, IEPF, and ownership steps in the right sequence.</p>
+            <a href="#" class="btn btn-secondary btn-sm">
+              <span>Explore More</span>
+              <span class="btn-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            </a>
+          </div>
+          <div class="situation-card-bg"></div>
+        </div>
+        <div class="situation-card">
+          <div class="situation-card-content">
+            <h3>I'm an NBFC Company</h3>
+            <p>Planning registration, dealing with compliances, or evaluating takeover/sale? Choose the right route and start with a clear action plan.</p>
+            <a href="#" class="btn btn-secondary btn-sm">
+              <span>Explore More</span>
+              <span class="btn-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            </a>
+          </div>
+          <div class="situation-card-bg"></div>
+        </div>
+        <div class="situation-card">
+          <div class="situation-card-content">
+            <h3>My Company is Suspended</h3>
+            <p>Trading is suspended on BSE/NSE due to compliance gaps? See what it means, what worsens with time, and how revocation/delisting works.</p>
+            <a href="#" class="btn btn-secondary btn-sm">
+              <span>Explore More</span>
+              <span class="btn-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            </a>
+          </div>
+          <div class="situation-card-bg"></div>
+        </div>
+        <div class="situation-card">
+          <div class="situation-card-content">
+            <h3>My Company is Compulsorily Delisted</h3>
+            <p>Compulsory delisting on BSE/NSE is exchange-led and high sensitivity. Understand consequences and get a realistic options roadmap.</p>
+            <a href="#" class="btn btn-secondary btn-sm">
+              <span>Explore More</span>
+              <span class="btn-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            </a>
+          </div>
+          <div class="situation-card-bg"></div>
+        </div>
+        <div class="situation-card">
+          <div class="situation-card-content">
+            <h3>My Company is Struck Off</h3>
+            <p>Licenses, assets, or restart plans stuck due to strike-off? Check eligibility and see the step-by-step path to restoration.</p>
+            <a href="#" class="btn btn-secondary btn-sm">
+              <span>Explore More</span>
+              <span class="btn-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            </a>
+          </div>
+          <div class="situation-card-bg"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== HOW WE WORK SECTION ========== -->
+  <!-- Figma Node: 9002:6575 -->
+  <section class="how-we-work" id="process">
+    <div class="container">
+      <div class="section-badge center">
+        <span class="badge-arrow"><img src="images/leftSvg.svg" class="w-auto"/></span>
+        <span class="badge-text">Work Process</span>
+        <span class="badge-arrow"><img src="images/rightSvg.svg" class="w-auto"/></span>
+      </div>
+      <h2 class="section-title-center">How We Work</h2>
+      <p class="section-subtitle-center">A simple, transparent process from assessment to recovery</p>
+      <div class="process-steps">
+        <div class="process-line"></div>
+        <div class="process-step">
+          <div class="process-icon">
+            <img src="images/howWeWorkOne.svg" alt="Assessment Icon" width="48" height="48">
+            <img src="images/howIconImageOne.png" alt="Assessment Icon" class="process-icon-image">
+          </div>
+          <span class="process-badge">01</span>
+          <h3>Assessment &amp; Route Finalization</h3>
+          <p>We identify whether it's IEPF, transmission, demat, tracing, or a combination.</p>
+        </div>
+        <div class="process-dot"></div>
+        <div class="process-step">
+          <div class="process-icon">
+            <img src="images/howWeWorkTwo.svg" alt="Checklist Icon" width="48" height="48">
+            <img src="images/howIconImageTwo.png" alt="Checklist Icon" class="process-icon-image">
+          </div>
+          <span class="process-badge">02</span>
+          <h3>Checklist &amp; Document Planning</h3>
+          <p>You receive a clear case-specific checklist. We prepare formats and drafts wherever required.</p>
+        </div>
+        <div class="process-dot"></div>
+        <div class="process-step">
+          <div class="process-icon">
+            <img src="images/howWeWorkThree.svg" alt="Submission Icon" width="48" height="48">
+            <img src="images/howIconImageThree.png" alt="Submission Icon" class="process-icon-image">
+          </div>
+          <span class="process-badge">03</span>
+          <h3>Submission + follow-ups</h3>
+          <p>We coordinate with Company / RTA / IEPF and track progress.</p>
+        </div>
+        <div class="process-dot"></div>
+        <div class="process-step">
+          <div class="process-icon">
+            <img src="images/howWeWorkFour.svg" alt="Resolution Icon" width="48" height="48">
+            <img src="images/howIconImageFour.png" alt="Resolution Icon" class="process-icon-image">
+          </div>
+          <span class="process-badge">04</span>
+          <h3>Resolution &amp; Closure</h3>
+          <p>Recovery is completed with confirmation and closure communication.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CLIENT SUCCESS STORIES ========== -->
+  <!-- Figma Node: 9002:6672 -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-badge center">
+        <span class="badge-arrow"><img src="images/leftSvg.svg" class="w-auto"/></span>
+        <span class="badge-text">Client Success Stories</span>
+        <span class="badge-arrow"><img src="images/rightSvg.svg" class="w-auto"/></span>
+      </div>
+      <h2 class="section-title-center">What Clients Say</h2>
+      <div class="testimonials-grid">
+        <!-- Row 1 -->
+        <div class="testimonial-card testimonial-text">
+          <p class="testimonial-quote">After my father's passing, I found unclaimed shares worth ₹45 lakhs. Living in the US, I thought it would be impossible, <span class="text-muted">but The Wealth Finder managed everything remotely—documentation, liaising with authorities, and obtaining the legal heir certificate. I received the full amount in my NRE account within 8 months, thanks to their exceptional professionalism and transparency.</span></p>
+          <div class="testimonial-footer">
+            <img src="images/testimonialsOne.png" alt="Rajesh Kumar" class="testimonial-avatar">
+            <div class="testimonial-info">
+              <strong>Rajesh Kumar</strong>
+              <span>NRI, Software Engineer</span>
+            </div>
+            <div class="testimonial-rating"><img src="images/star.svg" alt="Rating" class="w-auto"/> 4.5</div>
+          </div>
+        </div>
+        <div class="testimonial-card testimonial-image">
+          <img src="images/testimonialsOne.png" alt="Testimonial" loading="lazy">
+        </div>
+        <div class="testimonial-card testimonial-text">
+          <p class="testimonial-quote">I had forgotten about some old mutual fund investments from 15 years ago. <span class="text-muted">The Wealth Finder not only traced them but also recovered ₹12 lakhs that had been transferred to IEPF. The success-based fee model gave me confidence - I paid only after recovery. Highly recommended for anyone with dormant investments</span></p>
+          <div class="testimonial-footer">
+            <img src="images/testimonialsTwo.png" alt="Priya Sharma" class="testimonial-avatar">
+            <div class="testimonial-info">
+              <strong>Priya Sharma</strong>
+              <span>Investor</span>
+            </div>
+            <div class="testimonial-rating"><img src="images/star.svg" alt="Rating" class="w-auto"/> 4.5</div>
+          </div>
+        </div>
+        <div class="testimonial-card testimonial-image">
+          <img src="images/testimonialsTwo.png" alt="Testimonial" loading="lazy">
+        </div>
+        <!-- Row 2 -->
+        <div class="testimonial-card testimonial-text">
+          <p class="testimonial-quote">Our family business faced compliance issues and was struck off, but The Wealth Finder stepped in. <span class="text-muted">They expertly managed the ROC process and restored our company in just 4 months.</span></p>
+          <div class="testimonial-footer">
+            <img src="images/testimonialsThree.png" alt="Sunita Reddy" class="testimonial-avatar">
+            <div class="testimonial-info">
+              <strong>Sunita Reddy</strong>
+              <span>Business Owner</span>
+            </div>
+            <div class="testimonial-rating"><img src="images/star.svg" alt="Rating" class="w-auto"/> 4.5</div>
+          </div>
+        </div>
+        <div class="testimonial-card testimonial-image">
+          <img src="images/testimonialsThree.png" alt="Testimonial" loading="lazy">
+        </div>
+        <div class="testimonial-card testimonial-image">
+          <img src="images/testimonialsFour.png" alt="Testimonial" loading="lazy">
+        </div>
+        <div class="testimonial-card testimonial-text">
+          <p class="testimonial-quote">The Wealth Finder team traced my mother's old share certificates <span class="text-muted">from the 1990s, navigating name changes and mergers to recover ₹28 lakhs.</span></p>
+          <div class="testimonial-footer">
+            <img src="images/testimonialsFour.png" alt="Dr. Amit Patel" class="testimonial-avatar">
+            <div class="testimonial-info">
+              <strong>Dr. Amit Patel</strong>
+              <span>NRI, Medical Practitioner</span>
+            </div>
+            <div class="testimonial-rating"><img src="images/star.svg" alt="Rating" class="w-auto"/> 4.5</div>
+          </div>
+        </div>
+        <!-- Row 3 -->
+        <div class="testimonial-card testimonial-image">
+          <img src="images/testimonialsFive.png" alt="Testimonial" loading="lazy">
+        </div>
+        <div class="testimonial-card testimonial-text">
+          <p class="testimonial-quote">After retirement, I consolidated my investments and the Wealth <span class="text-muted">Finder recovered ₹8.5 lakhs in unclaimed dividends from 6 forgotten companies.</span></p>
+          <div class="testimonial-footer">
+            <img src="images/testimonialsFive.png" alt="Kavita Desai" class="testimonial-avatar">
+            <div class="testimonial-info">
+              <strong>Kavita Desai</strong>
+              <span>Retired Government Officer</span>
+            </div>
+            <div class="testimonial-rating"><img src="images/star.svg" alt="Rating" class="w-auto"/> 4.5</div>
+          </div>
+        </div>
+        <div class="testimonial-card testimonial-text">
+          <p class="testimonial-quote">We needed a shell company for our venture, and The Wealth Finder managed due diligence and documentation expertly. <span class="text-muted">They addressed potential issues we hadn't even considered.</span></p>
+          <div class="testimonial-footer">
+            <img src="images/testimonialsSix.png" alt="Vikram Singh" class="testimonial-avatar">
+            <div class="testimonial-info">
+              <strong>Vikram Singh</strong>
+              <span>Entrepreneur</span>
+            </div>
+            <div class="testimonial-rating"><img src="images/star.svg" alt="Rating" class="w-auto"/> 4.5</div>
+          </div>
+        </div>
+        <div class="testimonial-card testimonial-image">
+          <img src="images/testimonialsSix.png" alt="Testimonial" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== BLOGS SECTION ========== -->
+  <!-- Figma Node: 9002:6778 -->
+  <section class="blogs" id="blogs">
+    <div class="container">
+      <div class="blogs-header">
+        <div class="blogs-header-left">
+          <div class="section-badge">
+            <span class="badge-arrow"><img src="images/leftSvg.svg" class="w-auto"/></span>
+            <span class="badge-text">Blogs</span>
+            <span class="badge-arrow"><img src="images/rightSvg.svg" class="w-auto"/></span>
+          </div>
+          <h2>Insights on Unclaimed Wealth &amp; Investor Awareness</h2>
+        </div>
+        <div class="blogs-header-right">
+          <p>Expert articles, updates, and guidance to help you understand unclaimed investments, IEPF processes, and recovery best practices.</p>
+          <a href="#" class="btn btn-secondary btn-sm">
+            <span>Explore More</span>
+            <span class="btn-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </a>
+        </div>
+      </div>
+      <div class="blogs-grid">
+        <div class="blog-card blog-card--featured">
+          <div class="blog-card-image">
+            <img src="images/BlogCard01.png" alt="Understanding IEPF" loading="lazy">
+            <span class="blog-arrow-badge">
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 13L13 1M13 1H3M13 1v10" stroke="#020E6A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+          </div>
+          <div class="blog-card-overlay">
+            <h3>Understanding IEPF: A Comprehensive Guide for Investors</h3>
+            <span class="blog-date">Jan 15, 2026</span>
+            <a href="#" class="blog-read-more">
+              <span>Learn More</span>
+              <span class="btn-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            </a>
+          </div>
+        </div>
+        <div class="blog-card blog-card--featured">
+          <div class="blog-card-image">
+            <img src="images/BlogCard02.png" alt="Financial Advisory" loading="lazy">
+            <span class="blog-arrow-badge">
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 13L13 1M13 1H3M13 1v10" stroke="#020E6A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+          </div>
+          <div class="blog-card-overlay">
+            <h3>Financial Advisory for Smart Investors</h3>
+            <span class="blog-date">Feb 10, 2026</span>
+            <a href="#" class="blog-read-more">
+              <span>Learn More</span>
+              <span class="btn-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            </a>
+          </div>
+        </div>
+        <div class="blog-card blog-card--featured">
+          <div class="blog-card-image">
+            <img src="images/BlogCard03.png" alt="Recovery Process" loading="lazy">
+            <span class="blog-arrow-badge">
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 13L13 1M13 1H3M13 1v10" stroke="#020E6A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+          </div>
+          <div class="blog-card-overlay">
+            <h3>Step-by-Step Recovery Process Explained</h3>
+            <span class="blog-date">Feb 22, 2026</span>
+            <a href="#" class="blog-read-more">
+              <span>Learn More</span>
+              <span class="btn-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            </a>
+          </div>
+        </div>
+        <div class="blog-card blog-card--featured">
+          <div class="blog-card-image">
+            <img src="images/BlogCard04.png" alt="Step by Step" loading="lazy">
+            <span class="blog-arrow-badge">
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 13L13 1M13 1H3M13 1v10" stroke="#020E6A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+          </div>
+          <div class="blog-card-overlay">
+            <h3>How to Trace Lost Shares Step by Step</h3>
+            <span class="blog-date">Mar 01, 2026</span>
+            <a href="#" class="blog-read-more">
+              <span>Learn More</span>
+              <span class="btn-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FAQ SECTION ========== -->
+  <!-- Figma Node: 9002:6801 -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <div class="faq-layout">
+        <div class="faq-header">
+          <div class="section-badge">
+            <span class="badge-arrow"><img src="images/leftSvg.svg" class="w-auto"/></span>
+            <span class="badge-text">FAQ</span>
+            <span class="badge-arrow"><img src="images/rightSvg.svg" class="w-auto"/></span>
+          </div>
+          <h2>Frequently Asked Questions</h2>
+          <p>Get answers to common questions about wealth recovery and IEPF claims</p>
+        </div>
+        <div class="faq-list">
+          <div class="faq-item active">
+            <button class="faq-question">
+              <span>What is IEPF and why were my shares transferred to it?</span>
+             <span class="faq-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12H19" stroke="#020E6A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            </button>
+            <div class="faq-answer">
+              <p>The Investor Education and Protection Fund (IEPF) is a government fund managed by the Ministry of Corporate Affairs. Shares and dividends that remain unclaimed for seven consecutive years are transferred to IEPF. This includes unpaid dividends, matured deposits, and shares where dividends have not been claimed.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>How long does the IEPF claim recovery process take?</span>
+              <span class="faq-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12H19" stroke="#020E6A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 5V19" stroke="#020E6A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            </button>
+            <div class="faq-answer">
+              <p>The IEPF claim recovery process typically takes 4-8 months depending on the complexity of the case, documentation readiness, and coordination with the company/RTA.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Can NRIs recover their unclaimed wealth without visiting India?</span>
+              <span class="faq-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12H19" stroke="#020E6A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 5V19" stroke="#020E6A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            </button>
+            <div class="faq-answer">
+              <p>Yes, NRIs can recover their unclaimed wealth entirely remotely. We handle all documentation, liaison with authorities, and legal processes on your behalf.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>What documents are required for wealth recovery claims?</span>
+              <span class="faq-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12H19" stroke="#020E6A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 5V19" stroke="#020E6A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            </button>
+            <div class="faq-answer">
+              <p>Required documents typically include identity proof, address proof, share certificates (if available), relationship proof for legal heirs, and relevant affidavits. We provide a complete checklist based on your specific case.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>How much does your service cost?</span>
+              <span class="faq-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12H19" stroke="#020E6A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 5V19" stroke="#020E6A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            </button>
+            <div class="faq-answer">
+              <p>We operate on a success-based fee model — you pay only after recovery. The initial search and assessment is free of charge.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Can I track the status of my claim?</span>
+              <span class="faq-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12H19" stroke="#020E6A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 5V19" stroke="#020E6A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            </button>
+            <div class="faq-answer">
+              <p>Yes, we provide regular updates on your claim status and you can reach out to your assigned case manager at any time for updates.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>What if I don't have the original share certificates?</span>
+              <span class="faq-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12H19" stroke="#020E6A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 5V19" stroke="#020E6A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            </button>
+            <div class="faq-answer">
+              <p>Don't worry — we can still help. We assist in obtaining duplicate certificates or work through alternative legal routes to establish ownership and proceed with recovery.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Is the recovery process legal and safe?</span>
+              <span class="faq-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12H19" stroke="#020E6A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 5V19" stroke="#020E6A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            </button>
+            <div class="faq-answer">
+              <p>Absolutely. Our process is fully compliant with all legal requirements. We work within the framework of IEPF regulations and corporate law to ensure a safe and transparent recovery.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ASSOCIATE MODEL SECTION ========== -->
+  <!-- Figma Node: 9002:6829 -->
+  <section class="associate" id="associate">
+    <div class="container">
+      <div class="associate-header">
+        <div class="associate-header-left">
+          <div class="section-badge">
+            <span class="badge-arrow"><img src="images/leftSvg.svg" class="w-auto"/></span>
+            <span class="badge-text">Associate Model</span>
+            <span class="badge-arrow"><img src="images/rightSvg.svg" class="w-auto"/></span>
+          </div>
+          <h2>Join Our Associate Network</h2>
+        </div>
+        <div class="associate-header-right">
+          <p>Partner with us to grow your practice and serve investors across India</p>
+          <a href="#" class="btn btn-secondary btn-sm">
+            <span>Become an Associate</span>
+            <span class="btn-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="associate-banner">
+      <img src="images/networkBG.png" alt="Associate Network - Business Handshake" loading="lazy">
+      <div class="associate-overlay">
+        <div class="associate-cards">
+          <div class="associate-card">
+            <h3>Expand Your Network</h3>
+            <p>Connect with a nationwide ecosystem of professionals and investors</p>
+          </div>
+          <div class="associate-card">
+            <h3>Grow Your Practice</h3>
+            <p>Access training, resources, and ongoing support for your cases</p>
+          </div>
+          <div class="associate-card">
+            <h3>Build Credibility</h3>
+            <p>Associate with a trusted brand known for compliance and results</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CTA SECTION ========== -->
+  <!-- Figma Node: 9002:6866 -->
+  <section class="cta" id="contact">
+    <div class="container">
+      <div class="cta-content">
+        <h2>Unsure If You Have Unclaimed Wealth?</h2>
+        <p>Let our experts conduct a comprehensive assessment to identify any unclaimed shares, dividends, or investments that rightfully belong to you.</p>
+        <a href="#" class="btn btn-primary">
+          <span>Talk to an Expert</span>
+          <span class="btn-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </a>
+      </div>
+    </div>
+    <div class="cta-glow cta-glow-left"></div>
+    <div class="cta-glow cta-glow-right"></div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <!-- Figma Node: 9002:6874 -->
+  <footer class="site-footer" id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-about">
+            <img src="images/logo.png" alt="The Wealth Finder" class="footer-logo" width="175" height="64" style="filter: brightness(0) invert(1);">
+            <p>The Wealth Finder, the most reliable investment retrieval advisory in India assists in recovering the unclaimed shares and dividends of investors.</p>
+          </div>
+          <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#">Who We Are</a></li>
+              <li><a href="#">What We Do</a></li>
+              <li><a href="#">Become Our Associate</a></li>
+              <li><a href="#">Articles</a></li>
+              <li><a href="#">FAQs</a></li>
+              <li><a href="#">Sitemap</a></li>
+            </ul>
+          </div>
+          <div class="footer-links">
+            <h4>Area of Services</h4>
+            <ul>
+              <li><a href="#">Recovery Of Unclaimed Shares &amp; Dividends From IEPF</a></li>
+              <li><a href="#">Search &amp; Tracing Of Lost Shares</a></li>
+              <li><a href="#">Demat Of Physical Shares</a></li>
+              <li><a href="#">IEPF Claims</a></li>
+              <li><a href="#">Legal Support</a></li>
+              <li><a href="#">NRI Assistance</a></li>
+            </ul>
+          </div>
+          <div class="footer-contact">
+            <h4>Contact Info</h4>
+            <ul>
+              <li>
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M18 14.5v2.5a1.67 1.67 0 0 1-1.82 1.67A16.5 16.5 0 0 1 9 15.5a16.25 16.25 0 0 1-5-5A16.5 16.5 0 0 1 .83 3.32 1.67 1.67 0 0 1 2.5 1.5H5A1.67 1.67 0 0 1 6.67 3c.13 1 .38 2 .73 2.93a1.67 1.67 0 0 1-.37 1.75L5.65 9.07a13.33 13.33 0 0 0 5 5l1.39-1.38a1.67 1.67 0 0 1 1.75-.37c.95.35 1.93.6 2.93.73A1.67 1.67 0 0 1 18 14.5z" fill="#FFFFFF"/></svg>
+                <a href="tel:+919315656754">+91-9315656754</a>
+              </li>
+              <li>
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M1.5 4.5A1.5 1.5 0 0 1 3 3h14a1.5 1.5 0 0 1 1.5 1.5v11A1.5 1.5 0 0 1 17 17H3a1.5 1.5 0 0 1-1.5-1.5v-11z" fill="#FFFFFF"/><path d="M1.5 4.5L10 11l8.5-6.5" stroke="#020617" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                <a href="mailto:info@indiacp.com">info@indiacp.com</a>
+              </li>
+              <li>
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M10 0C6.13 0 3 3.13 3 7c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z" fill="#FFFFFF"/></svg>
+                <span>New Delhi, India</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="footer-bottom-row">
+          <div class="footer-newsletter">
+            <input type="email" placeholder="Enter your email address" aria-label="Email address">
+            <button class="newsletter-btn">
+              <span>Subscribe</span>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M5 12h14" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M13 5l7 7-7 7" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </div>
+          <div class="footer-socials">
+            <a href="#" aria-label="Facebook"><svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M29.3 0H2.7A2.7 2.7 0 0 0 0 2.7v26.6A2.7 2.7 0 0 0 2.7 32h10.2V20.7h-3.5v-4.4h3.5v-3.1c0-3.5 2.1-5.5 5.3-5.5 1.5 0 3.1.3 3.1.3v3.4h-1.8c-1.7 0-2.3 1.1-2.3 2.2v2.7h3.9l-.6 4.4h-3.3V32h10.1a2.7 2.7 0 0 0 2.7-2.7V2.7A2.7 2.7 0 0 0 29.3 0z" fill="#FFFFFF"/></svg></a>
+            <a href="#" aria-label="Instagram"><svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M16 2.88c4.27 0 4.78.02 6.46.09 1.56.07 2.4.33 2.97.55.75.29 1.28.64 1.84 1.2.56.56.91 1.09 1.2 1.84.22.56.48 1.41.55 2.97.08 1.68.09 2.19.09 6.46s-.02 4.78-.09 6.46c-.07 1.56-.33 2.4-.55 2.97-.29.75-.64 1.28-1.2 1.84-.56.56-1.09.91-1.84 1.2-.56.22-1.41.48-2.97.55-1.68.08-2.19.09-6.46.09s-4.78-.02-6.46-.09c-1.56-.07-2.4-.33-2.97-.55a4.96 4.96 0 0 1-1.84-1.2 4.96 4.96 0 0 1-1.2-1.84c-.22-.56-.48-1.41-.55-2.97-.08-1.68-.09-2.19-.09-6.46s.02-4.78.09-6.46c.07-1.56.33-2.4.55-2.97.29-.75.64-1.28 1.2-1.84a4.96 4.96 0 0 1 1.84-1.2c.56-.22 1.41-.48 2.97-.55 1.68-.08 2.19-.09 6.46-.09zM16 0c-4.34 0-4.89.02-6.6.1-1.7.08-2.87.35-3.88.74a7.84 7.84 0 0 0-2.84 1.85A7.84 7.84 0 0 0 .84 5.53C.45 6.54.18 7.7.1 9.4.02 11.11 0 11.66 0 16s.02 4.89.1 6.6c.08 1.7.35 2.87.74 3.88a7.84 7.84 0 0 0 1.85 2.84 7.84 7.84 0 0 0 2.84 1.85c1.01.39 2.18.66 3.88.74 1.71.08 2.26.1 6.6.1s4.89-.02 6.6-.1c1.7-.08 2.87-.35 3.88-.74a7.84 7.84 0 0 0 2.84-1.85 7.84 7.84 0 0 0 1.85-2.84c.39-1.01.66-2.18.74-3.88.08-1.71.1-2.26.1-6.6s-.02-4.89-.1-6.6c-.08-1.7-.35-2.87-.74-3.88a7.84 7.84 0 0 0-1.85-2.84A7.84 7.84 0 0 0 26.48.84C25.47.45 24.3.18 22.6.1 20.89.02 20.34 0 16 0z" fill="#FFFFFF"/><path d="M16 7.78a8.22 8.22 0 1 0 0 16.44 8.22 8.22 0 0 0 0-16.44zm0 13.55a5.33 5.33 0 1 1 0-10.66 5.33 5.33 0 0 1 0 10.66z" fill="#FFFFFF"/><circle cx="24.51" cy="7.49" r="1.92" fill="#FFFFFF"/></svg></a>
+            <a href="#" aria-label="LinkedIn"><svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M29.63 0H2.37A2.33 2.33 0 0 0 0 2.33v27.34A2.33 2.33 0 0 0 2.37 32h27.26A2.33 2.33 0 0 0 32 29.67V2.33A2.33 2.33 0 0 0 29.63 0zM9.65 27.37H4.98V12.14h4.67v15.23zM7.31 10.07a2.71 2.71 0 1 1 0-5.42 2.71 2.71 0 0 1 0 5.42zm20.06 17.3h-4.67v-7.4c0-1.77-.03-4.04-2.46-4.04-2.47 0-2.84 1.93-2.84 3.92v7.52h-4.67V12.14h4.48v2.08h.06a4.92 4.92 0 0 1 4.43-2.43c4.73 0 5.6 3.12 5.6 7.17v8.41z" fill="#FFFFFF"/></svg></a>
+            <a href="#" aria-label="X"><svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M18.9 14.07 28.84 2.67h-2.36L17.87 12.6 10.9 2.67H3.2l10.42 15.17L3.2 29.33h2.36l9.11-10.6 7.28 10.6h7.7L18.9 14.07zm-3.23 3.75-1.06-1.51L6.4 4.42h3.62l6.78 9.7 1.06 1.51 8.82 12.62h-3.62l-7.19-10.43z" fill="#FFFFFF"/></svg></a>
+            <a href="#" aria-label="YouTube"><svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M28.8 8.53a3.36 3.36 0 0 0-2.37-2.37C24.24 5.6 16 5.6 16 5.6s-8.24 0-10.43.56a3.36 3.36 0 0 0-2.37 2.37A35.2 35.2 0 0 0 2.6 16c-.04 2.5.14 5 .6 7.47a3.36 3.36 0 0 0 2.37 2.37c2.19.56 10.43.56 10.43.56s8.24 0 10.43-.56a3.36 3.36 0 0 0 2.37-2.37c.46-2.47.64-4.97.6-7.47.04-2.5-.14-5-.6-7.47z" fill="#FFFFFF"/><path d="M13.2 20l6.8-4-6.8-4v8z" fill="#020617"/></svg></a>
+          </div>
+        </div>
+        <hr class="footer-divider">
+        <p class="footer-copyright">TWF Advisory Services LLP | © 2022 All Rights Reserved | <a href="#">Privacy Policy</a></p>
+        <hr class="footer-divider">
+      </div>
+    </div>
+    
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
