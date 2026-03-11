@@ -275,4 +275,170 @@ document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('[data-reveal], [data-reveal-stagger]').forEach(el => {
     revealObserver.observe(el);
   });
+
+  /* ============================
+     ABOUT HOW WE WORK — SCROLL ENTRANCE ANIMATION
+     ============================ */
+  const hwwSections = document.querySelectorAll('.about-howwework, .srv-solutions');
+
+  hwwSections.forEach(section => {
+    let animated = false;
+    const line = section.querySelector('.about-hww-line');
+    const steps = section.querySelectorAll('.about-hww-step');
+    const dots = section.querySelectorAll('.about-hww-dot');
+
+    function animateHww() {
+      if (animated) return;
+      const rect = section.getBoundingClientRect();
+      if (rect.top < window.innerHeight * 0.75) {
+        animated = true;
+        if (line) line.classList.add('animate');
+        steps.forEach((step, i) => {
+          setTimeout(() => step.classList.add('animate'), 300 + i * 200);
+        });
+        dots.forEach((dot, i) => {
+          setTimeout(() => dot.classList.add('animate'), 500 + i * 200);
+        });
+      }
+    }
+
+    window.addEventListener('scroll', animateHww, { passive: true });
+    animateHww();
+  });
+
+  /* ============================
+     TEAM CAROUSEL — arrow scroll & left fade
+     ============================ */
+  const teamCarousel = document.querySelector('.about-team-carousel');
+  const teamFade = document.querySelector('.about-team-carousel-fade');
+  const teamArrows = document.querySelectorAll('.about-team-arrow');
+
+  if (teamCarousel && teamArrows.length === 2) {
+    const cardWidth = 340 + 40; // card width + gap
+
+    teamArrows[0].addEventListener('click', () => {
+      teamCarousel.scrollBy({ left: -cardWidth, behavior: 'smooth' });
+    });
+    teamArrows[1].addEventListener('click', () => {
+      teamCarousel.scrollBy({ left: cardWidth, behavior: 'smooth' });
+    });
+
+    if (teamFade) {
+      teamCarousel.addEventListener('scroll', () => {
+        if (teamCarousel.scrollLeft > 20) {
+          teamFade.classList.add('visible');
+        } else {
+          teamFade.classList.remove('visible');
+        }
+      }, { passive: true });
+    }
+  }
+
+  /* ============================
+     GLOSSARY PAGE — Search, Alphabet Filter, Accordion
+     ============================ */
+  const glossarySearch = document.getElementById('glossarySearch');
+  const glossaryAlphaNav = document.querySelector('.glossary-quickjump');
+  const glossaryGroups = document.querySelectorAll('.glossary-terms-group');
+
+  if (glossarySearch && glossaryGroups.length > 0) {
+    const letterBtns = document.querySelectorAll('.glossary-letter-btn');
+    let activeFilter = 'all';
+
+    // No-results message
+    const termsList = document.querySelector('.glossary-terms-list');
+    const noResults = document.createElement('div');
+    noResults.className = 'glossary-no-results';
+    noResults.textContent = 'No matching terms found.';
+    if (termsList) termsList.appendChild(noResults);
+
+    // Accordion toggle
+    glossaryGroups.forEach(group => {
+      const header = group.querySelector('.glossary-group-header');
+      if (!header) return;
+      header.addEventListener('click', () => {
+        group.classList.toggle('active');
+      });
+    });
+
+    // Alphabet filter
+    if (glossaryAlphaNav) {
+      glossaryAlphaNav.addEventListener('click', (e) => {
+        const btn = e.target.closest('.glossary-letter-btn');
+        if (!btn) return;
+
+        activeFilter = btn.getAttribute('data-letter');
+        letterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        glossarySearch.value = '';
+        applyFilters();
+      });
+    }
+
+    // Search input
+    glossarySearch.addEventListener('input', () => {
+      applyFilters();
+    });
+
+    // Search button
+    const searchBtn = document.querySelector('.glossary-search-btn');
+    if (searchBtn) {
+      searchBtn.addEventListener('click', () => {
+        applyFilters();
+      });
+    }
+
+    function applyFilters() {
+      const query = glossarySearch.value.trim().toLowerCase();
+      let anyVisible = false;
+
+      glossaryGroups.forEach(group => {
+        const letter = group.getAttribute('data-letter');
+        const cards = group.querySelectorAll('.glossary-term-card');
+
+        // Check letter filter
+        const letterMatch = activeFilter === 'all' || letter === activeFilter;
+
+        if (!letterMatch) {
+          group.classList.add('hidden');
+          group.classList.remove('active');
+          return;
+        }
+
+        if (!query) {
+          // No search query — show group, hide no individual cards
+          group.classList.remove('hidden');
+          group.classList.add('active');
+          cards.forEach(card => card.classList.remove('hidden'));
+          anyVisible = true;
+          return;
+        }
+
+        // Search within cards
+        let groupHasMatch = false;
+        cards.forEach(card => {
+          const title = (card.querySelector('h3')?.textContent || '').toLowerCase();
+          const desc = (card.querySelector('p')?.textContent || '').toLowerCase();
+          if (title.includes(query) || desc.includes(query)) {
+            card.classList.remove('hidden');
+            groupHasMatch = true;
+          } else {
+            card.classList.add('hidden');
+          }
+        });
+
+        if (groupHasMatch) {
+          group.classList.remove('hidden');
+          group.classList.add('active'); // auto-expand matching groups
+          anyVisible = true;
+        } else {
+          group.classList.add('hidden');
+          group.classList.remove('active');
+        }
+      });
+
+      // Toggle no-results message
+      noResults.classList.toggle('visible', !anyVisible);
+    }
+  }
 });

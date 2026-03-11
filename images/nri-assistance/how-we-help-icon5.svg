@@ -1,0 +1,19 @@
+<svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 56L24 44L36 56L48 32L60 20" stroke="url(#paint0_nri_s5)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M44 20H60V36" stroke="url(#paint1_nri_s5)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 64H60" stroke="url(#paint2_nri_s5)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<defs>
+<linearGradient id="paint0_nri_s5" x1="12" y1="38" x2="60" y2="38" gradientUnits="userSpaceOnUse">
+<stop stop-color="#03159D"/>
+<stop offset="1" stop-color="#7084FF"/>
+</linearGradient>
+<linearGradient id="paint1_nri_s5" x1="44" y1="28" x2="60" y2="28" gradientUnits="userSpaceOnUse">
+<stop stop-color="#03159D"/>
+<stop offset="1" stop-color="#7084FF"/>
+</linearGradient>
+<linearGradient id="paint2_nri_s5" x1="12" y1="64" x2="60" y2="64" gradientUnits="userSpaceOnUse">
+<stop stop-color="#03159D"/>
+<stop offset="1" stop-color="#7084FF"/>
+</linearGradient>
+</defs>
+</svg>

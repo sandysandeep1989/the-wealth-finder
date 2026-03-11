@@ -1,0 +1,19 @@
+<svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M24 12H48C50.2091 12 52 13.7909 52 16V60C52 62.2091 50.2091 64 48 64H24C21.7909 64 20 62.2091 20 60V16C20 13.7909 21.7909 12 24 12Z" stroke="url(#paint0_nri_s2)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M30 28L34 32L42 24" stroke="url(#paint1_nri_s2)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M30 44L34 48L42 40" stroke="url(#paint2_nri_s2)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<defs>
+<linearGradient id="paint0_nri_s2" x1="20" y1="38" x2="52" y2="38" gradientUnits="userSpaceOnUse">
+<stop stop-color="#03159D"/>
+<stop offset="1" stop-color="#7084FF"/>
+</linearGradient>
+<linearGradient id="paint1_nri_s2" x1="30" y1="28" x2="42" y2="28" gradientUnits="userSpaceOnUse">
+<stop stop-color="#03159D"/>
+<stop offset="1" stop-color="#7084FF"/>
+</linearGradient>
+<linearGradient id="paint2_nri_s2" x1="30" y1="44" x2="42" y2="44" gradientUnits="userSpaceOnUse">
+<stop stop-color="#03159D"/>
+<stop offset="1" stop-color="#7084FF"/>
+</linearGradient>
+</defs>
+</svg>

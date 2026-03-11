@@ -1,0 +1,24 @@
+<svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M33 57C46.2548 57 57 46.2548 57 33C57 19.7452 46.2548 9 33 9C19.7452 9 9 19.7452 9 33C9 46.2548 19.7452 57 33 57Z" stroke="url(#paint0_nri_s1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M63 63L49.95 49.95" stroke="url(#paint1_nri_s1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M27 33H39" stroke="url(#paint2_nri_s1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M33 27V39" stroke="url(#paint3_nri_s1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<defs>
+<linearGradient id="paint0_nri_s1" x1="9" y1="33" x2="57" y2="33" gradientUnits="userSpaceOnUse">
+<stop stop-color="#03159D"/>
+<stop offset="1" stop-color="#7084FF"/>
+</linearGradient>
+<linearGradient id="paint1_nri_s1" x1="49.95" y1="56.475" x2="63" y2="56.475" gradientUnits="userSpaceOnUse">
+<stop stop-color="#03159D"/>
+<stop offset="1" stop-color="#7084FF"/>
+</linearGradient>
+<linearGradient id="paint2_nri_s1" x1="27" y1="33" x2="39" y2="33" gradientUnits="userSpaceOnUse">
+<stop stop-color="#03159D"/>
+<stop offset="1" stop-color="#7084FF"/>
+</linearGradient>
+<linearGradient id="paint3_nri_s1" x1="33" y1="27" x2="33" y2="39" gradientUnits="userSpaceOnUse">
+<stop stop-color="#03159D"/>
+<stop offset="1" stop-color="#7084FF"/>
+</linearGradient>
+</defs>
+</svg>
