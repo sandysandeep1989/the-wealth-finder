@@ -115,35 +115,69 @@ document.addEventListener('DOMContentLoaded', () => {
   const situationTitle = document.querySelector('.situation-title');
 
   if (situationSection && situationTitle) {
-    function updateSituationAnimation() {
-      const rect = situationSection.getBoundingClientRect();
-      const sectionHeight = situationSection.offsetHeight;
-      const viewportHeight = window.innerHeight;
+    const stickyWrapper = situationSection.querySelector('.situation-sticky-wrapper');
+    const stickyEl = situationSection.querySelector('.situation-sticky');
+    const cardsContainer = situationSection.querySelector('.situation-cards');
 
-      // How far we've scrolled into the section (0 at top, increases as we scroll)
-      const scrolled = -rect.top;
-      // Animation plays over the first viewportHeight of scrolling
+    function updateSituationAnimation() {
+      if (!stickyWrapper || !stickyEl || !cardsContainer) return;
+
+      const sectionRect = situationSection.getBoundingClientRect();
+      const viewportHeight = window.innerHeight;
+      const scrolled = -sectionRect.top; // how far into section
+
+      // --- Gap animation ---
       const animationRange = viewportHeight;
+      const maxGap = Math.min(window.innerWidth * 0.45, 900);
 
       if (scrolled <= 0) {
-        // Before section: no split
-        situationTitle.style.gap = '10px';
+        situationTitle.style.gap = '18px';
       } else if (scrolled < animationRange) {
-        // During animation: split heading apart
         const progress = scrolled / animationRange;
-        // Ease out for smooth feel
         const eased = 1 - Math.pow(1 - progress, 3);
-        const maxGap = Math.min(window.innerWidth * 0.45, 900);
-        const gap = 120 + eased * maxGap;
-        situationTitle.style.gap = gap + 'px';
+        situationTitle.style.gap = (18 + eased * maxGap) + 'px';
       } else {
-        // After animation: fully split
-        const maxGap = Math.min(window.innerWidth * 0.45, 900);
-        situationTitle.style.gap = (120 + maxGap) + 'px';
+        situationTitle.style.gap = (18 + maxGap) + 'px';
+      }
+
+      // --- Fixed positioning ---
+      const stickyH = stickyEl.offsetHeight;
+      const lastCard = cardsContainer.querySelector('.situation-card:last-child');
+      if (!lastCard) return;
+
+      const lastCardRect = lastCard.getBoundingClientRect();
+      const lastCardBottom = lastCardRect.bottom;
+
+      // Fix title when section scrolls into view
+      if (scrolled > 0 && lastCardBottom > stickyH) {
+        // Cards still scrolling — keep title fixed
+        stickyEl.classList.add('is-fixed');
+        stickyEl.classList.remove('is-bottom');
+        stickyEl.style.top = '0px';
+        stickyEl.style.bottom = '';
+        // Reserve space so content doesn't jump
+        stickyWrapper.style.height = stickyH + 'px';
+      } else if (scrolled > 0 && lastCardBottom <= stickyH) {
+        // Last card passed — pin title at that scroll position (absolute)
+        stickyEl.classList.remove('is-fixed');
+        stickyEl.classList.add('is-bottom');
+        // Position absolutely at the bottom of cards
+        const cardsRect = cardsContainer.getBoundingClientRect();
+        const cardsBottom = cardsContainer.offsetTop + cardsContainer.offsetHeight;
+        stickyEl.style.top = (cardsBottom - stickyH) + 'px';
+        stickyEl.style.bottom = '';
+        stickyWrapper.style.height = stickyH + 'px';
+      } else {
+        // Before section — normal flow
+        stickyEl.classList.remove('is-fixed');
+        stickyEl.classList.remove('is-bottom');
+        stickyEl.style.top = '';
+        stickyWrapper.style.height = '';
       }
     }
 
     window.addEventListener('scroll', updateSituationAnimation, { passive: true });
+    window.addEventListener('resize', updateSituationAnimation);
     updateSituationAnimation();
   }
 

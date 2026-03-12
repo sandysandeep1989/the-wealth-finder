@@ -95,7 +95,7 @@
             <button class="tab-btn active" data-tab="investors">For Investors &amp; Families</button>
             <button class="tab-btn" data-tab="companies">For Companies</button>
           </div>
-          <div class="services-cards" id="servicesCards">
+          <div class="tab-panel services-cards" id="investors">
             <div class="service-card">
               <div class="service-icon">
                 <img src="images/investorIconOne.svg" alt="IEPF Recovery Icon" width="50" height="50">
@@ -180,6 +180,80 @@
               </div>
               <span class="service-number">06</span>
             </div>
+          </div>
+          <div class="tab-panel services-cards" id="companies" style="display: none;">
+            <div class="service-card">
+              <div class="service-icon">
+                <img src="images/companyIconOne.svg" alt="Suspended Company Advisory Icon" width="50" height="50">
+              </div>
+              <div class="service-info">
+                <h3>Suspended Company Advisory (BSE/NSE)</h3>
+                <p>Understand consequences of suspension, common compliance gaps, and practical solutions.</p>
+                <a href="suspended-company-advisory.php" class="btn btn-secondary btn-sm">
+                  <span>Learn More</span>
+                  <span class="btn-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+                </a>
+              </div>
+              <span class="service-number">01</span>
+            </div>
+            <div class="service-card">
+              <div class="service-icon">
+                <img src="images/companyIconTwo.svg" alt="Compulsory Delisting Advisory Icon" width="50" height="50">
+              </div>
+              <div class="service-info">
+                <h3>Compulsory Delisting Advisory (BSE/NSE)</h3>
+                <p>Understand what delisting means, the issues it creates, and available next steps.</p>
+                <a href="compulsory-delisting-advisory.php" class="btn btn-secondary btn-sm">
+                  <span>Learn More</span>
+                  <span class="btn-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+                </a>
+              </div>
+              <span class="service-number">02</span>
+            </div>
+            <div class="service-card">
+              <div class="service-icon">
+                <img src="images/companyIconThree.svg" alt="NBFC Registration Icon" width="50" height="50">
+              </div>
+              <div class="service-info">
+                <h3>NBFC Registration</h3>
+                <p>Guided support on registration journey with documentation and execution planning.</p>
+                <a href="nbfc-registration.php" class="btn btn-secondary btn-sm">
+                  <span>Learn More</span>
+                  <span class="btn-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+                </a>
+              </div>
+              <span class="service-number">03</span>
+            </div>
+            <div class="service-card last-card-not-last">
+              <div class="service-icon">
+                <img src="images/companyIconFour.svg" alt="NBFC Consulting & Advisory Icon" width="50" height="50">
+              </div>
+              <div class="service-info">
+                <h3>NBFC Consulting &amp; Advisory</h3>
+                <p>Ongoing compliance support through a structured calendar approach.</p>
+                <a href="nbfc-consulting-advisory.php" class="btn btn-secondary btn-sm">
+                  <span>Learn More</span>
+                  <span class="btn-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+                </a>
+              </div>
+              <span class="service-number">04</span>
+            </div>
+
+            <div class="service-card last-card">
+              <div class="service-icon">
+                <img src="images/companyIconFive.svg" alt="Company Revival Icon" width="50" height="50">
+              </div>
+              <div class="service-info">
+                <h3>Company Revival / Restoration</h3>
+                <p>Support for restoration/revival journeys and documentation planning.</p>
+                <a href="company-revival.php" class="btn btn-secondary btn-sm">
+                  <span>Learn More</span>
+                  <span class="btn-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+                </a>
+              </div>
+              <span class="service-number">05</span>
+            </div>
+
           </div>
         </div>
       </div>

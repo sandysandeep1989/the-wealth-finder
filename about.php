@@ -4,7 +4,7 @@
   <section class="about-hero" id="about-hero">
     <div class="about-hero-wrapper">
       <div class="about-hero-inner">
-        <div class="about-hero-content" data-reveal="up">
+        <div class="about-hero-content small" data-reveal="up">
           <h1>About The Wealth Finder (TWF)</h1>
           <p class="about-hero-subtitle">We help investors and families recover and secure their shares and dividends through a structured, documentation-first approach.</p>
           <div class="hero-buttons">

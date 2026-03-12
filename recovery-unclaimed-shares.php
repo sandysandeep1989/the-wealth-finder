@@ -5,7 +5,7 @@
     <div class="about-hero-wrapper">
       <div class="about-hero-inner">
         <div class="about-hero-content" data-reveal="up">
-          <h1>Recovery of Unclaimed Shares &amp; Dividends</h1>
+          <h1>Recovery of Unclaimed <br> Shares &amp; Dividends</h1>
           <p class="about-hero-subtitle">If dividends stopped, certificates are missing, address changed, or family discovered old investments—this is the right starting point. We help you recover unclaimed shares/dividends through the correct route with complete documentation support.</p>
           <div class="hero-buttons">
             <a href="#srv-cta" class="btn btn-primary">
@@ -427,7 +427,7 @@
   <section class="cta srv-cta" id="srv-cta">
     <div class="container">
       <div class="srv-cta-inner" data-reveal="zoom">
-        <h2>Want To Know What You Can Recover?</h2>
+        <h2 class="recovery-cta-width">Want To Know What You Can Recover?</h2>
         <div class="srv-cta-card">
           <form class="srv-cta-form" id="srvCtaForm" onsubmit="return false;">
             <div class="srv-form-row">

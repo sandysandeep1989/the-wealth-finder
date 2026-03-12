@@ -5,8 +5,8 @@
     <div class="about-hero-wrapper">
       <div class="about-hero-inner">
         <div class="about-hero-content" data-reveal="up">
-          <h1>Lost Shares Tracing (Forgotten Investments)</h1>
-          <p class="about-hero-subtitle">Trace old investments even with minimal details—especially for parents/grandparents' holdings from the physical share era.</p>
+          <h1>Lost Shares Tracing<br>(Forgotten Investments)</h1>
+          <p class="about-hero-subtitle">Trace old investments even with minimal details—especially for parents/<br>grandparents' holdings from the physical share era.</p>
           <div class="hero-buttons">
             <a href="#srv-cta" class="btn btn-primary">
               <span>Start Claim</span>
@@ -52,8 +52,32 @@
       <div class="srv-service-for-grid srv-service-for-grid-3" data-reveal-stagger>
         <div class="srv-service-for-card">
           <div class="srv-service-for-icon">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="7" r="4" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </div>
+            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_i_8951_6447)">
+<rect width="48" height="48" rx="12" fill="#020E6A"/>
+<rect width="48" height="48" rx="12" fill="url(#paint0_linear_8951_6447)"/>
+<path d="M31 33V31C31 29.9391 30.5786 28.9217 29.8284 28.1716C29.0783 27.4214 28.0609 27 27 27H21C19.9391 27 18.9217 27.4214 18.1716 28.1716C17.4214 28.9217 17 29.9391 17 31V33" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M24 23C26.2091 23 28 21.2091 28 19C28 16.7909 26.2091 15 24 15C21.7909 15 20 16.7909 20 19C20 21.2091 21.7909 23 24 23Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<filter id="filter0_i_8951_6447" x="0" y="0" width="48" height="49" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="1"/>
+<feGaussianBlur stdDeviation="0.5"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.811765 0 0 0 0 0.905882 0 0 0 0 1 0 0 0 0.2 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_8951_6447"/>
+</filter>
+<linearGradient id="paint0_linear_8951_6447" x1="0" y1="24" x2="48" y2="24" gradientUnits="userSpaceOnUse">
+<stop stop-color="#7084FF"/>
+<stop offset="1" stop-color="#03159D"/>
+</linearGradient>
+</defs>
+</svg>
+
+</div>
           <p>You only have the investor name and old address</p>
         </div>
         <div class="srv-service-for-card">
@@ -220,7 +244,7 @@
   <section class="about-howwework srv-solutions" id="srv-solutions">
     <div class="about-section-container">
       <div class="about-hww-header" data-reveal="up">
-        <h2>What We Do in Tracing</h2>
+        <h2>What We Do in <br> Tracing</h2>
       </div>
       <div class="about-hww-steps srv-hww-steps">
         <div class="about-hww-line srv-hww-line"></div>
@@ -280,7 +304,7 @@
   <!-- ========== WHAT YOU NEED TO SHARE ========== -->
   <section class="srv-get srv-needs-share" id="srv-needs-share">
     <div class="about-section-container">
-      <h2 class="srv-section-title" data-reveal="up">What You Need to Share (Even If Partial)</h2>
+      <h2 class="srv-section-title" data-reveal="up">What You Need to <br>Share (Even If Partial)</h2>
       <div class="srv-needs-card" data-reveal="up" data-reveal-delay="200">
         <div class="srv-needs-list">
           <div class="srv-needs-item">
@@ -316,7 +340,7 @@
   <section class="srv-outcomes" id="srv-outcomes">
     <div class="about-section-container">
       <div class="srv-outcomes-header" data-reveal="up">
-        <h2 class="srv-section-title">Outcomes (What Happens After Tracing)</h2>
+        <h2 class="srv-section-title">Outcomes (What <br> Happens After Tracing)</h2>
         <p class="srv-section-subtitle">Tracing typically leads to one of these:</p>
       </div>
       <div class="srv-outcomes-grid" data-reveal-stagger>
@@ -406,7 +430,7 @@
   <section class="cta srv-cta" id="srv-cta">
     <div class="container">
       <div class="srv-cta-inner" data-reveal="zoom">
-        <h2>Not Sure Where The Shares Are? Start Here.</h2>
+        <h2>Not Sure Where The <br> Shares Are? Start Here.</h2>
         <div class="srv-cta-card">
           <form class="srv-cta-form" id="srvCtaForm" onsubmit="return false;">
             <div class="srv-form-row">

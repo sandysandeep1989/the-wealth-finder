@@ -5,8 +5,9 @@
     <div class="about-hero-wrapper">
       <div class="about-hero-inner">
         <div class="about-hero-content" data-reveal="up">
-          <h1>IEPF Claim Support (Shares &amp; Dividends)</h1>
-          <p class="about-hero-subtitle">End-to-end support to recover shares and dividends transferred to IEPF, with proper documentation planning and process tracking.</p>
+          <h1>IEPF Claim Support<br>(Shares &amp; Dividends)</h1>
+          <p class="about-hero-subtitle">End-to-end support to recover shares and dividends transferred to IEPF, with
+            <br> proper documentation planning and process tracking.</p>
           <div class="hero-buttons">
             <a href="#srv-cta" class="btn btn-primary">
               <span>Start Claim</span>
@@ -17,7 +18,7 @@
               <span class="btn-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
             </a>
           </div>
-          <p class="srv-hero-disclaimer">Independent service provider; not affiliated with IEPF Authority.</p>
+          <p class="srv-hero-disclaimer"><strong><em>Independent service provider; not affiliated with IEPF Authority.</em></strong></p>
         </div>
         <div class="about-hero-image" data-reveal="up" data-reveal-delay="200">
           <img src="images/iepf/iepf-hero.jpg" alt="IEPF Claim Support">
@@ -110,7 +111,7 @@
   </section>
 
   <!-- ========== HOW TWF HELPS (END-TO-END) ========== -->
-  <section class="about-howwework srv-solutions" id="srv-solutions">
+  <section class="about-howwework  glowBG" id="srv-solutions">
     <div class="about-section-container">
       <div class="about-hww-header" data-reveal="up">
         <h2>How TWF Helps (End-to-End)</h2>
@@ -557,7 +558,7 @@
   <section class="cta srv-cta" id="srv-cta">
     <div class="container">
       <div class="srv-cta-inner" data-reveal="zoom">
-        <h2>Want A Clear IEPF Roadmap For Your Case?</h2>
+        <h2>Want A Clear IEPF<br> Roadmap For Your Case?</h2>
         <div class="srv-cta-card">
           <form class="srv-cta-form" id="srvCtaForm" onsubmit="return false;">
             <div class="srv-form-row">

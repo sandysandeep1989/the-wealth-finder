@@ -44,7 +44,7 @@
   <!-- ========== COMMON ISSUES WE SOLVE ========== -->
   <section class="srv-service-for" id="srv-service-for">
     <div class="about-section-container">
-      <h2 class="srv-section-title" data-reveal="up">Common Issues We Solve in Physical to Demat</h2>
+      <h2 class="srv-section-title" data-reveal="up">Common Issues We Solve <br> in Physical to Demat</h2>
       <div class="srv-service-for-grid srv-service-for-grid-3" data-reveal-stagger>
         <div class="srv-service-for-card">
           <div class="srv-service-for-icon">
@@ -82,10 +82,11 @@
         </div>
         <div class="srv-service-for-card">
           <div class="srv-service-for-icon">
-                         <img src="images/physcial-shares/common-issue-icon6.svg" alt="" class="srv-service-for-icon-image"/>
-
+            <img src="images/physcial-shares/common-issue-icon6.svg" alt="" class="srv-service-for-icon-image"/>
+            </div>
+            <p>Missing certificate → duplicate certificate route</p>
           </div>
-      
+        
         </div>
       </div>
     </div>
@@ -93,7 +94,7 @@
 
 
   <!-- ========== HOW TWF HELPS ========== -->
-  <section class="about-howwework srv-solutions" id="srv-solutions">
+  <section class="about-howwework" id="srv-solutions">
     <div class="about-section-container">
       <div class="about-hww-header" data-reveal="up">
         <h2>How TWF Helps</h2>
@@ -161,7 +162,7 @@
   <!-- ========== WHAT YOU NEED TO START ========== -->
   <section class="srv-get srv-needs-share" id="srv-needs-share">
     <div class="about-section-container">
-      <h2 class="srv-section-title" data-reveal="up">What You Need to Start</h2>
+      <h2 class="srv-section-title" data-reveal="up">What You <br> Need to Start</h2>
       <div class="srv-needs-card" data-reveal="up" data-reveal-delay="200">
         <div class="srv-needs-list">
           <div class="srv-needs-item">
@@ -247,7 +248,7 @@
   <section class="cta srv-cta" id="srv-cta">
     <div class="container">
       <div class="srv-cta-inner" data-reveal="zoom">
-        <h2>Want to Convert Physical Shares Safely?</h2>
+        <h2>Want to Convert <br> Physical Shares Safely?</h2>
         <div class="srv-cta-card">
           <form class="srv-cta-form" id="srvCtaForm" onsubmit="return false;">
             <div class="srv-form-row">
