@@ -5,8 +5,8 @@
     <div class="about-hero-wrapper">
       <div class="about-hero-inner">
         <div class="about-hero-content" data-reveal="up">
-          <h1>NRI Assistance for Share Recovery &amp; IEPF Claims</h1>
-          <p class="about-hero-subtitle">End-to-end support for NRIs to recover shares/dividends and complete documentation with a clear remote-friendly process.</p>
+          <h1>NRI Assistance for Share<br> Recovery &amp; IEPF Claims</h1>
+          <p class="about-hero-subtitle">End-to-end support for NRIs to recover shares/dividends and complete<br> documentation with a clear remote-friendly process.</p>
           <div class="hero-buttons">
             <a href="#srv-cta" class="btn btn-primary">
               <span>Free Search</span>
@@ -28,7 +28,7 @@
   <!-- ========== COMMON ISSUES WE SOLVE ========== -->
   <section class="srv-service-for srv-service-for-top" id="srv-service-for">
     <div class="about-section-container">
-      <h2 class="srv-section-title" data-reveal="up">Common Issues We Solve in Physical to Demat</h2>
+      <h2 class="srv-section-title" data-reveal="up">Common Issues We Solve<br> in Physical to Demat</h2>
       <div class="srv-service-for-grid srv-service-for-grid-3" data-reveal-stagger>
         <div class="srv-service-for-card">
           <div class="srv-service-for-icon">
@@ -191,7 +191,7 @@
   </section>
 
   <!-- ========== HOW WE HELP NRIs ========== -->
-  <section class="about-howwework srv-solutions" id="srv-solutions">
+  <section class="about-howwework " id="srv-solutions">
     <div class="about-section-container">
       <div class="about-hww-header" data-reveal="up">
         <h2>How We Help NRIs</h2>
@@ -260,7 +260,7 @@
   <section class="srv-get srv-needs-share" id="srv-needs-share">
     <div class="about-section-container">
       <h2 class="srv-section-title" data-reveal="up">What You Need to Start</h2>
-      <div class="srv-needs-card" data-reveal="up" data-reveal-delay="200">
+      <div class="srv-needs-card" data-reveal="up" data-reveal-delay="200" style="max-width:1000px; margin-left: auto; margin-right: auto;">
         <div class="srv-needs-list">
           <div class="srv-needs-item">
             <div class="srv-service-for-icon">

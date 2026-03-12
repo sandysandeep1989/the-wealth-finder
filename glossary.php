@@ -412,8 +412,8 @@
   <section class="cta srv-cta glossary-cta" id="srv-cta">
     <div class="container">
       <div class="srv-cta-inner" data-reveal="zoom">
-        <h2>Not sure what applies to your case?</h2>
-        <p class="glossary-cta-subtitle">Start with a Free Search and we'll guide whether it's IEPF, transmission, demat, or tracing.</p>
+        <h2>Not sure what<br> applies to your <br>case?</h2>
+        <p class="glossary-cta-subtitle">Start with a Free Search and we'll guide whether it's IEPF,<br> transmission, demat, or tracing.</p>
         <div class="glossary-cta-buttons">
           <a href="#" class="btn btn-primary">
             <span>Free Search</span>

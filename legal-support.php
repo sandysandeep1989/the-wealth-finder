@@ -5,8 +5,8 @@
     <div class="about-hero-wrapper">
       <div class="about-hero-inner">
         <div class="about-hero-content" data-reveal="up">
-          <h1>Legal Support for Share Recovery</h1>
-          <p class="about-hero-subtitle">Some cases require court-issued documents. We guide you end-to-end and support execution through our legal network where needed.</p>
+          <h1>Legal Support for <br> Share Recovery</h1>
+          <p class="about-hero-subtitle">Some cases require court-issued documents. We guide you end-to-end and support <br>  execution through our legal network where needed.</p>
           <div class="hero-buttons">
             <a href="#srv-cta" class="btn btn-primary">
               <span>Book a Call</span>
@@ -28,7 +28,7 @@
   <!-- ========== WHEN LEGAL SUPPORT BECOMES NECESSARY ========== -->
   <section class="srv-service-for srv-service-for-top" id="srv-service-for">
     <div class="about-section-container">
-      <h2 class="srv-section-title" data-reveal="up">When Legal Support Becomes Necessary</h2>
+      <h2 class="srv-section-title" data-reveal="up">When Legal Support<br> Becomes Necessary</h2>
       <div class="srv-service-for-grid" data-reveal-stagger>
         <div class="srv-service-for-card">
           <div class="srv-service-for-icon">
@@ -354,7 +354,7 @@
   <section class="cta srv-cta" id="srv-cta">
     <div class="container">
       <div class="srv-cta-inner" data-reveal="zoom">
-        <h2>Unsure Which Legal Document You Need?</h2>
+        <h2>Unsure Which Legal <br> Document You Need?</h2>
         <div class="srv-cta-card">
           <form class="srv-cta-form" id="srvCtaForm" onsubmit="return false;">
             <div class="srv-form-row">

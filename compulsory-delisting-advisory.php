@@ -90,9 +90,10 @@
   </section>
 
   <!-- ========== WHAT COMPULSORY DELISTING MEANS ========== -->
-  <section class="srv-meaning" id="srv-delisting-meaning">
+  <section class="srv-meaning topPadd0" id="srv-delisting-meaning">
     <div class="about-section-container">
-      <h2 class="srv-section-title" data-reveal="up">What &ldquo;Compulsory Delisting&rdquo; Usually Means</h2>
+      <h2 class="srv-section-title" data-reveal="up">What &ldquo;Compulsory Delisting&rdquo; 
+        <br>Usually Means</h2>
       <div class="srv-meaning-card" data-reveal="up" data-reveal-delay="200">
         <p>Compulsory delisting typically means the exchange has removed the company from trading due to enforcement action following prolonged or serious compliance failures. Unlike voluntary delisting, this is not a promoter-driven exit decision. It changes the way shareholders engage, affects market perception sharply, and often requires careful handling of communication and compliance clean-up decisions.</p>
       </div>
@@ -102,8 +103,8 @@
   <!-- ========== PROBLEMS / RISKS ========== -->
   <section class="srv-challenges" id="srv-risks">
     <div class="about-section-container">
-      <h2 class="srv-section-title" data-reveal="up">What Problems / Risks You Face</h2>
-      <p class="srv-section-subtitle" data-reveal="up">Compulsory delisting usually triggers these pressures:</p>
+      <h2 class="srv-section-title" data-reveal="up">What Problems / Risks <br>You Face</h2>
+      <p class="srv-section-subtitle" data-reveal="up">Compulsory delisting usually triggers <br>these pressures:</p>
       <div class="srv-challenges-grid" data-reveal-stagger>
         <div class="srv-challenge-card">
           <svg class="srv-challenge-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M8.575 3.494l-6.356 11A1.667 1.667 0 0 0 3.644 16.5h12.712a1.667 1.667 0 0 0 1.425-2.006l-6.356-11a1.667 1.667 0 0 0-2.85 0z" stroke="#DC2626" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M10 7.167v3.333M10 13.833h.008" stroke="#DC2626" stroke-width="1.5" stroke-linecap="round"/></svg>
@@ -557,7 +558,7 @@
     <div class="container">
       <div class="srv-cta-inner" data-reveal="zoom">
         <h2>Don&rsquo;t Guess. Get a Compulsory Delisting Options Roadmap First.</h2>
-        <p class="srv-cta-subtitle">Share basic details. We&rsquo;ll review and guide next actions.</p>
+        <p class="srv-cta-subtitle-d">Share basic details. We’ll review and guide next actions..</p>
         <div class="srv-cta-card">
           <form class="srv-cta-form" id="srvCtaForm" onsubmit="return false;">
             <div class="srv-form-row">

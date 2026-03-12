@@ -6,7 +6,11 @@
       <div class="about-hero-inner">
         <div class="about-hero-content" data-reveal="up">
           <h1>NBFC Registration in India (RBI License / CoR)</h1>
-          <p class="about-hero-subtitle">If you&rsquo;re planning to set up an NBFC, the process begins well before filing. Category selection, capital structure, business plan strength, and promoter readiness all determine whether RBI will consider your application seriously. We help founders and promoters move through the process with clarity, proper documentation, and structured execution.</p>
+          <p class="about-hero-subtitle">
+            <strong><em>Planning an NBFC? Start with the right category and readiness.</em></strong></p>
+          <p class="about-hero-subtitle">NBFC registration looks simple on paper, but most applications get delayed because of <strong>wrong category selection, weak business plan, incomplete NOF readiness, or poor documentation discipline.</strong> <br><br>
+
+At TWF, we handle NBFC registration as a structured project — eligibility check, category mapping, business plan + policy readiness, documentation pack creation, and application support until outcome.</p>
           <div class="hero-buttons">
             <a href="#srv-cta" class="btn btn-primary">
               <span>Request an Eligibility Review Call</span>
@@ -31,7 +35,7 @@
       <h2 class="srv-section-title" data-reveal="up">What is an NBFC?</h2>
       <div class="srv-meaning-card" data-reveal="up" data-reveal-delay="200">
         <p>A Non-Banking Financial Company (NBFC) is a company registered under the Companies Act that provides financial services &mdash; such as loans, investments, insurance, or asset management &mdash; but is not a bank. NBFCs are regulated by the Reserve Bank of India (RBI) and must obtain a Certificate of Registration (CoR) before commencing operations involving financial activity.</p>
-        <div class="srv-info-callout">
+        <div class="srv-info-callout mt-24 mb-24">
           <p><strong>In simple terms:</strong></p>
           <ul class="srv-callout-list">
             <li class="srv-callout-check">
@@ -52,7 +56,7 @@
   <!-- ========== WHY NBFC REGISTRATION IS IMPORTANT ========== -->
   <section class="srv-service-for" id="srv-why-important">
     <div class="about-section-container">
-      <h2 class="srv-section-title" data-reveal="up">Why NBFC registration is important</h2>
+      <h2 class="srv-section-title" data-reveal="up">Why NBFC registration <br> is important</h2>
       <p class="srv-section-subtitle" data-reveal="up">An RBI registration (CoR) matters because it:</p>
       <div class="srv-service-for-grid" data-reveal-stagger>
         <div class="srv-service-for-card">
@@ -191,8 +195,9 @@
   <!-- ========== TYPES OF NBFCs ========== -->
   <section class="srv-service-for srv-service-for-alt" id="srv-types">
     <div class="about-section-container">
-      <h2 class="srv-section-title" data-reveal="up">Types of NBFCs (by business activity)</h2>
-      <p class="srv-section-subtitle" data-reveal="up">Choosing the right type is the first real decision. Each type has different capital requirements, compliance loads, and operational scopes.</p>
+      <h2 class="srv-section-title" data-reveal="up">Types of NBFCs (by <br> business activity)</h2>
+      <p class="srv-section-subtitle" data-reveal="up">Before anything else, the most important decision is: Which <br>NBFC category fits your model?</p>
+
       <div class="srv-service-for-grid" data-reveal-stagger>
         <div class="srv-service-for-card">
           <div class="srv-service-for-icon">
@@ -461,7 +466,7 @@
           <p>Connects borrowers and lenders directly through a technology platform. Operates under specific P2P norms.</p>
         </div>
       </div>
-      <div class="srv-info-callout srv-callout-standalone" data-reveal="up">
+      <div class="srv-info-callout srv-callout-standalone whiteBg" data-reveal="up">
         <p><strong>Why this section matters:</strong> Many applicants pick the wrong category early &mdash; which wastes time, capital, and effort. We help you map the right type before moving to documentation.</p>
       </div>
     </div>
@@ -473,7 +478,7 @@
       <h2 class="srv-section-title" data-reveal="up">NBFC classification (regulatory intensity)</h2>
       <div class="srv-meaning-card" data-reveal="up" data-reveal-delay="200">
         <p>RBI uses a Scale-Based Regulation (SBR) framework that classifies NBFCs into four layers &mdash; Base Layer, Middle Layer, Upper Layer, and Top Layer. Each layer carries different compliance expectations: governance, capital, risk management, audit, and reporting.</p>
-        <div class="srv-info-callout">
+        <div class="srv-info-callout mt-24">
           <p><strong>For you, the key point is:</strong> the layer your NBFC falls into post-registration will define how much compliance infrastructure you need to build. We factor this into the readiness plan from the start so you&rsquo;re not caught off-guard later.</p>
         </div>
       </div>
@@ -573,7 +578,7 @@
         </div>
       </div>
       <div class="hero-buttons" style="margin-top: 60px;">
-        <a href="#srv-cta" class="btn btn-primary">
+        <a href="#srv-cta" class="btn btn-secondary" data-reveal="up" data-reveal-delay="400">
           <span>Request an Eligibility Review Call</span>
           <span class="btn-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
         </a>
@@ -582,11 +587,11 @@
   </section>
 
   <!-- ========== STEP-BY-STEP PROCESS ========== -->
-  <section class="about-howwework srv-solutions" id="srv-solutions">
+  <section class="about-howwework srv-solutions bgNew" id="srv-solutions">
     <div class="about-section-container">
-      <div class="about-hww-header" data-reveal="up">
-        <h2>Step-by-step process (how we take you through it)</h2>
-        <p class="srv-step-subtitle">This is the structured approach we follow for every NBFC registration:</p>
+      <div class="about-hww-header" style="max-width:700px" data-reveal="up">
+        <h2>Step-by-step process for NBFC registration in India</h2>
+        <p class="srv-step-subtitle">Here’s how the process usually works when done properly:</p>
       </div>
 
       <div class="about-hww-steps srv-hww-steps">
@@ -595,31 +600,52 @@
           <span class="about-hww-number">01</span>
           <div class="srv-step-text">
             <h3>Eligibility review &amp; category mapping</h3>
-            <p><strong>What we do first:</strong> Understand your model, confirm whether NBFC registration is the right route, and map the appropriate NBFC category. This avoids misdirection from day one.</p>
+            <p><strong>We assess:</strong></p>
+            <ul>
+              <li>Your business activity and correct NBFC category</li>
+              <li>NOF readiness and promoter structure</li>
+              <li>Gaps that must be closed before filing</li>
+            </ul>
           </div>
         </div>
         <div class="about-hww-dot srv-hww-dot"></div>
         <div class="about-hww-step srv-hww-step-card">
           <span class="about-hww-number">02</span>
           <div class="srv-step-text">
-            <h3>Readiness build</h3>
-            <p><strong>Pre-filing groundwork:</strong> Includes NOF alignment, company structure review, promoter profile preparation, and governance foundation. Without this, RBI applications face early questions.</p>
+            <h3>Readiness build (before filing)</h3>
+            <p><strong>We help build:</strong></p>
+            <ul>
+              <li>Business plan and projections (board-ready)</li>
+              <li>Policy framework and operating plan</li>
+              <li>Governance structure and documentation discipline</li>
+            </ul>
           </div>
         </div>
         <div class="about-hww-dot srv-hww-dot"></div>
         <div class="about-hww-step srv-hww-step-card">
           <span class="about-hww-number">03</span>
           <div class="srv-step-text">
-            <h3>Documentation pack preparation</h3>
-            <p><strong>Core documentation:</strong> Business plan drafting, board resolutions, financial projections, policy frameworks (Fair Practices Code, KYC, AML, etc.), and supporting annexures. Each document is prepared to meet RBI review standards.</p>
+            <h3>Documentation pack preparation (RBI-style)</h3>
+            <p><strong>We prepare a clean set:</strong></p>
+            <ul>
+              <li>Company documents</li>
+              <li>Promoter/director documents</li>
+              <li>Financial and operational documents</li>
+              <li>Board approvals and resolutions aligned correctly</li>
+            </ul>
           </div>
         </div>
         <div class="about-hww-dot srv-hww-dot"></div>
         <div class="about-hww-step srv-hww-step-card">
           <span class="about-hww-number">04</span>
           <div class="srv-step-text">
-            <h3>Application filing</h3>
-            <p><strong>Filing support:</strong> Submit the application through the designated route/portal with the complete pack. Accuracy and consistency across documents is critical here.</p>
+            <h3>Application filing (online)</h3>
+            <p><strong>We assess:</strong></p>
+            <ul>
+              <li>Your business activity and correct NBFC category</li>
+              <li>NOF readiness and promoter structure</li>
+              <li>Gaps that must be closed before filing</li>
+            </ul>
           </div>
         </div>
         <div class="about-hww-dot srv-hww-dot"></div>
@@ -627,15 +653,20 @@
           <span class="about-hww-number">05</span>
           <div class="srv-step-text">
             <h3>RBI review &amp; clarifications</h3>
-            <p><strong>Post-filing support:</strong> RBI may raise queries or ask for additional information. We prepare response packs and handle clarification rounds on a tracker basis.</p>
+            <p>This is where most delays happen. We help you respond cleanly, quickly, and consistently with supporting documents.</p>
           </div>
         </div>
         <div class="about-hww-dot srv-hww-dot"></div>
         <div class="about-hww-step srv-hww-step-card">
           <span class="about-hww-number">06</span>
           <div class="srv-step-text">
-            <h3>Outcome + post-registration setup</h3>
-            <p><strong>After approval:</strong> Once the CoR is issued, we help with initial compliance setup &mdash; including reporting calendars, governance structure activation, and operational readiness.</p>
+            <h3>Outcome + post-registration setup (recommended)</h3>
+            <p><strong>After CoR, we help you move into:</strong></p>
+            <ul>
+              <li>Compliance calendar</li>
+              <li>Internal trackers</li>
+              <li>Documentation and reporting discipline</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -665,8 +696,8 @@
   <!-- ========== DOCUMENTS REQUIRED ========== -->
   <section class="srv-docs" id="srv-documents">
     <div class="about-section-container">
-      <h2 class="srv-section-title" data-reveal="up">Documents required (high-level checklist)</h2>
-      <p class="srv-section-subtitle" data-reveal="up">Exact documents vary by NBFC type, but most applications require:</p>
+      <h2 class="srv-section-title" data-reveal="up">Documents required <br> (high-level checklist)</h2>
+      <p class="srv-section-subtitle" data-reveal="up">Exact documents vary by NBFC type, but <br> most applications require:</p>
       <div class="srv-docs-grid" data-reveal-stagger>
         <!-- Promoters / Directors -->
         <div class="srv-docs-card">
@@ -798,7 +829,7 @@
   <!-- ========== COMMON CHALLENGES ========== -->
   <section class="srv-challenges-solutions" id="srv-challenges">
     <div class="about-section-container">
-      <h2 class="srv-section-title" data-reveal="up">Common challenges (and how we solve them)</h2>
+      <h2 class="srv-section-title" data-reveal="up">Common challenges  <br> (and how we solve them)</h2>
       <div class="srv-cs-list" data-reveal-stagger>
         <div class="srv-cs-row">
           <div class="srv-cs-item srv-cs-challenge">
@@ -912,7 +943,7 @@
   <!-- ========== POST-REGISTRATION COMPLIANCES ========== -->
   <section class="srv-meaning" id="srv-post-registration">
     <div class="about-section-container">
-      <h2 class="srv-section-title" data-reveal="up">Post-registration compliances (what to plan for early)</h2>
+      <h2 class="srv-section-title" data-reveal="up">Post-registration compliances <br> (what to plan for early)</h2>
       <div class="srv-meaning-card" data-reveal="up" data-reveal-delay="200">
         <h3 class="srv-meaning-card-title">Many founders focus only on getting the license. But the real work begins after that:</h3>
         <ul class="srv-meaning-bullet-list">
@@ -933,7 +964,7 @@
   <!-- ========== WHY CHOOSE TWF ========== -->
   <section class="srv-why-twf" id="srv-why-twf">
     <div class="about-section-container">
-      <h2 class="srv-section-title" data-reveal="up">Why choose TWF for NBFC registration?</h2>
+      <h2 class="srv-section-title" data-reveal="up">Why choose TWF for NBFC <br> registration?</h2>
       <div class="srv-why-twf-card" data-reveal="up" data-reveal-delay="200">
         <div class="srv-why-twf-grid">
           <div class="srv-why-twf-item">
@@ -1045,7 +1076,7 @@
   <!-- ========== CTA ========== -->
   <section class="cta srv-cta" id="srv-cta">
     <div class="container">
-      <div class="srv-cta-inner" data-reveal="zoom">
+      <div class="srv-cta-inner" style="max-width: 1150px;" data-reveal="zoom">
         <h2>If You&rsquo;re Serious About Starting An NBFC, Don&rsquo;t Begin With Documents. Begin With Category Clarity And Readiness.</h2>
         <div class="srv-cta-buttons">
           <a href="#srv-cta" class="btn btn-primary">
