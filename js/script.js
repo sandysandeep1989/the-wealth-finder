@@ -441,4 +441,78 @@ document.addEventListener('DOMContentLoaded', () => {
       noResults.classList.toggle('visible', !anyVisible);
     }
   }
+
+  /* ============================
+     FAQ PAGE TABS
+     ============================ */
+  const faqTabBtns = document.querySelectorAll('.faq-tab-btn');
+  const faqTabPanels = document.querySelectorAll('.faq-tab-panel');
+
+  // Open all FAQ items by default on FAQ page
+  const faqContentCard = document.querySelector('.faq-content-card');
+  if (faqContentCard) {
+    faqContentCard.querySelectorAll('.faq-item').forEach(item => {
+      item.classList.add('active');
+      const icon = item.querySelector('.faq-icon');
+      if (icon) icon.innerHTML = minusSVG;
+    });
+  }
+
+  faqTabBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const target = btn.getAttribute('data-faq-tab');
+
+      faqTabBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      faqTabPanels.forEach(panel => {
+        if (panel.id === target) {
+          panel.classList.add('active');
+          // Open all items in the shown panel
+          panel.querySelectorAll('.faq-item').forEach(item => {
+            item.classList.add('active');
+            const icon = item.querySelector('.faq-icon');
+            if (icon) icon.innerHTML = minusSVG;
+          });
+        } else {
+          panel.classList.remove('active');
+        }
+      });
+    });
+  });
+
+  /* ============================
+     CONTACT PAGE — OFFICE TABS
+     ============================ */
+  const officeTabs = document.querySelectorAll('.contact-office-tab');
+  const officePanels = document.querySelectorAll('.contact-office-panel');
+
+  officeTabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      const target = tab.getAttribute('data-office');
+
+      officeTabs.forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+
+      officePanels.forEach(panel => {
+        if (panel.id === 'office-' + target) {
+          panel.classList.add('active');
+        } else {
+          panel.classList.remove('active');
+        }
+      });
+    });
+  });
+});
+
+/* =========================================================
+   Form Tags Toggle (multi-select)
+   ========================================================= */
+document.querySelectorAll('.srv-form-tags').forEach(container => {
+  container.addEventListener('click', function(e) {
+    const tag = e.target.closest('.srv-tag');
+    if (tag) {
+      tag.classList.toggle('active');
+    }
+  });
 });

@@ -11,23 +11,23 @@
           <div class="footer-links">
             <h4>Quick Links</h4>
             <ul>
-              <li><a href="#">Who We Are</a></li>
-              <li><a href="#">What We Do</a></li>
-              <li><a href="#">Become Our Associate</a></li>
-              <li><a href="#">Articles</a></li>
-              <li><a href="#">FAQs</a></li>
-              <li><a href="#">Sitemap</a></li>
+              <li><a href="about.php">Who We Are</a></li>
+              <li><a href="index.php">What We Do</a></li>
+              <li><a href="partner-with-us.php">Become Our Associate</a></li>
+              <li><a href="blog.php">Articles</a></li>
+              <li><a href="faq.php">FAQs</a></li>
+              <li><a href="glossary.php">Glossary</a></li>
             </ul>
           </div>
           <div class="footer-links">
             <h4>Area of Services</h4>
             <ul>
-              <li><a href="#">Recovery Of Unclaimed Shares &amp; Dividends From IEPF</a></li>
-              <li><a href="#">Search &amp; Tracing Of Lost Shares</a></li>
-              <li><a href="#">Demat Of Physical Shares</a></li>
-              <li><a href="#">IEPF Claims</a></li>
-              <li><a href="#">Legal Support</a></li>
-              <li><a href="#">NRI Assistance</a></li>
+              <li><a href="recovery-unclaimed-shares.php">Recovery Of Unclaimed Shares &amp; Dividends From IEPF</a></li>
+              <li><a href="lost-shares-tracing.php">Search &amp; Tracing Of Lost Shares</a></li>
+              <li><a href="physical-shares.php">Demat Of Physical Shares</a></li>
+              <li><a href="iepf-claim-support.php">IEPF Claims</a></li>
+              <li><a href="legal-support.php">Legal Support</a></li>
+              <li><a href="nri-assistance.php">NRI Assistance</a></li>
             </ul>
           </div>
           <div class="footer-contact">
