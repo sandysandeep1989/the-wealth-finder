@@ -4,9 +4,10 @@
   <section class="team-hero about-hero" id="team-hero">
     <div class="about-hero-wrapper">
       <div class="about-hero-inner">
-        <div class="about-hero-content" data-reveal="up">
-          <h1>Meet the People Behind the Work</h1>
-          <p class="about-hero-subtitle">A focused team helping investors, NRIs, and companies navigate share recovery, compliance, and structured financial processes.</p>
+        <div class="about-hero-content teamHead" data-reveal="up">
+          <h1>Meet the People Behind <br> the Work</h1>
+          <p class="about-hero-subtitle">A focused team helping investors, NRIs, and companies navigate share recovery, 
+             <br>compliance, and structured financial processes.</p>
         </div>
       </div>
     </div>
@@ -24,7 +25,7 @@
         <!-- Founder 1 -->
         <div class="team-founder-card" data-reveal="up">
           <div class="team-founder-photo">
-            <img src="images/team/founder-1.jpg" alt="Rajesh Malhotra">
+            <img src="images/team/team.png" alt="Rajesh Malhotra">
           </div>
           <div class="team-founder-info">
             <div class="team-founder-name-block">
@@ -53,7 +54,7 @@
         <!-- Founder 2 -->
         <div class="team-founder-card" data-reveal="up">
           <div class="team-founder-photo">
-            <img src="images/team/founder-2.jpg" alt="Priya Sharma">
+            <img src="images/team/team.png" alt="Priya Sharma">
           </div>
           <div class="team-founder-info">
             <div class="team-founder-name-block">
@@ -95,7 +96,7 @@
         <!-- Mentor 1 -->
         <div class="team-mentor-card" data-reveal="up">
           <div class="team-mentor-photo">
-            <img src="images/team/mentor-1.jpg" alt="Dr. Arun Kumar">
+            <img src="images/team/team.png" alt="Dr. Arun Kumar">
           </div>
           <div class="team-mentor-info">
             <div class="team-mentor-header">
@@ -116,7 +117,7 @@
         <!-- Mentor 2 -->
         <div class="team-mentor-card" data-reveal="up">
           <div class="team-mentor-photo">
-            <img src="images/team/mentor-2.jpg" alt="Dr. Arun Kumar">
+            <img src="images/team/team.png" alt="Dr. Arun Kumar">
           </div>
           <div class="team-mentor-info">
             <div class="team-mentor-header">
@@ -150,7 +151,7 @@
         <!-- Member 1 -->
         <div class="team-member-card" data-reveal="up">
           <div class="team-member-photo">
-            <img src="images/team/member-1.jpg" alt="Vikram Patel">
+            <img src="images/team/team.png" alt="Vikram Patel">
           </div>
           <div class="team-member-info">
             <div class="team-member-name-block">
@@ -169,7 +170,7 @@
         <!-- Member 2 -->
         <div class="team-member-card" data-reveal="up">
           <div class="team-member-photo">
-            <img src="images/team/member-2.jpg" alt="Anjali Desai">
+            <img src="images/team/team.png" alt="Anjali Desai">
           </div>
           <div class="team-member-info">
             <div class="team-member-name-block">
@@ -188,7 +189,7 @@
         <!-- Member 3 -->
         <div class="team-member-card" data-reveal="up">
           <div class="team-member-photo">
-            <img src="images/team/member-3.jpg" alt="Karthik Reddy">
+            <img src="images/team/team.png" alt="Karthik Reddy">
           </div>
           <div class="team-member-info">
             <div class="team-member-name-block">
@@ -207,7 +208,7 @@
         <!-- Member 4 -->
         <div class="team-member-card" data-reveal="up">
           <div class="team-member-photo">
-            <img src="images/team/member-4.jpg" alt="Sneha Kapoor">
+            <img src="images/team/team.png" alt="Sneha Kapoor">
           </div>
           <div class="team-member-info">
             <div class="team-member-name-block">
@@ -226,7 +227,7 @@
         <!-- Member 5 -->
         <div class="team-member-card" data-reveal="up">
           <div class="team-member-photo">
-            <img src="images/team/member-5.jpg" alt="Arjun Singh">
+            <img src="images/team/team.png" alt="Arjun Singh">
           </div>
           <div class="team-member-info">
             <div class="team-member-name-block">
@@ -245,7 +246,7 @@
         <!-- Member 6 -->
         <div class="team-member-card" data-reveal="up">
           <div class="team-member-photo">
-            <img src="images/team/member-6.jpg" alt="Ritu Agarwal">
+            <img src="images/team/team.png" alt="Ritu Agarwal">
           </div>
           <div class="team-member-info">
             <div class="team-member-name-block">
@@ -266,7 +267,7 @@
   </section>
 
   <!-- ========== CTA ========== -->
-  <section class="cta" id="team-cta">
+  <section class="cta srv-cta"  id="team-cta">
     <div class="cta-glow cta-glow-left"></div>
     <div class="cta-glow cta-glow-right"></div>
     <div class="cta-content" data-reveal="up">

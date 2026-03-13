@@ -7,7 +7,6 @@
         <div class="about-hero-content" data-reveal="up">
           <h1>Company Revival / Restoration &mdash; Bring a Struck-Off Company Back to Active Status</h1>
           <p class="about-hero-subtitle">If your company has been struck off the Register of Companies, it means the company legally no longer exists. But in many cases, revival is possible&mdash;if the right steps are taken within the allowed window, with proper evidence, and through the correct legal route. We help promoters, directors, and stakeholders navigate this process with clarity and structure.</p>
-          <p class="srv-hero-disclaimer">Independent service provider. Not affiliated with MCA/RoC/NCLT.</p>
           <div class="hero-buttons">
             <a href="#srv-cta" class="btn btn-primary">
               <span>Check Eligibility</span>
@@ -18,6 +17,14 @@
               <span class="btn-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
             </a>
           </div>
+
+          <p class="srv-hero-disclaimer">
+            <strong>
+              <em> Independent service provider. Not affiliated with MCA/RoC/NCLT.</em>
+            </strong> 
+          </p>
+
+
         </div>
         <div class="about-hero-image" data-reveal="up" data-reveal-delay="200">
           <img src="images/company-revival/company-revival-hero.png" alt="Company Revival / Restoration">
@@ -91,7 +98,7 @@
   </section>
 
   <!-- ========== WHAT STRUCK OFF MEANS ========== -->
-  <section class="srv-meaning" id="srv-struckoff-meaning">
+  <section class="srv-meaning " style="padding-top: 0;" id="srv-struckoff-meaning">
     <div class="about-section-container">
       <h2 class="srv-section-title" data-reveal="up">What &ldquo;Struck Off&rdquo; Means</h2>
       <div class="srv-meaning-card" data-reveal="up" data-reveal-delay="200">
@@ -104,7 +111,9 @@
   <!-- ========== PROBLEMS / RISKS ========== -->
   <section class="srv-challenges" id="srv-risks">
     <div class="about-section-container">
-      <h2 class="srv-section-title" data-reveal="up">What Problems / Risks You Face</h2>
+      <h2 class="srv-section-title" data-reveal="up">What Problems / Risks 
+        <br>
+        You Face</h2>
       <p class="srv-section-subtitle" data-reveal="up">A struck-off status typically triggers:</p>
       <div class="srv-challenges-grid" data-reveal-stagger>
         <div class="srv-challenge-card">
@@ -136,7 +145,7 @@
   </section>
 
   <!-- ========== STEP-BY-STEP REVIVAL PROCESS ========== -->
-  <section class="about-howwework srv-solutions" id="srv-solutions">
+  <section class="about-howwework srv-solutions bgNew" id="srv-solutions">
     <div class="about-section-container">
       <div class="about-hww-header stepSpace" data-reveal="up">
         <h2>What You Should Do Next (Step-by-Step)</h2>
@@ -201,16 +210,7 @@
           </div>
         </div>
       </div>
-      <div class="hero-buttons" style="margin-top: 60px;">
-        <a href="#srv-cta" class="btn btn-primary">
-          <span>Check Eligibility</span>
-          <span class="btn-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-        </a>
-        <a href="https://wa.me/" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
-          <span>WhatsApp Us</span>
-          <span class="btn-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-        </a>
-      </div>
+      
     </div>
   </section>
 
@@ -223,20 +223,20 @@
         <div class="srv-twf-card">
           <div class="srv-twf-card-header">
             <span class="srv-twf-card-number">01</span>
-            <h3>Status Review &amp; Eligibility Mapping</h3>
+            <h3>Status Review + Eligibility Mapping</h3>
           </div>
           <ul class="srv-twf-card-list">
             <li>
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_cr01)"><path d="M10.0013 18.3337C14.6037 18.3337 18.3346 14.6027 18.3346 10.0003C18.3346 5.39795 14.6037 1.66699 10.0013 1.66699C5.39893 1.66699 1.66797 5.39795 1.66797 10.0003C1.66797 14.6027 5.39893 18.3337 10.0013 18.3337Z" stroke="#475569" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/><path d="M7.5 9.99967L9.16667 11.6663L12.5 8.33301" stroke="#475569" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/></g><defs><clipPath id="clip0_cr01"><rect width="20" height="20" fill="white"/></clipPath></defs></svg>
-              <span>Confirm struck-off date, reason, and section under Companies Act</span>
+              <span>Confirm struck-off position and background</span>
             </li>
             <li>
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_cr02)"><path d="M10.0013 18.3337C14.6037 18.3337 18.3346 14.6027 18.3346 10.0003C18.3346 5.39795 14.6037 1.66699 10.0013 1.66699C5.39893 1.66699 1.66797 5.39795 1.66797 10.0003C1.66797 14.6027 5.39893 18.3337 10.0013 18.3337Z" stroke="#475569" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/><path d="M7.5 9.99967L9.16667 11.6663L12.5 8.33301" stroke="#475569" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/></g><defs><clipPath id="clip0_cr02"><rect width="20" height="20" fill="white"/></clipPath></defs></svg>
-              <span>Assess eligibility for NCLT appeal under Section 252</span>
+              <span>Identify gaps and sensitive points</span>
             </li>
             <li>
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_cr03)"><path d="M10.0013 18.3337C14.6037 18.3337 18.3346 14.6027 18.3346 10.0003C18.3346 5.39795 14.6037 1.66699 10.0013 1.66699C5.39893 1.66699 1.66797 5.39795 1.66797 10.0003C1.66797 14.6027 5.39893 18.3337 10.0013 18.3337Z" stroke="#475569" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/><path d="M7.5 9.99967L9.16667 11.6663L12.5 8.33301" stroke="#475569" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/></g><defs><clipPath id="clip0_cr03"><rect width="20" height="20" fill="white"/></clipPath></defs></svg>
-              <span>Deliver a clear eligibility report with recommended route</span>
+              <span>Recommend the most practical route for revival</span>
             </li>
           </ul>
         </div>
@@ -244,20 +244,20 @@
         <div class="srv-twf-card">
           <div class="srv-twf-card-header">
             <span class="srv-twf-card-number">02</span>
-            <h3>Revival Roadmap &amp; Checklist</h3>
+            <h3>Revival Roadmap + Checklist</h3>
           </div>
           <ul class="srv-twf-card-list">
             <li>
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_cr04)"><path d="M10.0013 18.3337C14.6037 18.3337 18.3346 14.6027 18.3346 10.0003C18.3346 5.39795 14.6037 1.66699 10.0013 1.66699C5.39893 1.66699 1.66797 5.39795 1.66797 10.0003C1.66797 14.6027 5.39893 18.3337 10.0013 18.3337Z" stroke="#475569" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/><path d="M7.5 9.99967L9.16667 11.6663L12.5 8.33301" stroke="#475569" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/></g><defs><clipPath id="clip0_cr04"><rect width="20" height="20" fill="white"/></clipPath></defs></svg>
-              <span>Define the full revival sequence with dependency mapping</span>
+              <span>Stepwise plan with sequencing</span>
             </li>
             <li>
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_cr05)"><path d="M10.0013 18.3337C14.6037 18.3337 18.3346 14.6027 18.3346 10.0003C18.3346 5.39795 14.6037 1.66699 10.0013 1.66699C5.39893 1.66699 1.66797 5.39795 1.66797 10.0003C1.66797 14.6027 5.39893 18.3337 10.0013 18.3337Z" stroke="#475569" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/><path d="M7.5 9.99967L9.16667 11.6663L12.5 8.33301" stroke="#475569" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/></g><defs><clipPath id="clip0_cr05"><rect width="20" height="20" fill="white"/></clipPath></defs></svg>
-              <span>Build a phase-wise execution timeline with milestones</span>
+              <span>Case-specific checklist (what&rsquo;s required vs what can be reconstructed)</span>
             </li>
             <li>
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_cr06)"><path d="M10.0013 18.3337C14.6037 18.3337 18.3346 14.6027 18.3346 10.0003C18.3346 5.39795 14.6037 1.66699 10.0013 1.66699C5.39893 1.66699 1.66797 5.39795 1.66797 10.0003C1.66797 14.6027 5.39893 18.3337 10.0013 18.3337Z" stroke="#475569" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/><path d="M7.5 9.99967L9.16667 11.6663L12.5 8.33301" stroke="#475569" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/></g><defs><clipPath id="clip0_cr06"><rect width="20" height="20" fill="white"/></clipPath></defs></svg>
-              <span>Identify items needing external coordination (auditors, RoC, NCLT)</span>
+              <span>Responsibility mapping (Promoter / CEO / CS / Finance)</span>
             </li>
           </ul>
         </div>
@@ -265,20 +265,20 @@
         <div class="srv-twf-card">
           <div class="srv-twf-card-header">
             <span class="srv-twf-card-number">03</span>
-            <h3>Documentation Discipline &amp; Pack Structure</h3>
+            <h3>Documentation Discipline + Pack Structure</h3>
           </div>
           <ul class="srv-twf-card-list">
             <li>
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_cr07)"><path d="M10.0013 18.3337C14.6037 18.3337 18.3346 14.6027 18.3346 10.0003C18.3346 5.39795 14.6037 1.66699 10.0013 1.66699C5.39893 1.66699 1.66797 5.39795 1.66797 10.0003C1.66797 14.6027 5.39893 18.3337 10.0013 18.3337Z" stroke="#475569" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/><path d="M7.5 9.99967L9.16667 11.6663L12.5 8.33301" stroke="#475569" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/></g><defs><clipPath id="clip0_cr07"><rect width="20" height="20" fill="white"/></clipPath></defs></svg>
-              <span>Structure each filing with proper evidence and proof trail</span>
+              <span>Drafting support where required</span>
             </li>
             <li>
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_cr08)"><path d="M10.0013 18.3337C14.6037 18.3337 18.3346 14.6027 18.3346 10.0003C18.3346 5.39795 14.6037 1.66699 10.0013 1.66699C5.39893 1.66699 1.66797 5.39795 1.66797 10.0003C1.66797 14.6027 5.39893 18.3337 10.0013 18.3337Z" stroke="#475569" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/><path d="M7.5 9.99967L9.16667 11.6663L12.5 8.33301" stroke="#475569" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/></g><defs><clipPath id="clip0_cr08"><rect width="20" height="20" fill="white"/></clipPath></defs></svg>
-              <span>Prepare a revival-ready NCLT petition pack</span>
+              <span>Internal checks to avoid contradictions</span>
             </li>
             <li>
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_cr09)"><path d="M10.0013 18.3337C14.6037 18.3337 18.3346 14.6027 18.3346 10.0003C18.3346 5.39795 14.6037 1.66699 10.0013 1.66699C5.39893 1.66699 1.66797 5.39795 1.66797 10.0003C1.66797 14.6027 5.39893 18.3337 10.0013 18.3337Z" stroke="#475569" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/><path d="M7.5 9.99967L9.16667 11.6663L12.5 8.33301" stroke="#475569" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/></g><defs><clipPath id="clip0_cr09"><rect width="20" height="20" fill="white"/></clipPath></defs></svg>
-              <span>Include cover summary, affidavits, and timeline log</span>
+              <span>Structured pack preparation so it&rsquo;s review-ready</span>
             </li>
           </ul>
         </div>
@@ -291,15 +291,15 @@
           <ul class="srv-twf-card-list">
             <li>
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_cr10)"><path d="M10.0013 18.3337C14.6037 18.3337 18.3346 14.6027 18.3346 10.0003C18.3346 5.39795 14.6037 1.66699 10.0013 1.66699C5.39893 1.66699 1.66797 5.39795 1.66797 10.0003C1.66797 14.6027 5.39893 18.3337 10.0013 18.3337Z" stroke="#475569" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/><path d="M7.5 9.99967L9.16667 11.6663L12.5 8.33301" stroke="#475569" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/></g><defs><clipPath id="clip0_cr10"><rect width="20" height="20" fill="white"/></clipPath></defs></svg>
-              <span>Track NCLT hearing dates, queries, and clarification requests</span>
+              <span>Tracker-led execution support</span>
             </li>
             <li>
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_cr11)"><path d="M10.0013 18.3337C14.6037 18.3337 18.3346 14.6027 18.3346 10.0003C18.3346 5.39795 14.6037 1.66699 10.0013 1.66699C5.39893 1.66699 1.66797 5.39795 1.66797 10.0003C1.66797 14.6027 5.39893 18.3337 10.0013 18.3337Z" stroke="#475569" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/><path d="M7.5 9.99967L9.16667 11.6663L12.5 8.33301" stroke="#475569" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/></g><defs><clipPath id="clip0_cr11"><rect width="20" height="20" fill="white"/></clipPath></defs></svg>
-              <span>Systematic follow-ups until restoration order is received</span>
+              <span>Clarification handling support</span>
             </li>
             <li>
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_cr12)"><path d="M10.0013 18.3337C14.6037 18.3337 18.3346 14.6027 18.3346 10.0003C18.3346 5.39795 14.6037 1.66699 10.0013 1.66699C5.39893 1.66699 1.66797 5.39795 1.66797 10.0003C1.66797 14.6027 5.39893 18.3337 10.0013 18.3337Z" stroke="#475569" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/><path d="M7.5 9.99967L9.16667 11.6663L12.5 8.33301" stroke="#475569" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/></g><defs><clipPath id="clip0_cr12"><rect width="20" height="20" fill="white"/></clipPath></defs></svg>
-              <span>Coordinate with RoC office for name restoration on MCA portal</span>
+              <span>Closure roadmap and next steps</span>
             </li>
           </ul>
         </div>
@@ -307,41 +307,20 @@
         <div class="srv-twf-card">
           <div class="srv-twf-card-header">
             <span class="srv-twf-card-number">05</span>
-            <h3>Post-Revival Compliance Setup</h3>
+            <h3>Post-Revival Compliance Setup (Optional)</h3>
           </div>
           <ul class="srv-twf-card-list">
             <li>
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_cr13)"><path d="M10.0013 18.3337C14.6037 18.3337 18.3346 14.6027 18.3346 10.0003C18.3346 5.39795 14.6037 1.66699 10.0013 1.66699C5.39893 1.66699 1.66797 5.39795 1.66797 10.0003C1.66797 14.6027 5.39893 18.3337 10.0013 18.3337Z" stroke="#475569" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/><path d="M7.5 9.99967L9.16667 11.6663L12.5 8.33301" stroke="#475569" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/></g><defs><clipPath id="clip0_cr13"><rect width="20" height="20" fill="white"/></clipPath></defs></svg>
-              <span>File all pending annual returns and financial statements</span>
+              <span>Compliance rhythm and tracking system</span>
             </li>
             <li>
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_cr14)"><path d="M10.0013 18.3337C14.6037 18.3337 18.3346 14.6027 18.3346 10.0003C18.3346 5.39795 14.6037 1.66699 10.0013 1.66699C5.39893 1.66699 1.66797 5.39795 1.66797 10.0003C1.66797 14.6027 5.39893 18.3337 10.0013 18.3337Z" stroke="#475569" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/><path d="M7.5 9.99967L9.16667 11.6663L12.5 8.33301" stroke="#475569" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/></g><defs><clipPath id="clip0_cr14"><rect width="20" height="20" fill="white"/></clipPath></defs></svg>
-              <span>Set up a compliance calendar with responsibility mapping</span>
+              <span>Backlog cleanup planning (case-based)</span>
             </li>
             <li>
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_cr15)"><path d="M10.0013 18.3337C14.6037 18.3337 18.3346 14.6027 18.3346 10.0003C18.3346 5.39795 14.6037 1.66699 10.0013 1.66699C5.39893 1.66699 1.66797 5.39795 1.66797 10.0003C1.66797 14.6027 5.39893 18.3337 10.0013 18.3337Z" stroke="#475569" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/><path d="M7.5 9.99967L9.16667 11.6663L12.5 8.33301" stroke="#475569" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/></g><defs><clipPath id="clip0_cr15"><rect width="20" height="20" fill="white"/></clipPath></defs></svg>
-              <span>Establish a rhythm so the company stays active and compliant going forward</span>
-            </li>
-          </ul>
-        </div>
-        <!-- Card 06 -->
-        <div class="srv-twf-card">
-          <div class="srv-twf-card-header">
-            <span class="srv-twf-card-number">06</span>
-            <h3>Winding-Up Support (Where Applicable)</h3>
-          </div>
-          <ul class="srv-twf-card-list">
-            <li>
-              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_cr16)"><path d="M10.0013 18.3337C14.6037 18.3337 18.3346 14.6027 18.3346 10.0003C18.3346 5.39795 14.6037 1.66699 10.0013 1.66699C5.39893 1.66699 1.66797 5.39795 1.66797 10.0003C1.66797 14.6027 5.39893 18.3337 10.0013 18.3337Z" stroke="#475569" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/><path d="M7.5 9.99967L9.16667 11.6663L12.5 8.33301" stroke="#475569" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/></g><defs><clipPath id="clip0_cr16"><rect width="20" height="20" fill="white"/></clipPath></defs></svg>
-              <span>Where revival is not feasible, assess voluntary winding-up as the alternative</span>
-            </li>
-            <li>
-              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_cr17)"><path d="M10.0013 18.3337C14.6037 18.3337 18.3346 14.6027 18.3346 10.0003C18.3346 5.39795 14.6037 1.66699 10.0013 1.66699C5.39893 1.66699 1.66797 5.39795 1.66797 10.0003C1.66797 14.6027 5.39893 18.3337 10.0013 18.3337Z" stroke="#475569" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/><path d="M7.5 9.99967L9.16667 11.6663L12.5 8.33301" stroke="#475569" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/></g><defs><clipPath id="clip0_cr17"><rect width="20" height="20" fill="white"/></clipPath></defs></svg>
-              <span>Guide through proper closure under Companies Act provisions</span>
-            </li>
-            <li>
-              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_cr18)"><path d="M10.0013 18.3337C14.6037 18.3337 18.3346 14.6027 18.3346 10.0003C18.3346 5.39795 14.6037 1.66699 10.0013 1.66699C5.39893 1.66699 1.66797 5.39795 1.66797 10.0003C1.66797 14.6027 5.39893 18.3337 10.0013 18.3337Z" stroke="#475569" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/><path d="M7.5 9.99967L9.16667 11.6663L12.5 8.33301" stroke="#475569" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/></g><defs><clipPath id="clip0_cr18"><rect width="20" height="20" fill="white"/></clipPath></defs></svg>
-              <span>Help settle liabilities and distribute remaining assets to stakeholders</span>
+              <span>Prevent repeat issues</span>
             </li>
           </ul>
         </div>

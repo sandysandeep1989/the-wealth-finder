@@ -31,7 +31,7 @@
           </div>
         </div>
       </div>
-       <div class="blogdetail-banner">
+       <div class="blogdetail-banner" style="margin-top: 30px;">
       <img src="images/blog/blog-detail-hero.png" alt="Understanding IEPF">
     </div>
     </div>

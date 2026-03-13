@@ -85,7 +85,7 @@
   <!-- ========== WHAT YOU'LL GET AFTER FIRST CALL ========== -->
   <section class="srv-service-for" id="srv-what-you-get">
     <div class="about-section-container">
-      <h2 class="srv-section-title" data-reveal="up">What you&rsquo;ll get after the first review call</h2>
+      <h2 class="srv-section-title" data-reveal="up">What you&rsquo;ll get after the <br> first review call</h2>
       <p class="srv-section-subtitle" data-reveal="up">After the first call, you will receive:</p>
       <div class="srv-service-for-grid" data-reveal-stagger>
         <div class="srv-service-for-card srv-service-for-card-nbfc">
@@ -222,7 +222,7 @@
   <!-- ========== WHAT NBFC COMPLIANCE INCLUDES ========== -->
   <section class="srv-meaning srv-meaning-alt" id="srv-what-includes">
     <div class="about-section-container">
-      <h2 class="srv-section-title" data-reveal="up">What NBFC compliance support usually includes</h2>
+      <h2 class="srv-section-title" data-reveal="up">What NBFC compliance support <br> usually includes</h2>
       <div class="srv-meaning-card" data-reveal="up" data-reveal-delay="200">
         <h3 class="srv-meaning-card-title">NBFC compliance is a mix of:</h3>
         <ul class="srv-meaning-bullet-list">
@@ -240,9 +240,9 @@
   </section>
 
   <!-- ========== COMMON PROBLEMS / RISKS ========== -->
-  <section class="srv-service-for" id="srv-problems">
+  <section class="srv-service-for topPaddneded" id="srv-problems">
     <div class="about-section-container">
-      <h2 class="srv-section-title" data-reveal="up">Common problems/risks NBFCs face without a system</h2>
+      <h2 class="srv-section-title" data-reveal="up">Common problems/risks NBFCs <br>face without a system</h2>
       <div class="srv-problems-grid" data-reveal-stagger>
         <div class="srv-problems-card">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z" stroke="#DC2626" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 9v4" stroke="#DC2626" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="17" r="0.5" fill="#DC2626"/></svg>
@@ -272,71 +272,11 @@
     </div>
   </section>
 
-  <!-- ========== WHAT YOU SHOULD DO NEXT ========== -->
-  <section class="about-howwework srv-solutions" id="srv-steps">
-    <div class="about-section-container">
-      <div class="about-hww-header" data-reveal="up">
-        <h2>What you should do next (step-by-step)</h2>
-      </div>
-
-      <div class="about-hww-steps srv-hww-steps">
-        <div class="about-hww-line srv-hww-line"></div>
-        <div class="about-hww-step srv-hww-step-card">
-          <span class="about-hww-number">01</span>
-          <div class="srv-step-text">
-            <h3>Identify your NBFC type and current compliance load</h3>
-          </div>
-        </div>
-        <div class="about-hww-dot srv-hww-dot"></div>
-        <div class="about-hww-step srv-hww-step-card">
-          <span class="about-hww-number">02</span>
-          <div class="srv-step-text">
-            <h3>Map pending items and high-risk areas</h3>
-          </div>
-        </div>
-        <div class="about-hww-dot srv-hww-dot"></div>
-        <div class="about-hww-step srv-hww-step-card">
-          <span class="about-hww-number">03</span>
-          <div class="srv-step-text">
-            <h3>Create a compliance calendar (monthly/quarterly/annual + event-based)</h3>
-          </div>
-        </div>
-        <div class="about-hww-dot srv-hww-dot"></div>
-        <div class="about-hww-step srv-hww-step-card">
-          <span class="about-hww-number">04</span>
-          <div class="srv-step-text">
-            <h3>Assign ownership and build a tracker with due dates</h3>
-          </div>
-        </div>
-        <div class="about-hww-dot srv-hww-dot"></div>
-        <div class="about-hww-step srv-hww-step-card">
-          <span class="about-hww-number">05</span>
-          <div class="srv-step-text">
-            <h3>Run monthly/quarterly reviews and closure checks</h3>
-          </div>
-        </div>
-        <div class="about-hww-dot srv-hww-dot"></div>
-        <div class="about-hww-step srv-hww-step-card">
-          <span class="about-hww-number">06</span>
-          <div class="srv-step-text">
-            <h3>Maintain audit-ready documentation hygiene</h3>
-          </div>
-        </div>
-        <div class="about-hww-dot srv-hww-dot"></div>
-        <div class="about-hww-step srv-hww-step-card">
-          <span class="about-hww-number">07</span>
-          <div class="srv-step-text">
-            <h3>Keep a continuous improvement loop (what went wrong, fix the system)</h3>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
   <!-- ========== HOW TWF HELPS ========== -->
   <section class="srv-twf-helps srv-twf-helps-alt" id="srv-how-twf-helps">
     <div class="about-section-container">
-      <h2 class="srv-section-title" data-reveal="up">How TWF helps (what we deliver)</h2>
+      <h2 class="srv-section-title" data-reveal="up">How TWF helps <br> (what we deliver)</h2>
       <div class="srv-twf-helps-grid" data-reveal-stagger>
         <!-- Card 01 -->
         <div class="srv-twf-card">
@@ -549,7 +489,7 @@
   <section class="cta srv-cta" id="srv-cta">
     <div class="container">
       <div class="srv-cta-inner srv-cta-simple" data-reveal="zoom">
-        <h2>Unsure If You Have Unclaimed Wealth?</h2>
+        <h2>Unsure If You Have <br>Unclaimed Wealth?</h2>
         <p class="srv-cta-text">Let our experts conduct a comprehensive assessment to identify any unclaimed shares, dividends, or investments that rightfully belong to you.</p>
         <div class="srv-cta-buttons">
           <a href="#srv-cta" class="btn btn-primary">

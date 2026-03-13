@@ -302,7 +302,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   }, {
-    threshold: 0.15,
+    threshold: 0.05,
     rootMargin: '0px 0px -40px 0px'
   });
 
@@ -550,3 +550,96 @@ document.querySelectorAll('.srv-form-tags').forEach(container => {
     }
   });
 });
+
+/* =========================================================
+   Life at TWF — Thumbnail Gallery Slider (Drag + Click)
+   ========================================================= */
+(function () {
+  var gallery = document.querySelector('.careers-life-gallery');
+  if (!gallery) return;
+
+  var mainImg = gallery.querySelector('#lifeMainImg');
+  var thumbs = gallery.querySelectorAll('.careers-thumb');
+  var strip = gallery.querySelector('.careers-life-thumbstrip');
+  if (!mainImg || !thumbs.length || !strip) return;
+
+  var current = -1; // -1 = life-main.jpg (default)
+
+  /* ---- Click thumb: switch main image + scroll to center ---- */
+  function activate(index) {
+    if (current >= 0) thumbs[current].classList.remove('active');
+    current = index;
+    thumbs[current].classList.add('active');
+
+    var src = thumbs[current].getAttribute('data-full');
+    mainImg.style.opacity = '0';
+    setTimeout(function () {
+      mainImg.src = src;
+      mainImg.style.opacity = '1';
+    }, 300);
+
+    scrollToThumb(current);
+  }
+
+  function scrollToThumb(index) {
+    var thumb = thumbs[index];
+    var stripW = strip.offsetWidth;
+    var thumbLeft = thumb.offsetLeft;
+    var thumbW = thumb.offsetWidth;
+    var target = thumbLeft - (stripW / 2) + (thumbW / 2);
+    strip.scrollTo({ left: target, behavior: 'smooth' });
+  }
+
+  thumbs.forEach(function (thumb, i) {
+    thumb.addEventListener('click', function () {
+      if (dragged) return; // ignore click after drag
+      if (i === current) return;
+      activate(i);
+    });
+  });
+
+  /* ---- Drag-to-scroll (mouse) ---- */
+  var isDragging = false;
+  var dragged = false;
+  var startX = 0;
+  var scrollStart = 0;
+
+  strip.addEventListener('mousedown', function (e) {
+    isDragging = true;
+    dragged = false;
+    startX = e.pageX;
+    scrollStart = strip.scrollLeft;
+    strip.style.cursor = 'grabbing';
+    e.preventDefault();
+  });
+
+  document.addEventListener('mousemove', function (e) {
+    if (!isDragging) return;
+    var dx = e.pageX - startX;
+    if (Math.abs(dx) > 5) dragged = true;
+    strip.scrollLeft = scrollStart - dx;
+  });
+
+  document.addEventListener('mouseup', function () {
+    if (!isDragging) return;
+    isDragging = false;
+    strip.style.cursor = 'grab';
+    // Reset dragged flag after a tick so click handler can check it
+    setTimeout(function () { dragged = false; }, 0);
+  });
+
+  /* ---- Touch drag (mobile — native scroll handles it, but track dragged state) ---- */
+  var touchStartX = 0;
+  strip.addEventListener('touchstart', function (e) {
+    dragged = false;
+    touchStartX = e.touches[0].pageX;
+  }, { passive: true });
+
+  strip.addEventListener('touchmove', function (e) {
+    if (Math.abs(e.touches[0].pageX - touchStartX) > 5) dragged = true;
+  }, { passive: true });
+
+  strip.addEventListener('touchend', function () {
+    setTimeout(function () { dragged = false; }, 0);
+  });
+})();

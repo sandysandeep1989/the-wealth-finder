@@ -135,7 +135,7 @@
   </section>
 
   <!-- ========== STEP-BY-STEP REVOCATION PROCESS ========== -->
-  <section class="about-howwework srv-solutions" id="srv-solutions">
+  <section class="about-howwework srv-solutions bgNew " id="srv-solutions">
     <div class="about-section-container">
       <div class="about-hww-header stepSpace" data-reveal="up">
         <h2>What you should do next (step-by-step)</h2>
@@ -517,7 +517,7 @@
   <section class="cta srv-cta" id="srv-cta">
     <div class="container">
       <div class="srv-cta-inner" data-reveal="zoom">
-        <h2>Get a clear revocation roadmap before<br> you take random steps.</h2>
+        <h2>Get a clear revocation roadmap before you take random steps.</h2>
         <p class="srv-cta-subtitle-d">Share basic details. We’ll review and guide the next actions.</p>
 
         <div class="srv-cta-card">
@@ -561,7 +561,7 @@
                 <input type="text" id="srvCIN" name="cin" placeholder="corporate identity number">
               </div>
             </div>
-            <div class="srv-form-row">
+            <div class="srv-form-row srv-form-full">
               <div class="srv-form-group">
                 <label for="srvExchange">Exchange *</label>
                 <select id="srvExchange" name="exchange" required>
@@ -571,9 +571,11 @@
                   <option value="both">Both BSE &amp; NSE</option>
                 </select>
               </div>
+            </div>
+            <div class="srv-form-row srv-form-full">
               <div class="srv-form-group">
                 <label for="srvMessage">Message</label>
-                <textarea id="srvMessage" name="message" rows="1" placeholder="any additional details..."></textarea>
+                <textarea id="srvMessage" name="message" rows="3" placeholder="any additional details..."></textarea>
               </div>
             </div>
             <div class="srv-form-buttons">

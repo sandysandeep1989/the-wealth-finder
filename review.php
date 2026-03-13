@@ -6,7 +6,7 @@
   <section class="review-hero about-hero" id="review-hero">
     <div class="about-hero-wrapper">
       <div class="about-hero-inner">
-        <div class="about-hero-content" data-reveal="up">
+        <div class="about-hero-content teamHead" data-reveal="up">
           <h1>Client Success Stories</h1>
           <p class="about-hero-subtitle">Read what our clients say about their wealth recovery journey with The Wealth Finder</p>
         </div>
@@ -144,7 +144,7 @@
   </section>
 
   <!-- ========== CTA ========== -->
-  <section class="cta" id="review-cta">
+  <section class="cta srv-cta" id="review-cta">
     <div class="cta-glow cta-glow-left"></div>
     <div class="cta-glow cta-glow-right"></div>
     <div class="cta-content" data-reveal="up">
