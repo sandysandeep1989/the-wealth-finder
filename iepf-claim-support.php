@@ -114,8 +114,7 @@
   <section class="about-howwework  glowBG" id="srv-solutions">
     <div class="about-section-container">
       <div class="about-hww-header" data-reveal="up">
-        <h2>How TWF Helps (End-to-End)</h2>
-        <p>A structured approach to recover your shares and dividends from IEPF</p>
+        <h2>How TWF Helps <br>(End-to-End)</h2>
       </div>
       <div class="about-hww-steps srv-hww-steps">
         <div class="about-hww-line srv-hww-line"></div>
@@ -126,7 +125,6 @@
           </div>
           <span class="about-hww-number">01</span>
           <h3>Case assessment &amp; route finalization</h3>
-          <p>Evaluate your case and determine the correct recovery path</p>
         </div>
         <div class="about-hww-dot srv-hww-dot"></div>
         <div class="about-hww-step">
@@ -136,7 +134,6 @@
           </div>
           <span class="about-hww-number">02</span>
           <h3>Checklist and document planning (case-specific)</h3>
-          <p>Tailored documentation plan based on your specific situation</p>
         </div>
         <div class="about-hww-dot srv-hww-dot"></div>
         <div class="about-hww-step">
@@ -146,7 +143,6 @@
           </div>
           <span class="about-hww-number">03</span>
           <h3>Drafts and formats preparation (as applicable)</h3>
-          <p>All necessary documentation prepared for your case</p>
         </div>
         <div class="about-hww-dot srv-hww-dot"></div>
         <div class="about-hww-step">
@@ -157,7 +153,6 @@
           </div>
           <span class="about-hww-number">04</span>
           <h3>Submission pack planning &amp; coordination workflow</h3>
-          <p>Structured submission and coordination with authorities</p>
         </div>
         <div class="about-hww-dot srv-hww-dot"></div>
         <div class="about-hww-step">
@@ -168,19 +163,9 @@
           </div>
           <span class="about-hww-number">05</span>
           <h3>Follow-ups and tracking until closure</h3>
-          <p>Continuous monitoring and updates until case resolution</p>
         </div>
       </div>
-      <div class="hero-buttons" style="margin-top: 60px;">
-        <a href="#srv-cta" class="btn btn-primary">
-          <span>Start Claim</span>
-          <span class="btn-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-        </a>
-        <a href="#srv-cta" class="btn btn-secondary">
-          <span>Book a Call</span>
-          <span class="btn-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-        </a>
-      </div>
+     
     </div>
   </section>
 

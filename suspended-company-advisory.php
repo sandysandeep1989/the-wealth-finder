@@ -94,8 +94,8 @@
     <div class="about-section-container">
       <h2 class="srv-section-title" data-reveal="up">What &ldquo;Suspended on BSE/NSE&rdquo; <br> Usually Means</h2>
       <div class="srv-meaning-card" data-reveal="up" data-reveal-delay="200">
-        <p>When a company&rsquo;s securities are &ldquo;suspended&rdquo; on BSE or NSE, it means trading in its shares has been halted by the exchange. This typically happens due to non-compliance with listing obligations&mdash;such as failure to submit financial results, non-payment of listing fees, unresolved audit qualifications, or pending actions under SEBI regulations.</p>
-        <p style="margin-top: 16px;">Suspension doesn&rsquo;t mean delisting. The company remains listed, but shareholders cannot trade. The route to resume trading is &ldquo;revocation of suspension,&rdquo; which requires structured closure of all pending items, proper documentation, and a submission pack that satisfies the exchange&rsquo;s review process.</p>
+        <p>A suspended company is restricted from trading on the exchange due to compliance or regulatory gaps. For management teams, it quickly becomes more than a market issue—it becomes a credibility and stakeholder pressure issue. The longer it stays unresolved,
+           the heavier and more time-consuming closure usually becomes.</p>
       </div>
     </div>
   </section>
@@ -104,7 +104,7 @@
   <section class="srv-challenges" id="srv-risks">
     <div class="about-section-container">
       <h2 class="srv-section-title" data-reveal="up">What Problems / Risks You Face</h2>
-      <p class="srv-section-subtitle" data-reveal="up">When a company stays suspended, the consequences compound over time:</p>
+      <p class="srv-section-subtitle" data-reveal="up">Suspension creates both business pressure and compliance pressure:</p>
       <div class="srv-challenges-grid" data-reveal-stagger>
         <div class="srv-challenge-card">
           <svg class="srv-challenge-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M8.575 3.494l-6.356 11A1.667 1.667 0 0 0 3.644 16.5h12.712a1.667 1.667 0 0 0 1.425-2.006l-6.356-11a1.667 1.667 0 0 0-2.85 0z" stroke="#DC2626" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M10 7.167v3.333M10 13.833h.008" stroke="#DC2626" stroke-width="1.5" stroke-linecap="round"/></svg>
@@ -200,16 +200,7 @@
           </div>
         </div>
       </div>
-      <div class="hero-buttons" style="margin-top: 60px;">
-        <a href="#srv-cta" class="btn btn-primary">
-          <span>Request a Review Call</span>
-          <span class="btn-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-        </a>
-        <a href="https://wa.me/" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
-          <span>WhatsApp Us</span>
-          <span class="btn-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-        </a>
-      </div>
+     
     </div>
   </section>
 
@@ -222,7 +213,7 @@
         <div class="srv-twf-card">
           <div class="srv-twf-card-header">
             <span class="srv-twf-card-number">01</span>
-            <h3>Suspension Review &amp; Gap Mapping</h3>
+            <h3>Suspension Review + Gap Mapping</h3>
           </div>
           <ul class="srv-twf-card-list">
             <li>
@@ -238,7 +229,7 @@
 </defs>
 </svg>
 
-              <span>Confirm suspension reason and exchange-specific requirements</span>
+              <span>Identify what triggered the suspension</span>
             </li>
             <li>
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -253,7 +244,7 @@
 </defs>
 </svg>
 
-              <span>Map all pending items across BSE, NSE, SEBI, and ROC</span>
+              <span>Build a clean “what’s pending” list</span>
             </li>
             <li>
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -268,7 +259,7 @@
 </defs>
 </svg>
 
-              <span>Deliver a single consolidated gap list with priority tagging</span>
+              <span>Mark what must be done first vs what can follow</span>
             </li>
           </ul>
         </div>
@@ -292,7 +283,7 @@
 </defs>
 </svg>
 
-              <span>Define closure sequence based on dependencies</span>
+              <span>Stepwise plan with correct sequencing</span>
             </li>
             <li>
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -307,7 +298,7 @@
 </defs>
 </svg>
 
-              <span>Build a phase-wise execution timeline</span>
+              <span>Responsibility mapping (Promoter / CEO / CS / Finance)</span>
             </li>
             <li>
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -322,7 +313,7 @@
 </defs>
 </svg>
 
-              <span>Identify items that need external coordination (auditors, ROC, SEBI)</span>
+              <span>Case-specific checklist</span>
             </li>
           </ul>
         </div>
@@ -346,7 +337,7 @@
 </defs>
 </svg>
 
-              <span>Structure each filing with proper evidence and proof trail</span>
+              <span>Drafting support where required</span>
             </li>
             <li>
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -361,7 +352,7 @@
 </defs>
 </svg>
 
-              <span>Prepare a revocation-ready submission pack</span>
+              <span>Internal checks to reduce contradictions</span>
             </li>
             <li>
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -376,7 +367,7 @@
 </defs>
 </svg>
 
-              <span>Include cover summary, acknowledgements, and timeline log</span>
+              <span>Submission pack structure that is easy to verify</span>
             </li>
           </ul>
         </div>
@@ -400,7 +391,7 @@
 </defs>
 </svg>
 
-              <span>Track exchange queries and clarification requests</span>
+              <span>Tracker-led follow-ups</span>
             </li>
             <li>
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -415,7 +406,7 @@
 </defs>
 </svg>
 
-              <span>Systematic follow-ups until revocation is confirmed</span>
+              <span>Clarification handling support</span>
             </li>
             <li>
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -430,7 +421,7 @@
 </defs>
 </svg>
 
-              <span>Post-revocation compliance setup to prevent re-suspension</span>
+              <span>Closure roadmap and next steps</span>
             </li>
           </ul>
         </div>
@@ -517,7 +508,7 @@
   <section class="cta srv-cta" id="srv-cta">
     <div class="container">
       <div class="srv-cta-inner" data-reveal="zoom">
-        <h2>Get a clear revocation roadmap before you take random steps.</h2>
+        <h2>Get a clear revocation roadmap before <br> you take random steps.</h2>
         <p class="srv-cta-subtitle-d">Share basic details. We’ll review and guide the next actions.</p>
 
         <div class="srv-cta-card">
@@ -574,8 +565,8 @@
             </div>
             <div class="srv-form-row srv-form-full">
               <div class="srv-form-group">
-                <label for="srvMessage">Message</label>
-                <textarea id="srvMessage" name="message" rows="3" placeholder="any additional details..."></textarea>
+                <label for="srvMessage">Message (Optional)</label>
+                <textarea id="srvMessage" name="message" rows="3" placeholder="any additional details that might help...."></textarea>
               </div>
             </div>
             <div class="srv-form-buttons">

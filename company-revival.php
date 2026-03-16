@@ -100,10 +100,9 @@
   <!-- ========== WHAT STRUCK OFF MEANS ========== -->
   <section class="srv-meaning " style="padding-top: 0;" id="srv-struckoff-meaning">
     <div class="about-section-container">
-      <h2 class="srv-section-title" data-reveal="up">What &ldquo;Struck Off&rdquo; Means</h2>
+      <h2 class="srv-section-title" data-reveal="up">What “Struck Off / Name <br> Removed” usually means</h2>
       <div class="srv-meaning-card" data-reveal="up" data-reveal-delay="200">
-        <p>When a company is &ldquo;struck off,&rdquo; it means the Registrar of Companies (RoC) has removed the company&rsquo;s name from the Register of Companies. This usually happens under Section 248 of the Companies Act, 2013&mdash;either because the company failed to file annual returns or financial statements for two or more consecutive years, or it was not carrying on any business or operation.</p>
-        <p style="margin-top: 16px;">Once struck off, the company ceases to exist as a legal entity. However, directors and members may still be held liable for past obligations. Revival is possible under Section 252, through an appeal to the National Company Law Tribunal (NCLT), if filed within the allowed timeframe and supported by proper grounds and evidence.</p>
+        <p>A company is considered struck off when its name is removed from the register and it becomes inactive for normal business operations. Even if the company has assets, pending obligations, or future plans, the struck-off status creates a legal and practical roadblock until the company is restored through the correct route.</p>
       </div>
     </div>
   </section>
@@ -118,27 +117,27 @@
       <div class="srv-challenges-grid" data-reveal-stagger>
         <div class="srv-challenge-card">
           <svg class="srv-challenge-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M8.575 3.494l-6.356 11A1.667 1.667 0 0 0 3.644 16.5h12.712a1.667 1.667 0 0 0 1.425-2.006l-6.356-11a1.667 1.667 0 0 0-2.85 0z" stroke="#DC2626" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M10 7.167v3.333M10 13.833h.008" stroke="#DC2626" stroke-width="1.5" stroke-linecap="round"/></svg>
-          <p>Banking operations blocked &mdash; accounts frozen, no transactions possible</p>
+          <p>Banking and transactions get blocked or questioned</p>
         </div>
         <div class="srv-challenge-card">
           <svg class="srv-challenge-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M8.575 3.494l-6.356 11A1.667 1.667 0 0 0 3.644 16.5h12.712a1.667 1.667 0 0 0 1.425-2.006l-6.356-11a1.667 1.667 0 0 0-2.85 0z" stroke="#DC2626" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M10 7.167v3.333M10 13.833h.008" stroke="#DC2626" stroke-width="1.5" stroke-linecap="round"/></svg>
-          <p>Assets and property stuck &mdash; cannot sell, transfer, or use company-owned assets</p>
+          <p>Asset/property matters get stuck (sale/transfer/usage becomes complicated)</p>
         </div>
         <div class="srv-challenge-card">
           <svg class="srv-challenge-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M8.575 3.494l-6.356 11A1.667 1.667 0 0 0 3.644 16.5h12.712a1.667 1.667 0 0 0 1.425-2.006l-6.356-11a1.667 1.667 0 0 0-2.85 0z" stroke="#DC2626" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M10 7.167v3.333M10 13.833h.008" stroke="#DC2626" stroke-width="1.5" stroke-linecap="round"/></svg>
-          <p>Contracts and agreements delayed &mdash; counterparties lose confidence in a struck-off entity</p>
+          <p>Contracts and commercial actions get delayed</p>
         </div>
         <div class="srv-challenge-card">
           <svg class="srv-challenge-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M8.575 3.494l-6.356 11A1.667 1.667 0 0 0 3.644 16.5h12.712a1.667 1.667 0 0 0 1.425-2.006l-6.356-11a1.667 1.667 0 0 0-2.85 0z" stroke="#DC2626" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M10 7.167v3.333M10 13.833h.008" stroke="#DC2626" stroke-width="1.5" stroke-linecap="round"/></svg>
-          <p>Business restart becomes difficult &mdash; no legal standing to operate, hire, or enter agreements</p>
+          <p>Business restart becomes difficult (partners/investors hesitate)</p>
         </div>
         <div class="srv-challenge-card">
           <svg class="srv-challenge-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M8.575 3.494l-6.356 11A1.667 1.667 0 0 0 3.644 16.5h12.712a1.667 1.667 0 0 0 1.425-2.006l-6.356-11a1.667 1.667 0 0 0-2.85 0z" stroke="#DC2626" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M10 7.167v3.333M10 13.833h.008" stroke="#DC2626" stroke-width="1.5" stroke-linecap="round"/></svg>
-          <p>Record retrieval gets harder over time &mdash; old documents, contacts, and filings become difficult to trace</p>
+          <p>Record retrieval becomes harder over time (old proofs disappear)</p>
         </div>
         <div class="srv-challenge-card">
           <svg class="srv-challenge-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M8.575 3.494l-6.356 11A1.667 1.667 0 0 0 3.644 16.5h12.712a1.667 1.667 0 0 0 1.425-2.006l-6.356-11a1.667 1.667 0 0 0-2.85 0z" stroke="#DC2626" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M10 7.167v3.333M10 13.833h.008" stroke="#DC2626" stroke-width="1.5" stroke-linecap="round"/></svg>
-          <p>Compliance backlog grows &mdash; penalties and liabilities continue to accumulate even after strike-off</p>
+          <p>Compliance backlog grows and becomes more difficult to manage later</p>
         </div>
       </div>
     </div>
@@ -157,16 +156,16 @@
         <div class="about-hww-step srv-hww-step-card">
           <span class="about-hww-number">01</span>
           <div class="srv-step-text">
-            <h3>Confirm current status on MCA portal</h3>
-            <p>Check the exact struck-off date, reason (Section 248 suo motu or by application), and whether any appeal window is still open.</p>
+            <h3>Confirm current status and last active period</h3>
+            <p>Don’t assume. We start with factual position.</p>
           </div>
         </div>
         <div class="about-hww-dot srv-hww-dot"></div>
         <div class="about-hww-step srv-hww-step-card">
           <span class="about-hww-number">02</span>
           <div class="srv-step-text">
-            <h3>Map eligibility for revival</h3>
-            <p>Determine if the case qualifies under Section 252 (NCLT appeal) and whether timeframe limits have been met.</p>
+            <h3>Map eligibility and pick the correct revival route</h3>
+            <p>The route depends on facts, timelines, and objectives.</p>
           </div>
         </div>
         <div class="about-hww-dot srv-hww-dot"></div>
@@ -174,15 +173,15 @@
           <span class="about-hww-number">03</span>
           <div class="srv-step-text">
             <h3>Prepare a consolidated gap list</h3>
-            <p>All pending filings, fees, penalties, returns, and compliance items&mdash;everything in one place with priority tagging.</p>
+            <p>Filings, missing records, pending compliances, and proof requirements.</p>
           </div>
         </div>
         <div class="about-hww-dot srv-hww-dot"></div>
         <div class="about-hww-step srv-hww-step-card">
           <span class="about-hww-number">04</span>
           <div class="srv-step-text">
-            <h3>Build the evidence pack</h3>
-            <p>Collect board resolutions, affidavits, proof of business activity, financial statements, and supporting documents needed for the NCLT petition.</p>
+            <h3>Build a revival-ready evidence pack</h3>
+            <p>Strong documentation story + consistency across documents.</p>
           </div>
         </div>
         <div class="about-hww-dot srv-hww-dot"></div>
@@ -190,23 +189,23 @@
           <span class="about-hww-number">05</span>
           <div class="srv-step-text">
             <h3>Execute in the correct sequence</h3>
-            <p>File the NCLT petition, respond to queries, attend hearings, and close items in the order required by the tribunal.</p>
+            <p>Wrong sequencing causes rework and delays.</p>
           </div>
         </div>
         <div class="about-hww-dot srv-hww-dot"></div>
         <div class="about-hww-step srv-hww-step-card">
           <span class="about-hww-number">06</span>
           <div class="srv-step-text">
-            <h3>Track follow-ups until restoration order</h3>
-            <p>Monitor case progress, respond to clarifications promptly, and ensure consistent follow-through until the NCLT issues the restoration order.</p>
+            <h3>Track follow-ups until closure</h3>
+            <p>Revival cases move faster with disciplined tracking.</p>
           </div>
         </div>
         <div class="about-hww-dot srv-hww-dot"></div>
         <div class="about-hww-step srv-hww-step-card">
           <span class="about-hww-number">07</span>
           <div class="srv-step-text">
-            <h3>Post-revival stabilisation</h3>
-            <p>Once restored, file all pending returns, set up a compliance calendar, assign responsibility mapping, and establish a rhythm so the company stays active and compliant.</p>
+            <h3>Post-revival stabilisation (recommended)</h3>
+            <p>Compliance calendar + tracker so the company does not fall back into non-compliance.</p>
           </div>
         </div>
       </div>
@@ -217,7 +216,10 @@
   <!-- ========== HOW TWF HELPS ========== -->
   <section class="srv-twf-helps" id="srv-twf-helps">
     <div class="about-section-container">
-      <h2 class="srv-section-title" data-reveal="up">How The Wealth Finder Helps</h2>
+      <h2 class="srv-section-title" data-reveal="up">How TWF helps</h2>
+      <p class="srv-section-subtitle revealed" data-reveal="up">This is the clean sequence that avoids wasted moves:</p>
+       
+
       <div class="srv-twf-helps-grid" data-reveal-stagger>
         <!-- Card 01 -->
         <div class="srv-twf-card">
@@ -339,7 +341,7 @@
             <span class="badge-arrow"><img src="images/rightSvg.svg" class="w-auto"></span>
           </div>
           <h2>Frequently Asked Questions</h2>
-          <p>Get answers to common questions about company revival and restoration</p>
+          <p>Get answers to common questions about wealth recovery and IEPF claims</p>
         </div>
         <div class="faq-list srv-faq-list" data-reveal="up" data-reveal-delay="200">
           <div class="faq-item">
@@ -347,56 +349,56 @@
               <span>Can every struck-off company be revived?</span>
               <span class="faq-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M5 12H19" stroke="#020E6A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 5V19" stroke="#020E6A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
             </button>
-            <div class="faq-answer"><p>Not always. Eligibility depends on the reason for strike-off, the time elapsed, and whether the appeal window under Section 252 is still open. We assess this first before recommending any action.</p></div>
+            <div class="faq-answer"><p>Not always. Revival is case-based. Eligibility depends on facts and timelines. We confirm this in the first call.</p></div>
           </div>
           <div class="faq-item">
             <button class="faq-question">
               <span>We don&rsquo;t have old records. Can we still proceed?</span>
               <span class="faq-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M5 12H19" stroke="#020E6A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 5V19" stroke="#020E6A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
             </button>
-            <div class="faq-answer"><p>Yes. We start with the CIN and MCA portal data to reconstruct the compliance history. Missing records are common in revival cases&mdash;we work around them systematically.</p></div>
+            <div class="faq-answer"><p>Often yes. Many cases require reconstruction. We guide what&rsquo;s essential and what alternatives exist.</p></div>
           </div>
           <div class="faq-item">
             <button class="faq-question">
               <span>What is the first thing we should do?</span>
               <span class="faq-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M5 12H19" stroke="#020E6A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 5V19" stroke="#020E6A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
             </button>
-            <div class="faq-answer"><p>Confirm the struck-off date and reason on the MCA portal. Then check if the NCLT appeal window is still available. We do this as part of the initial eligibility review.</p></div>
+            <div class="faq-answer"><p>Start with eligibility mapping. Avoid random filings and avoid piecemeal actions.</p></div>
           </div>
           <div class="faq-item">
             <button class="faq-question">
               <span>Will revival automatically solve old compliance issues?</span>
               <span class="faq-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M5 12H19" stroke="#020E6A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 5V19" stroke="#020E6A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
             </button>
-            <div class="faq-answer"><p>No. Revival restores the company&rsquo;s legal status, but all pending compliance items still need to be addressed. We include post-revival compliance setup as part of the process.</p></div>
+            <div class="faq-answer"><p>No. Revival often needs a post-revival cleanup plan for pending filings and governance discipline.</p></div>
           </div>
           <div class="faq-item">
             <button class="faq-question">
               <span>How long does revival take?</span>
               <span class="faq-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M5 12H19" stroke="#020E6A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 5V19" stroke="#020E6A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
             </button>
-            <div class="faq-answer"><p>It varies based on the complexity of the case and NCLT bench workload. Typical timelines range from a few months to over a year. Disciplined preparation and follow-up reduce delays.</p></div>
+            <div class="faq-answer"><p>Timelines are case-based and depend on facts, document readiness, and the chosen route. We share realistic expectations after review.</p></div>
           </div>
           <div class="faq-item">
             <button class="faq-question">
               <span>Do you handle everything in-house?</span>
               <span class="faq-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M5 12H19" stroke="#020E6A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 5V19" stroke="#020E6A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
             </button>
-            <div class="faq-answer"><p>Yes. Planning, document structuring, petition drafting support, and tracking are handled by our internal team. Your team provides inputs, approvals, and signatures as needed.</p></div>
+            <div class="faq-answer"><p>Yes. Planning, drafting support, and tracking are handled by our internal team. Your team provides inputs, approvals, and signatures.</p></div>
           </div>
           <div class="faq-item">
             <button class="faq-question">
               <span>Do you support post-revival compliance setup?</span>
               <span class="faq-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M5 12H19" stroke="#020E6A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 5V19" stroke="#020E6A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
             </button>
-            <div class="faq-answer"><p>Yes. We help file all pending returns, set up a compliance calendar, and establish responsibility mapping so the company stays compliant after restoration.</p></div>
+            <div class="faq-answer"><p>Yes. We can help set up a calendar and tracker and guide cleanup priorities.</p></div>
           </div>
           <div class="faq-item">
             <button class="faq-question">
               <span>What should we do right now?</span>
               <span class="faq-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M5 12H19" stroke="#020E6A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 5V19" stroke="#020E6A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
             </button>
-            <div class="faq-answer"><p>Book a review call. Share your CIN and basic context. We&rsquo;ll check eligibility and share a clear revival roadmap before any steps are taken.</p></div>
+            <div class="faq-answer"><p>Share your CIN and objective (why you need revival). We&rsquo;ll tell you the clean next step.</p></div>
           </div>
         </div>
       </div>
@@ -407,7 +409,8 @@
   <section class="cta srv-cta" id="srv-cta">
     <div class="container">
       <div class="srv-cta-inner" data-reveal="zoom">
-        <h2>Get a Clear Revival Roadmap Before You Take Random Steps</h2>
+        <h2>Check Eligibility First&mdash;Then Take Action With A Clear Roadmap.</h2>
+        <p class="srv-cta-subtitle srv-cta-subtitle-d">Share basic details. We&rsquo;ll review and guide next actions.</p>
         <div class="srv-cta-card">
           <form class="srv-cta-form" id="srvCtaForm" onsubmit="return false;">
             <div class="srv-form-row">
@@ -428,7 +431,7 @@
               <div class="srv-form-group">
                 <label for="srvRole">Role *</label>
                 <select id="srvRole" name="role" required>
-                  <option value="" disabled selected>Select your role</option>
+                  <option value="" disabled selected>Select Role</option>
                   <option value="promoter">Promoter</option>
                   <option value="director">Director</option>
                   <option value="member">Member / Shareholder</option>
@@ -442,21 +445,23 @@
             <div class="srv-form-row">
               <div class="srv-form-group">
                 <label for="srvCompany">Company Name *</label>
-                <input type="text" id="srvCompany" name="company_name" required placeholder="your company name">
+                <input type="text" id="srvCompany" name="company_name" required placeholder="Enter company name">
               </div>
               <div class="srv-form-group">
-                <label for="srvCIN">CIN</label>
-                <input type="text" id="srvCIN" name="cin" placeholder="corporate identity number">
+                <label for="srvCIN">CIN *</label>
+                <input type="text" id="srvCIN" name="cin" required placeholder="Enter company CIN">
               </div>
             </div>
-            <div class="srv-form-row">
+            <div class="srv-form-row srv-form-full">
               <div class="srv-form-group">
-                <label for="srvSituation">Situation Description</label>
-                <textarea id="srvSituation" name="situation" rows="2" placeholder="briefly describe your company's current situation..."></textarea>
+                <label for="srvReason">Reason for Revival *</label>
+                <input type="text" id="srvReason" name="reason" required placeholder="Why do you need to review the comapny?">
               </div>
+            </div>
+            <div class="srv-form-row srv-form-full">
               <div class="srv-form-group">
-                <label for="srvMessage">Message</label>
-                <textarea id="srvMessage" name="message" rows="2" placeholder="any additional details..."></textarea>
+                <label for="srvMessage">Message (Optional)</label>
+                <textarea id="srvMessage" name="message" rows="3" placeholder="any additional details that might help...."></textarea>
               </div>
             </div>
             <div class="srv-form-buttons">

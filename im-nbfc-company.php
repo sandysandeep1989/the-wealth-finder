@@ -31,7 +31,7 @@
         </div>
       </div>
       <div class="about-hero-image" data-reveal="up" data-reveal-delay="200">
-        <img src="images/nbfc-registration/nbfc-company-hero.png" alt="I'm an NBFC Company">
+      
       </div>
     </div>
   </div>
@@ -67,8 +67,7 @@
         <div class="srv-media-text">
           <h3>Watch</h3>
           <p class="srv-media-subtitle">What to do next (60&ndash;90 sec)</p>
-          <p>A quick explanation of what to do first as 
-            an NBFC—based on whether you are planning, running, or doing a transaction.</p>
+          <p>A quick explanation of what to do first as an NBFC—based on whether you are planning, running, or doing a transaction.</p>
         </div>
       </div>
       <!-- Carousel Card -->
@@ -82,6 +81,7 @@
 <path d="M37.3307 33.3335H26.6641" stroke="#155DFC" stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M37.3307 38.6665H26.6641" stroke="#155DFC" stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
+
 
         </div>
         <div class="srv-media-text">
