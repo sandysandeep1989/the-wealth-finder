@@ -135,64 +135,55 @@
         <div class="about-hww-line srv-hww-line"></div>
         <div class="about-hww-step">
           <div class="about-hww-icon-box">
-            <img src="images/services/Solution1.svg" alt="Solution icon" width="48" height="48">
+            <img src="images/services/Solution1.svg" alt="Solution icon" width="72" height="72">
             <img src="images/howIconImageOne.png" alt="" class="about-hww-icon-image">
           </div>
           <span class="about-hww-number">01</span>
-          <h3>Dividend recovery (non-IEPF route)</h3>
-          <p>For dividends that haven't been transferred to IEPF yet</p>
+          <h3>Dividend recovery</h3>
+          <p>non-IEPF route</p>
         </div>
         <div class="about-hww-dot srv-hww-dot"></div>
         <div class="about-hww-step">
           <div class="about-hww-icon-box">
-            <img src="images/services/Solution2.svg" alt="Solution icon" width="48" height="48">
+            <img src="images/services/Solution2.svg" alt="Solution icon" width="72" height="72">
             <img src="images/howIconImageTwo.png" alt="" class="about-hww-icon-image">
           </div>
           <span class="about-hww-number">02</span>
-          <h3>IEPF claim route (if transferred)</h3>
-          <p>When shares/dividends have moved to IEPF authority</p>
+          <h3>IEPF claim route</h3>
+          <p>if transferred</p>
         </div>
         <div class="about-hww-dot srv-hww-dot"></div>
         <div class="about-hww-step">
           <div class="about-hww-icon-box">
-            <img src="images/services/Solutions3.svg" alt="Solution icon" width="48" height="48">
+            <img src="images/services/Solutions3.svg" alt="Solution icon" width="72" height="72">
             <img src="images/howIconImageThree.png" alt="" class="about-hww-icon-image">
           </div>
           <span class="about-hww-number">03</span>
-          <h3>Tracing route (if details are missing)</h3>
-          <p>When investor details or company records need verification</p>
+          <h3>Tracing route</h3>
+          <p>if details are missing</p>
         </div>
         <div class="about-hww-dot srv-hww-dot"></div>
         <div class="about-hww-step">
           <div class="about-hww-icon-box">
-            <img src="images/services/Solutions4.svg" alt="Solution icon" width="48" height="48">
+            <img src="images/services/Solutions4.svg" alt="Solution icon" width="72" height="72">
             <img src="images/howIconImageFour.png" alt="" class="about-hww-icon-image">
           </div>
           <span class="about-hww-number">04</span>
-          <h3>Transmission route (if shareholder is deceased)</h3>
-          <p>Legal heir transfer and ownership completion process</p>
+          <h3>Transmission route</h3>
+          <p>if shareholder is deceased</p>
         </div>
         <div class="about-hww-dot srv-hww-dot"></div>
         <div class="about-hww-step">
           <div class="about-hww-icon-box">
-            <img src="images/services/Solutions5.svg" alt="Solution icon" width="48" height="48">
+            <img src="images/services/Solutions5.svg" alt="Solution icon" width="72" height="72">
             <img src="images/howIconImageOne.png" alt="" class="about-hww-icon-image">
           </div>
           <span class="about-hww-number">05</span>
           <h3>Demat/duplicate certificate route</h3>
-          <p>If physical papers are involved or need replacement</p>
+          <p>if physical papers are involved</p>
         </div>
       </div>
-      <div class="hero-buttons" style="margin-top: 60px;">
-        <a href="#srv-cta" class="btn btn-primary">
-          <span>Free Search</span>
-          <span class="btn-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-        </a>
-        <a href="#srv-cta" class="btn btn-secondary">
-          <span>Book a Call</span>
-          <span class="btn-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-        </a>
-      </div>
+      
     </div>
   </section>
 
@@ -201,48 +192,196 @@
     <div class="about-section-container">
       <div class="about-trust-header" data-reveal="up">
         <h2>How TWF Helps (End-to-End)</h2>
-        <p>We handle the full process so you don't have to figure it out alone</p>
+      
       </div>
       <div class="about-trust-grid" data-reveal-stagger>
         <div class="about-trust-card">
           <div class="about-trust-icon">
-            <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M14 25.667c6.443 0 11.667-5.224 11.667-11.667S20.443 2.333 14 2.333 2.333 7.557 2.333 14 7.557 25.667 14 25.667z" stroke="url(#h1)" stroke-width="2"/><path d="M9.333 14l3.5 3.5 7-7" stroke="url(#h1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><defs><linearGradient id="h1" x1="2" y1="2" x2="26" y2="26" gradientUnits="userSpaceOnUse"><stop stop-color="#03159D"/><stop offset="1" stop-color="#4A63FD"/></linearGradient></defs></svg>
-          </div>
+           <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_i_8949_9538)">
+<rect width="52" height="52" rx="12" fill="#020E6A"/>
+<rect width="52" height="52" rx="12" fill="url(#paint0_linear_8949_9538)"/>
+<path d="M29.5026 14.3335H22.5026C21.8583 14.3335 21.3359 14.8558 21.3359 15.5002V17.8335C21.3359 18.4778 21.8583 19.0002 22.5026 19.0002H29.5026C30.1469 19.0002 30.6693 18.4778 30.6693 17.8335V15.5002C30.6693 14.8558 30.1469 14.3335 29.5026 14.3335Z" stroke="white" stroke-width="2.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M30.6641 16.6665H32.9974C33.6162 16.6665 34.2097 16.9123 34.6473 17.3499C35.0849 17.7875 35.3307 18.381 35.3307 18.9998V35.3332C35.3307 35.952 35.0849 36.5455 34.6473 36.9831C34.2097 37.4207 33.6162 37.6665 32.9974 37.6665H18.9974C18.3786 37.6665 17.7851 37.4207 17.3475 36.9831C16.9099 36.5455 16.6641 35.952 16.6641 35.3332V18.9998C16.6641 18.381 16.9099 17.7875 17.3475 17.3499C17.7851 16.9123 18.3786 16.6665 18.9974 16.6665H21.3307" stroke="white" stroke-width="2.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M26 24.8335H30.6667" stroke="white" stroke-width="2.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M26 30.6665H30.6667" stroke="white" stroke-width="2.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M21.3359 24.8335H21.3476" stroke="white" stroke-width="2.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M21.3359 30.6665H21.3476" stroke="white" stroke-width="2.33333" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<filter id="filter0_i_8949_9538" x="0" y="0" width="52" height="53" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="1"/>
+<feGaussianBlur stdDeviation="0.5"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.811765 0 0 0 0 0.905882 0 0 0 0 1 0 0 0 0.2 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_8949_9538"/>
+</filter>
+<linearGradient id="paint0_linear_8949_9538" x1="0" y1="26" x2="52" y2="26" gradientUnits="userSpaceOnUse">
+<stop stop-color="#7084FF"/>
+<stop offset="1" stop-color="#03159D"/>
+</linearGradient>
+</defs>
+</svg>
+ </div>
           <h3>Identify the correct route</h3>
-          <p>Determine the exact recovery path based on your case status</p>
+          <p>Identify the correct route</p>
         </div>
         <div class="about-trust-card">
           <div class="about-trust-icon">
-            <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M9.333 2.333v4.667M18.667 2.333v4.667M3.5 10.5h21M5.833 4.667h16.334c1.289 0 2.333 1.044 2.333 2.333v16.333c0 1.29-1.044 2.334-2.333 2.334H5.833A2.333 2.333 0 0 1 3.5 23.333V7c0-1.289 1.044-2.333 2.333-2.333z" stroke="url(#h2)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><defs><linearGradient id="h2" x1="3" y1="2" x2="25" y2="26" gradientUnits="userSpaceOnUse"><stop stop-color="#03159D"/><stop offset="1" stop-color="#4A63FD"/></linearGradient></defs></svg>
-          </div>
+        <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_i_8949_9558)">
+<rect width="52" height="52" rx="12" fill="#020E6A"/>
+<rect width="52" height="52" rx="12" fill="url(#paint0_linear_8949_9558)"/>
+<path d="M29.4974 14.3335H18.9974C18.3786 14.3335 17.7851 14.5793 17.3475 15.0169C16.9099 15.4545 16.6641 16.048 16.6641 16.6668V35.3335C16.6641 35.9523 16.9099 36.5458 17.3475 36.9834C17.7851 37.421 18.3786 37.6668 18.9974 37.6668H32.9974C33.6162 37.6668 34.2097 37.421 34.6473 36.9834C35.0849 36.5458 35.3307 35.9523 35.3307 35.3335V20.1668L29.4974 14.3335Z" stroke="white" stroke-width="2.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M28.3359 14.3335V19.0002C28.3359 19.619 28.5818 20.2125 29.0194 20.6501C29.4569 21.0877 30.0504 21.3335 30.6693 21.3335H35.3359" stroke="white" stroke-width="2.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22.5 29.4998L24.8333 31.8332L29.5 27.1665" stroke="white" stroke-width="2.33333" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<filter id="filter0_i_8949_9558" x="0" y="0" width="52" height="53" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="1"/>
+<feGaussianBlur stdDeviation="0.5"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.811765 0 0 0 0 0.905882 0 0 0 0 1 0 0 0 0.2 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_8949_9558"/>
+</filter>
+<linearGradient id="paint0_linear_8949_9558" x1="0" y1="26" x2="52" y2="26" gradientUnits="userSpaceOnUse">
+<stop stop-color="#7084FF"/>
+<stop offset="1" stop-color="#03159D"/>
+</linearGradient>
+</defs>
+</svg>
+    
+        </div>
           <h3>Create a case-specific checklist</h3>
           <p>Tailored to your exact situation, not generic templates</p>
         </div>
         <div class="about-trust-card">
           <div class="about-trust-icon">
-            <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M16.333 2.333H8.167a2.333 2.333 0 0 0-2.334 2.334v18.666a2.333 2.333 0 0 0 2.334 2.334h11.666a2.333 2.333 0 0 0 2.334-2.334V8.167l-5.834-5.834z" stroke="url(#h3)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M16.333 2.333v5.834h5.834M18.667 15.167H9.333M18.667 19.833H9.333M11.667 10.5H9.333" stroke="url(#h3)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><defs><linearGradient id="h3" x1="5" y1="2" x2="23" y2="26" gradientUnits="userSpaceOnUse"><stop stop-color="#03159D"/><stop offset="1" stop-color="#4A63FD"/></linearGradient></defs></svg>
-          </div>
+          <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_i_8949_9567)">
+<rect width="52" height="52" rx="12" fill="#020E6A"/>
+<rect width="52" height="52" rx="12" fill="url(#paint0_linear_8949_9567)"/>
+<path d="M29.4974 14.3335H18.9974C18.3786 14.3335 17.7851 14.5793 17.3475 15.0169C16.9099 15.4545 16.6641 16.048 16.6641 16.6668V35.3335C16.6641 35.9523 16.9099 36.5458 17.3475 36.9834C17.7851 37.421 18.3786 37.6668 18.9974 37.6668H32.9974C33.6162 37.6668 34.2097 37.421 34.6473 36.9834C35.0849 36.5458 35.3307 35.9523 35.3307 35.3335V20.1668L29.4974 14.3335Z" stroke="white" stroke-width="2.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M28.3359 14.3335V19.0002C28.3359 19.619 28.5818 20.2125 29.0194 20.6501C29.4569 21.0877 30.0504 21.3335 30.6693 21.3335H35.3359" stroke="white" stroke-width="2.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22.5 29.4998L24.8333 31.8332L29.5 27.1665" stroke="white" stroke-width="2.33333" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<filter id="filter0_i_8949_9567" x="0" y="0" width="52" height="53" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="1"/>
+<feGaussianBlur stdDeviation="0.5"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.811765 0 0 0 0 0.905882 0 0 0 0 1 0 0 0 0.2 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_8949_9567"/>
+</filter>
+<linearGradient id="paint0_linear_8949_9567" x1="0" y1="26" x2="52" y2="26" gradientUnits="userSpaceOnUse">
+<stop stop-color="#7084FF"/>
+<stop offset="1" stop-color="#03159D"/>
+</linearGradient>
+</defs>
+</svg>
+    
+        </div>
           <h3>Prepare drafts/formats required</h3>
           <p>All necessary documentation as applicable to your case</p>
         </div>
         <div class="about-trust-card">
           <div class="about-trust-icon">
-            <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M3.5 7l10.5 7L24.5 7M5.833 22.167h16.334c1.289 0 2.333-1.045 2.333-2.334V8.167c0-1.29-1.044-2.334-2.333-2.334H5.833A2.333 2.333 0 0 0 3.5 8.167v11.666c0 1.29 1.044 2.334 2.333 2.334z" stroke="url(#h4)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><defs><linearGradient id="h4" x1="3" y1="5" x2="25" y2="23" gradientUnits="userSpaceOnUse"><stop stop-color="#03159D"/><stop offset="1" stop-color="#4A63FD"/></linearGradient></defs></svg>
-          </div>
+        
+          <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_i_8949_9577)">
+<rect width="52" height="52" rx="12" fill="#020E6A"/>
+<rect width="52" height="52" rx="12" fill="url(#paint0_linear_8949_9577)"/>
+<path d="M35.3307 27.1669C35.3307 33.0002 31.2474 35.9169 26.3941 37.6085C26.1399 37.6947 25.8639 37.6905 25.6124 37.5969C20.7474 35.9169 16.6641 33.0002 16.6641 27.1669V19.0002C16.6641 18.6908 16.787 18.394 17.0058 18.1752C17.2246 17.9564 17.5213 17.8335 17.8307 17.8335C20.1641 17.8335 23.0807 16.4335 25.1107 14.6602C25.3579 14.449 25.6723 14.333 25.9974 14.333C26.3225 14.333 26.6369 14.449 26.8841 14.6602C28.9257 16.4452 31.8307 17.8335 34.1641 17.8335C34.4735 17.8335 34.7702 17.9564 34.989 18.1752C35.2078 18.394 35.3307 18.6908 35.3307 19.0002V27.1669Z" stroke="white" stroke-width="2.33333" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<filter id="filter0_i_8949_9577" x="0" y="0" width="52" height="53" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="1"/>
+<feGaussianBlur stdDeviation="0.5"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.811765 0 0 0 0 0.905882 0 0 0 0 1 0 0 0 0.2 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_8949_9577"/>
+</filter>
+<linearGradient id="paint0_linear_8949_9577" x1="0" y1="26" x2="52" y2="26" gradientUnits="userSpaceOnUse">
+<stop stop-color="#7084FF"/>
+<stop offset="1" stop-color="#03159D"/>
+</linearGradient>
+</defs>
+</svg>
+
+          
+        </div>
           <h3>Plan submissions and coordinate</h3>
           <p>With Company/RTA/IEPF process systematically</p>
         </div>
         <div class="about-trust-card">
           <div class="about-trust-icon">
-            <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M22.167 17.5v3.5l-2.334 1.167M22.167 25.667c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7z" stroke="url(#h5)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M14 5.833H5.833a2.333 2.333 0 0 0-2.333 2.334V21a2.333 2.333 0 0 0 2.333 2.333H10.5" stroke="url(#h5)" stroke-width="2" stroke-linecap="round"/><defs><linearGradient id="h5" x1="3" y1="5" x2="29" y2="26" gradientUnits="userSpaceOnUse"><stop stop-color="#03159D"/><stop offset="1" stop-color="#4A63FD"/></linearGradient></defs></svg>
-          </div>
+          <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_i_8949_9592)">
+<rect width="52" height="52" rx="12" fill="#020E6A"/>
+<rect width="52" height="52" rx="12" fill="url(#paint0_linear_8949_9592)"/>
+<path d="M26.0026 37.6668C32.4459 37.6668 37.6693 32.4435 37.6693 26.0002C37.6693 19.5568 32.4459 14.3335 26.0026 14.3335C19.5593 14.3335 14.3359 19.5568 14.3359 26.0002C14.3359 32.4435 19.5593 37.6668 26.0026 37.6668Z" stroke="white" stroke-width="2.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M26 19V26L30.6667 28.3333" stroke="white" stroke-width="2.33333" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<filter id="filter0_i_8949_9592" x="0" y="0" width="52" height="53" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="1"/>
+<feGaussianBlur stdDeviation="0.5"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.811765 0 0 0 0 0.905882 0 0 0 0 1 0 0 0 0.2 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_8949_9592"/>
+</filter>
+<linearGradient id="paint0_linear_8949_9592" x1="0" y1="26" x2="52" y2="26" gradientUnits="userSpaceOnUse">
+<stop stop-color="#7084FF"/>
+<stop offset="1" stop-color="#03159D"/>
+</linearGradient>
+</defs>
+</svg>
+ </div>
           <h3>Track follow-ups</h3>
           <p>Keep you updated at every stage</p>
         </div>
         <div class="about-trust-card">
           <div class="about-trust-icon">
-            <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M7 14l4.667 4.667L21 9.333" stroke="url(#h6)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M14 25.667c6.443 0 11.667-5.224 11.667-11.667S20.443 2.333 14 2.333 2.333 7.557 2.333 14 7.557 25.667 14 25.667z" stroke="url(#h6)" stroke-width="2"/><defs><linearGradient id="h6" x1="2" y1="2" x2="26" y2="26" gradientUnits="userSpaceOnUse"><stop stop-color="#03159D"/><stop offset="1" stop-color="#4A63FD"/></linearGradient></defs></svg>
-          </div>
+           <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_i_8949_9600)">
+<rect width="52" height="52" rx="12" fill="#020E6A"/>
+<rect width="52" height="52" rx="12" fill="url(#paint0_linear_8949_9600)"/>
+<path d="M26.0026 37.6668C32.4459 37.6668 37.6693 32.4435 37.6693 26.0002C37.6693 19.5568 32.4459 14.3335 26.0026 14.3335C19.5593 14.3335 14.3359 19.5568 14.3359 26.0002C14.3359 32.4435 19.5593 37.6668 26.0026 37.6668Z" stroke="white" stroke-width="2.33333" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22.5 25.9998L24.8333 28.3332L29.5 23.6665" stroke="white" stroke-width="2.33333" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<filter id="filter0_i_8949_9600" x="0" y="0" width="52" height="53" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="1"/>
+<feGaussianBlur stdDeviation="0.5"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.811765 0 0 0 0 0.905882 0 0 0 0 1 0 0 0 0.2 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_8949_9600"/>
+</filter>
+<linearGradient id="paint0_linear_8949_9600" x1="0" y1="26" x2="52" y2="26" gradientUnits="userSpaceOnUse">
+<stop stop-color="#7084FF"/>
+<stop offset="1" stop-color="#03159D"/>
+</linearGradient>
+</defs>
+</svg>
+ </div>
           <h3>Until closure</h3>
           <p>Complete recovery and ownership transfer</p>
         </div>

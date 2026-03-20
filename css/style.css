@@ -418,7 +418,7 @@ input {
 }
 
 .about-hero-wrapper {
-  background: #fff url(/images/faqBG.svg) center bottom;
+  background: #F5F5F5 url(/images/faqBG.svg) center bottom;
   background-size: cover;
   border-radius: 30px;
   overflow: hidden;
@@ -1405,7 +1405,7 @@ input {
 @media (max-width: 560px) {
   .about-hero { padding: 8px; }
   .about-hero-inner { padding: 20px 16px 0; gap: 24px; }
-  .about-hero-content { padding-top: 40px; gap: 20px; }
+  .about-hero-content { padding-top: 40px; gap: 20px; padding-bottom: 20px;}
   .about-hero-content h1 { font-size: 28px; line-height: 36px; }
   .about-hero-subtitle { font-size: 15px; }
   .about-hero-subtitle br{
@@ -3777,15 +3777,16 @@ input {
   }
 
   .hero-inner {
-    padding: 100px 16px 0;
+    padding: 100px 16px 100px 16px;
     border-radius: 20px;
-
     background-size: 100% auto;
-    min-height: 95vh;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
   }
 
   .hero-content {
-    padding-top: 70px;
+    padding-top: 100px;
     padding-bottom: 60px;
   }
 
@@ -8913,7 +8914,7 @@ width: 48px;
   transition: all 0.3s ease;
 }
 .team-email-btn svg {
-  stroke: #03159d;
+
   flex-shrink: 0;
 }
 .team-social-link {
@@ -8931,16 +8932,14 @@ width: 48px;
   flex-shrink: 0;
 }
 .team-social-link:hover {
-  background: #03159d;
+  background: #dfe3ff;
   color: #fff;
 }
-.team-social-link:hover svg {
-  stroke: #fff;
-}
+
 .team-social-link svg {
   width: 24px;
   height: 24px;
-  stroke: #03159d;
+
 }
 
 /* --- Mentors Section --- */
