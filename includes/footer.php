@@ -68,9 +68,11 @@
             <a href="#" aria-label="YouTube"><svg width="32" height="32" viewBox="0 0 32 32" fill="none"><path d="M28.8 8.53a3.36 3.36 0 0 0-2.37-2.37C24.24 5.6 16 5.6 16 5.6s-8.24 0-10.43.56a3.36 3.36 0 0 0-2.37 2.37A35.2 35.2 0 0 0 2.6 16c-.04 2.5.14 5 .6 7.47a3.36 3.36 0 0 0 2.37 2.37c2.19.56 10.43.56 10.43.56s8.24 0 10.43-.56a3.36 3.36 0 0 0 2.37-2.37c.46-2.47.64-4.97.6-7.47.04-2.5-.14-5-.6-7.47z" fill="#FFFFFF"/><path d="M13.2 20l6.8-4-6.8-4v8z" fill="#020617"/></svg></a>
           </div>
         </div>
-        <hr class="footer-divider">
+        <div class="footer-divider">
+          <div class="footer-divider-glow"></div>
+        </div>
         <p class="footer-copyright">TWF Advisory Services LLP | © 2022 All Rights Reserved | <a href="#">Privacy Policy</a></p>
-        <hr class="footer-divider">
+       
       </div>
     </div>
     

@@ -11,6 +11,9 @@
 </head>
 <body>
 
+  <!-- Scroll progress bar -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
   <!-- ========== HEADER / NAVIGATION ========== -->
   <!-- Figma Node: 9002:6422 -->
   <header class="site-header" id="siteHeader">

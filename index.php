@@ -1,47 +1,97 @@
 <?php include __DIR__ . '/includes/header.php'; ?>
+<script>document.body.classList.add('home-page');</script>
 
   <!-- ========== HERO SECTION ========== -->
   <!-- Figma Node: 9002:6420 -->
   <section class="hero" id="hero">
-    <div class="hero-inner">
+    <div class="hero-inner ">
+      <!-- Animated floating shapes -->
+      <div class="hero-particles" aria-hidden="true">
+        <span class="hero-orb hero-orb--1"></span>
+        <span class="hero-orb hero-orb--2"></span>
+        <span class="hero-orb hero-orb--3"></span>
+        <span class="hero-orb hero-orb--4"></span>
+        <span class="hero-orb hero-orb--5"></span>
+        <div class="hero-grid-lines"></div>
+      </div>
+
+    
+
       <div class="hero-content" data-reveal="up">
-        <h1>Recover Unclaimed Shares &amp; Dividends — With End-to-End Support</h1>
-        <p class="hero-subtitle">Many families still have shares and dividends they don't even know about—especially from the physical share era. Start with a quick check and we'll guide the right route: <strong>IEPF, transmission, demat, or tracing.</strong></p>
-        <div class="hero-buttons">
-          <a href="#search" class="btn btn-primary">
+        <div class="hero-badge-anim">
+          <span class="hero-badge"><span class="hero-badge-dot"></span> Trusted by 350+ Clients</span>
+        </div>
+        <h1 class="hero-title-anim">Recover Unclaimed <span class="typewriter-wrap"><span class="typewriter-text" id="heroTypewriter"></span><span class="typewriter-cursor">|</span></span>
+         </h1>
+         <h1 class="hero-title-anim"> With End-to-End Support</h1>
+        <p class="hero-subtitle hero-subtitle-anim">Many families still have shares and dividends they don't even know about—especially from the physical share era. Start with a quick check and we'll guide the right route: <strong>IEPF, transmission, demat, or tracing.</strong></p>
+        <div class="hero-buttons hero-buttons-anim">
+          <a href="#search" class="btn btn-primary hero-btn-anim">
             <span>Search Your Wealth</span>
             <span class="btn-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
           </a>
-          <a href="contact-us.php" class="btn btn-secondary">
+          <a href="contact-us.php" class="btn btn-secondary hero-btn-anim">
             <span>Book a Call</span>
             <span class="btn-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
           </a>
         </div>
+        <div class="heroSvg">
+          <img src="images/heroLogo.svg" alt="Hero Illustration" class="w-100">
+        </div>
       </div>
+
+
+        <!-- Gradient wave animated background -->
+      <div class="gradient-wave-bg" aria-hidden="true">
+        <svg class="gw-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+          <defs>
+            <path id="gw-gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+          </defs>
+          <g class="gw-parallax">
+            <use xlink:href="#gw-gentle-wave" x="48" y="0" fill="rgba(67,93,255,0.4)" />
+            <use xlink:href="#gw-gentle-wave" x="48" y="3" fill="rgba(74,99,253,0.3)" />
+            <use xlink:href="#gw-gentle-wave" x="48" y="5" fill="rgba(112,132,255,0.2)" />
+            <use xlink:href="#gw-gentle-wave" x="48" y="7" fill="rgba(3,21,157,0.15)" />
+          </g>
+        </svg>
+      </div>
+
     </div>
   </section>
 
+  <!-- ========== STACKING WRAPPER (stats sticks, start-here scrolls over) ========== -->
+  <div class="section-stack">
+
   <!-- ========== STATS SECTION ========== -->
-  <!-- Figma Node: 9002:6458 -->
+  <!-- Figma Node: 10182:30559 -->
   <section class="stats" id="stats">
     <div class="container">
-      <h2 class="stats-title" data-reveal="fade">Our Impact &amp; Reach</h2>
-      <div class="stats-grid" data-reveal-stagger>
-        <div class="stat-card">
-          <span class="stat-number">100 +</span>
-          <span class="stat-label">Associates Network</span>
+      <div class="stats-layout">
+        <div class="stats-left" data-reveal="fade">
+          <div class="section-badge">
+            <span class="badge-arrow"><img src="images/leftSvg.svg" class="w-auto"/></span>
+            <span class="badge-text">Statics</span>
+            <span class="badge-arrow"><img src="images/rightSvg.svg" class="w-auto"/></span>
+          </div>
+          <h2 class="stats-title">Our Impact &amp; Reach</h2>
         </div>
-        <div class="stat-card">
-          <span class="stat-number">50 +</span>
-          <span class="stat-label">Team Size</span>
-        </div>
-        <div class="stat-card">
-          <span class="stat-number">350 +</span>
-          <span class="stat-label">Clients Handling</span>
-        </div>
-        <div class="stat-card">
-          <span class="stat-number">₹500Cr +</span>
-          <span class="stat-label">Value of Shares Recovered</span>
+        <div class="stats-right" data-reveal-stagger>
+          <div class="stat-row">
+            <span class="stat-number">100<span class="stat-plus">+</span></span>
+            <span class="stat-label">Associates Network</span>
+          </div>
+          <div class="stat-row">
+            <span class="stat-number">50<span class="stat-plus">+</span></span>
+            <span class="stat-label">Team Size</span>
+          </div>
+          <div class="stat-row">
+            <span class="stat-number">350<span class="stat-plus">+</span></span>
+            <span class="stat-label">Clients Handling</span>
+          </div>
+          <div class="stat-row">
+            <span class="stat-number">₹500Cr<span class="stat-plus">+</span></span>
+            <span class="stat-label">Value of Shares Recovered</span>
+          </div>
         </div>
       </div>
     </div>
@@ -71,6 +121,8 @@
       </div>
     </div>
   </section>
+
+  </div><!-- /.section-stack -->
 
   <!-- ========== OUR SERVICES SECTION ========== -->
   <!-- Figma Node: 9002:6510 -->
@@ -503,6 +555,9 @@
     </div>
   </section>
 
+  <!-- ========== STACKING WRAPPER (blogs sticks, FAQ scrolls over) ========== -->
+  <div class="section-stack">
+
   <!-- ========== BLOGS SECTION ========== -->
   <!-- Figma Node: 9002:6778 -->
   <section class="blogs" id="blogs">
@@ -685,6 +740,8 @@
     </div>
   </section>
 
+  </div><!-- /.section-stack (blogs + faq) -->
+
   <!-- ========== ASSOCIATE MODEL SECTION ========== -->
   <!-- Figma Node: 9002:6829 -->
   <section class="associate" id="associate">
@@ -708,7 +765,7 @@
       </div>
     </div>
     <div class="associate-banner" data-reveal="up">
-      <img src="images/networkBG.png" alt="Associate Network - Business Handshake" loading="lazy">
+      <img src="images/networkBG.webp" alt="Associate Network - Business Handshake" loading="lazy">
       <div class="associate-overlay">
         <div class="associate-cards" data-reveal-stagger>
           <div class="associate-card">
