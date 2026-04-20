@@ -71,7 +71,7 @@
         <div class="footer-divider">
           <div class="footer-divider-glow"></div>
         </div>
-        <p class="footer-copyright">TWF Advisory Services LLP | © 2022 All Rights Reserved | <a href="#">Privacy Policy</a></p>
+        <p class="footer-copyright">TWF Advisory Services LLP | © 2026 All Rights Reserved | <a href="#">Privacy Policy</a></p>
        
       </div>
     </div>

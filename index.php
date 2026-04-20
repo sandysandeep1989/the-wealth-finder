@@ -36,7 +36,40 @@
           </a>
         </div>
         <div class="heroSvg">
-          <img src="images/heroLogo.svg" alt="Hero Illustration" class="w-100">
+          <!-- Glow effect -->
+          <div class="hero-logo-glow"></div>
+          <!-- Floating particles -->
+          <div class="hero-logo-particle hero-logo-particle--1"></div>
+          <div class="hero-logo-particle hero-logo-particle--2"></div>
+          <div class="hero-logo-particle hero-logo-particle--3"></div>
+          <div class="hero-logo-particle hero-logo-particle--4"></div>
+          <div class="hero-logo-particle hero-logo-particle--5"></div>
+          <!-- Inline animated SVG -->
+          <svg class="hero-logo-svg" width="890" height="380" viewBox="0 0 890 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="heroFillGrad" x1="444.93" y1="0" x2="444.93" y2="486" gradientUnits="userSpaceOnUse">
+                <stop stop-color="white" stop-opacity="0.8"/>
+                <stop offset="0.45" stop-color="white" stop-opacity="0.8"/>
+                <stop offset="0.65" stop-color="white" stop-opacity="0"/>
+              </linearGradient>
+              <linearGradient id="heroStrokeGrad" x1="444.93" y1="0" x2="444.93" y2="486" gradientUnits="userSpaceOnUse">
+                <stop stop-color="white" stop-opacity="0.8"/>
+                <stop offset="0.60285" stop-color="white" stop-opacity="0"/>
+              </linearGradient>
+              <mask id="heroFadeMask" maskContentUnits="objectBoundingBox">
+                <rect width="1" height="1" fill="url(#heroFadeMaskGrad)"/>
+              </mask>
+              <linearGradient id="heroFadeMaskGrad" x1="0.5" y1="0" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+                <stop offset="0" stop-color="white"/>
+                <stop offset="0.55" stop-color="white"/>
+                <stop offset="0.75" stop-color="white" stop-opacity="0"/>
+              </linearGradient>
+            </defs>
+            <g mask="url(#heroFadeMask)">
+              <path class="hero-logo-stroke" d="M718.735 4.53022e-08C749.772 0.000462764 780.301 8.44611 806.999 24.5193C836.59 42.3351 860.101 68.6898 874.434 100.116C888.767 131.543 893.251 166.574 887.302 200.599C881.353 234.625 865.244 266.056 841.098 290.755C816.951 315.453 785.892 332.267 752.012 338.985C718.13 345.701 683.003 342.008 651.261 328.39C619.518 314.77 592.64 291.861 574.16 262.68C555.68 233.497 546.463 199.402 547.722 164.883L609.188 167.129C608.381 189.242 614.281 211.083 626.12 229.778C637.958 248.471 655.178 263.147 675.513 271.871C695.847 280.594 718.349 282.959 740.053 278.656C761.756 274.352 781.652 263.581 797.12 247.759C812.586 231.938 822.908 211.806 826.719 190.011C830.53 168.215 827.658 145.77 818.477 125.638C809.295 105.506 794.23 88.6205 775.274 77.2076C758.172 66.9123 738.616 61.5193 718.735 61.5187V61.6056H714.417C713.702 61.6339 712.981 61.6503 712.265 61.6925L712.258 61.6056H485.996V486H424.391V61.6056H177.607L177.601 61.6992C176.828 61.6535 176.053 61.6349 175.281 61.6056H171.13V61.5254C151.248 61.5248 131.694 66.9184 114.591 77.2143C95.6355 88.626 80.5768 105.507 71.395 125.638C62.2137 145.769 59.3358 168.209 63.1461 190.004C66.9572 211.8 77.2776 231.938 92.7457 247.759C108.213 263.58 128.109 274.353 149.812 278.656C171.515 282.957 194.013 280.587 214.346 271.864C234.68 263.14 251.901 248.464 263.739 229.771C275.576 211.078 281.478 189.24 280.671 167.129L342.143 164.883C343.403 199.402 334.184 233.497 315.705 262.68C297.225 291.862 270.341 314.77 238.598 328.39C206.855 342.008 171.729 345.701 137.847 338.985C103.966 332.267 72.9073 315.453 48.7608 290.755C24.6141 266.056 8.50592 234.625 2.55655 200.599C-3.39241 166.574 1.09783 131.543 15.4312 100.116C29.7648 68.6888 53.2732 42.3348 82.8658 24.5193C109.566 8.4456 140.092 -0.000714255 171.13 4.53022e-08H718.735Z"/>
+              <path class="hero-logo-fill" d="M718.735 4.53022e-08C749.772 0.000462764 780.301 8.44611 806.999 24.5193C836.59 42.3351 860.101 68.6898 874.434 100.116C888.767 131.543 893.251 166.574 887.302 200.599C881.353 234.625 865.244 266.056 841.098 290.755C816.951 315.453 785.892 332.267 752.012 338.985C718.13 345.701 683.003 342.008 651.261 328.39C619.518 314.77 592.64 291.861 574.16 262.68C555.68 233.497 546.463 199.402 547.722 164.883L609.188 167.129C608.381 189.242 614.281 211.083 626.12 229.778C637.958 248.471 655.178 263.147 675.513 271.871C695.847 280.594 718.349 282.959 740.053 278.656C761.756 274.352 781.652 263.581 797.12 247.759C812.586 231.938 822.908 211.806 826.719 190.011C830.53 168.215 827.658 145.77 818.477 125.638C809.295 105.506 794.23 88.6205 775.274 77.2076C758.172 66.9123 738.616 61.5193 718.735 61.5187V61.6056H714.417C713.702 61.6339 712.981 61.6503 712.265 61.6925L712.258 61.6056H485.996V486H424.391V61.6056H177.607L177.601 61.6992C176.828 61.6535 176.053 61.6349 175.281 61.6056H171.13V61.5254C151.248 61.5248 131.694 66.9184 114.591 77.2143C95.6355 88.626 80.5768 105.507 71.395 125.638C62.2137 145.769 59.3358 168.209 63.1461 190.004C66.9572 211.8 77.2776 231.938 92.7457 247.759C108.213 263.58 128.109 274.353 149.812 278.656C171.515 282.957 194.013 280.587 214.346 271.864C234.68 263.14 251.901 248.464 263.739 229.771C275.576 211.078 281.478 189.24 280.671 167.129L342.143 164.883C343.403 199.402 334.184 233.497 315.705 262.68C297.225 291.862 270.341 314.77 238.598 328.39C206.855 342.008 171.729 345.701 137.847 338.985C103.966 332.267 72.9073 315.453 48.7608 290.755C24.6141 266.056 8.50592 234.625 2.55655 200.599C-3.39241 166.574 1.09783 131.543 15.4312 100.116C29.7648 68.6888 53.2732 42.3348 82.8658 24.5193C109.566 8.4456 140.092 -0.000714255 171.13 4.53022e-08H718.735Z"/>
+            </g>
+          </svg>
         </div>
       </div>
 
@@ -467,90 +500,188 @@
       </div>
       <h2 class="section-title-center" data-reveal="up">What Clients Say</h2>
       <div class="testimonials-grid" data-reveal-stagger>
+        <!-- Row 1: text, image, text, image -->
         <div class="testimonial-card testimonial-text">
-          <p class="testimonial-quote">After my father's passing, I found unclaimed shares worth ₹45 lakhs. Living in the US, I thought it would be impossible, <span class="text-muted">but The Wealth Finder managed everything remotely—documentation, liaising with authorities, and obtaining the legal heir certificate. I received the full amount in my NRE account within 8 months, thanks to their exceptional professionalism and transparency.</span></p>
+          <p class="testimonial-quote">I recently discovered unclaimed shares and dividends while going through my father's documents. Unsure of the process, I contacted "The Wealth Finder". <span class="text-muted">Thankfully, The Wealth Finder successfully recovered the shares and credited over 12 years of dividends to my bank! The team, particularly Raghav and Smriti Kalra (my relationship manager), were incredibly efficient and responsive throughout.</span></p>
           <div class="testimonial-footer">
-            <img src="images/testimonialsOne.png" alt="Rajesh Kumar" class="testimonial-avatar">
+            <img src="images/Mithilesh-kumar-Jha-Testimonials.png" alt="Mithilesh Kumar Jha" class="testimonial-avatar">
             <div class="testimonial-info">
-              <strong>Rajesh Kumar</strong>
-              <span>NRI, Software Engineer</span>
+              <strong>Mithilesh Kumar Jha</strong>
+              <span>East Singhbhum, Jharkhand</span>
             </div>
             <div class="testimonial-rating"><img src="images/star.svg" alt="Rating" class="w-auto"/> 4.5</div>
           </div>
         </div>
         <div class="testimonial-card testimonial-image">
-          <img src="images/testimonialsOne.png" alt="Testimonial" loading="lazy">
+          <img src="images/Mithilesh-kumar-Jha-Testimonials.png" alt="Testimonial" loading="lazy">
         </div>
         <div class="testimonial-card testimonial-text">
-          <p class="testimonial-quote">I had forgotten about some old mutual fund investments from 15 years ago. <span class="text-muted">The Wealth Finder not only traced them but also recovered ₹12 lakhs that had been transferred to IEPF. The success-based fee model gave me confidence - I paid only after recovery. Highly recommended for anyone with dormant investments</span></p>
+          <p class="testimonial-quote">Hello, I am Vinod K Jolly from Delhi. My father had some shares in Akzo Nobel, due from the past three decades. <span class="text-muted">"The Wealth Finder" assisted me in transferring those shares into my name and I am thankful for the same. Ms. Pieyusha Sharma was extremely helpful and managed the whole case very professionally.</span></p>
           <div class="testimonial-footer">
-            <img src="images/testimonialsTwo.png" alt="Priya Sharma" class="testimonial-avatar">
+            <img src="images/Default-Image.png" alt="Vinod K Jolly" class="testimonial-avatar">
             <div class="testimonial-info">
-              <strong>Priya Sharma</strong>
-              <span>Investor</span>
+              <strong>Vinod K Jolly</strong>
+              <span>Defence Colony, Delhi</span>
             </div>
             <div class="testimonial-rating"><img src="images/star.svg" alt="Rating" class="w-auto"/> 4.5</div>
           </div>
         </div>
         <div class="testimonial-card testimonial-image">
-          <img src="images/testimonialsTwo.png" alt="Testimonial" loading="lazy">
+          <img src="images/Default-Image.png" alt="Testimonial" loading="lazy">
         </div>
+        <!-- Row 2: text, image, image, text -->
         <div class="testimonial-card testimonial-text">
-          <p class="testimonial-quote">Our family business faced compliance issues and was struck off, but The Wealth Finder stepped in. <span class="text-muted">They expertly managed the ROC process and restored our company in just 4 months.</span></p>
+          <p class="testimonial-quote">My late husband and I held some physical shares in CEAT Limited. I, being a senior citizen struggled for many years to recover these shares. <span class="text-muted">Then I contacted "The Wealth Finder". Raghav and his team helped me get back my shares in my demat account.</span></p>
           <div class="testimonial-footer">
-            <img src="images/testimonialsThree.png" alt="Sunita Reddy" class="testimonial-avatar">
+            <img src="images/Sushma-Bahl-Testimonials.png" alt="Sushma Bahl" class="testimonial-avatar">
             <div class="testimonial-info">
-              <strong>Sunita Reddy</strong>
-              <span>Business Owner</span>
+              <strong>Sushma Bahl</strong>
+              <span>CR Park, Delhi</span>
             </div>
             <div class="testimonial-rating"><img src="images/star.svg" alt="Rating" class="w-auto"/> 4.5</div>
           </div>
         </div>
         <div class="testimonial-card testimonial-image">
-          <img src="images/testimonialsThree.png" alt="Testimonial" loading="lazy">
+          <img src="images/Sushma-Bahl-Testimonials.png" alt="Testimonial" loading="lazy">
         </div>
         <div class="testimonial-card testimonial-image">
-          <img src="images/testimonialsFour.png" alt="Testimonial" loading="lazy">
+          <img src="images/Default-Image.png" alt="Testimonial" loading="lazy">
         </div>
         <div class="testimonial-card testimonial-text">
-          <p class="testimonial-quote">The Wealth Finder team traced my mother's old share certificates <span class="text-muted">from the 1990s, navigating name changes and mergers to recover ₹28 lakhs.</span></p>
+          <p class="testimonial-quote">Working with "The Wealth Finder" on retrieving my assets was an absolute game-changer. <span class="text-muted">Their professionalism, dedication, and expertise ensured a smooth and successful process from start to finish. I am truly grateful for their outstanding service and highly recommend them to anyone in need of asset retrieval assistance.</span></p>
           <div class="testimonial-footer">
-            <img src="images/testimonialsFour.png" alt="Dr. Amit Patel" class="testimonial-avatar">
+            <img src="images/Default-Image.png" alt="Mira Devi Agarwarla" class="testimonial-avatar">
             <div class="testimonial-info">
-              <strong>Dr. Amit Patel</strong>
-              <span>NRI, Medical Practitioner</span>
+              <strong>Mira Devi Agarwarla</strong>
+              <span>Swaroop Nagar, Odisha</span>
+            </div>
+            <div class="testimonial-rating"><img src="images/star.svg" alt="Rating" class="w-auto"/> 4.5</div>
+          </div>
+        </div>
+        <!-- Row 3: image, text, text, image -->
+        <div class="testimonial-card testimonial-image">
+          <img src="images/Premlata-Kedia-Testimonials.png" alt="Testimonial" loading="lazy">
+        </div>
+        <div class="testimonial-card testimonial-text">
+          <p class="testimonial-quote">I am very much thankful for the support of your team for claiming my shares of TCPL. <span class="text-muted">My appreciation for Mrs. Shalvi for initiating with much sincerity followed by Miss Bhavya who executed with full cooperation and dedication.</span></p>
+          <div class="testimonial-footer">
+            <img src="images/Premlata-Kedia-Testimonials.png" alt="Premlata Kedia" class="testimonial-avatar">
+            <div class="testimonial-info">
+              <strong>Premlata Kedia</strong>
+              <span>Kanpur, Uttar Pradesh</span>
+            </div>
+            <div class="testimonial-rating"><img src="images/star.svg" alt="Rating" class="w-auto"/> 4.5</div>
+          </div>
+        </div>
+        <div class="testimonial-card testimonial-text">
+          <p class="testimonial-quote">Heartfelt thanks to The Wealth Finder team for their exceptional support and guidance. <span class="text-muted">Their professionalism, dedication, and expertise made the entire process smooth and successful. Special appreciation to Ms. Bhavya Kakkar, Mr. Jashandeep Singh, and the team for their outstanding efforts. Highly recommended!</span></p>
+          <div class="testimonial-footer">
+            <img src="images/Vikas-Sharma-Testimonials.png" alt="Vikas Sharma" class="testimonial-avatar">
+            <div class="testimonial-info">
+              <strong>Vikas Sharma</strong>
+              <span>Chandigarh, Punjab</span>
             </div>
             <div class="testimonial-rating"><img src="images/star.svg" alt="Rating" class="w-auto"/> 4.5</div>
           </div>
         </div>
         <div class="testimonial-card testimonial-image">
-          <img src="images/testimonialsFive.png" alt="Testimonial" loading="lazy">
+          <img src="images/Vikas-Sharma-Testimonials.png" alt="Testimonial" loading="lazy">
         </div>
-        <div class="testimonial-card testimonial-text">
-          <p class="testimonial-quote">After retirement, I consolidated my investments and the Wealth <span class="text-muted">Finder recovered ₹8.5 lakhs in unclaimed dividends from 6 forgotten companies.</span></p>
+
+        <!-- === HIDDEN SET (Read More) === -->
+        <!-- Row 4: text, image, text, image -->
+        <div class="testimonial-card testimonial-text testimonial-hidden">
+          <p class="testimonial-quote">I had a great experience with The Wealth Finder. <span class="text-muted">Their team was professional and handled my case with utmost care and dedication.</span></p>
           <div class="testimonial-footer">
-            <img src="images/testimonialsFive.png" alt="Kavita Desai" class="testimonial-avatar">
+            <img src="images/Default-Image.png" alt="Vinod Kumar Katariya" class="testimonial-avatar">
             <div class="testimonial-info">
-              <strong>Kavita Desai</strong>
-              <span>Retired Government Officer</span>
+              <strong>Vinod Kumar Katariya</strong>
+              <span>Pratap Nagar, Madhya Pradesh</span>
             </div>
             <div class="testimonial-rating"><img src="images/star.svg" alt="Rating" class="w-auto"/> 4.5</div>
           </div>
         </div>
-        <div class="testimonial-card testimonial-text">
-          <p class="testimonial-quote">We needed a shell company for our venture, and The Wealth Finder managed due diligence and documentation expertly. <span class="text-muted">They addressed potential issues we hadn't even considered.</span></p>
+        <div class="testimonial-card testimonial-image testimonial-hidden">
+          <img src="images/Default-Image.png" alt="Testimonial" loading="lazy">
+        </div>
+        <div class="testimonial-card testimonial-text testimonial-hidden">
+          <p class="testimonial-quote">The Wealth Finder provided excellent service. <span class="text-muted">Their expertise and commitment to resolving my case was truly commendable.</span></p>
           <div class="testimonial-footer">
-            <img src="images/testimonialsSix.png" alt="Vikram Singh" class="testimonial-avatar">
+            <img src="images/Parvez-Rustamji-Testimonials.png" alt="Parvez Rustamji" class="testimonial-avatar">
             <div class="testimonial-info">
-              <strong>Vikram Singh</strong>
-              <span>Entrepreneur</span>
+              <strong>Parvez Rustamji</strong>
+              <span>Mumbai, Maharashtra</span>
             </div>
             <div class="testimonial-rating"><img src="images/star.svg" alt="Rating" class="w-auto"/> 4.5</div>
           </div>
         </div>
-        <div class="testimonial-card testimonial-image">
-          <img src="images/testimonialsSix.png" alt="Testimonial" loading="lazy">
+        <div class="testimonial-card testimonial-image testimonial-hidden">
+          <img src="images/Parvez-Rustamji-Testimonials.png" alt="Testimonial" loading="lazy">
         </div>
+        <!-- Row 5: text, image, image, text -->
+        <div class="testimonial-card testimonial-text testimonial-hidden">
+          <p class="testimonial-quote">Special thanks to Adv. Bhavya Kakkar made things possible. They are reliable professional systematic people really grateful. <span class="text-muted">They retrieve my shares from NSDL custody. I asked a few brokers about my queries but none of them were able to respond about them, but The Wealth Finder did tremendous job. Highly recommended!</span></p>
+          <div class="testimonial-footer">
+            <img src="images/Default-Image.png" alt="Neelam Monga" class="testimonial-avatar">
+            <div class="testimonial-info">
+              <strong>Neelam Monga</strong>
+              <span>Ferozpur, Punjab</span>
+            </div>
+            <div class="testimonial-rating"><img src="images/star.svg" alt="Rating" class="w-auto"/> 4.5</div>
+          </div>
+        </div>
+        <div class="testimonial-card testimonial-image testimonial-hidden">
+          <img src="images/Default-Image.png" alt="Testimonial" loading="lazy">
+        </div>
+        <div class="testimonial-card testimonial-image testimonial-hidden">
+          <img src="images/Maneck-Jimmy-Patalwala-Testimonials.png" alt="Testimonial" loading="lazy">
+        </div>
+        <div class="testimonial-card testimonial-text testimonial-hidden">
+          <p class="testimonial-quote">I want to sincerely thank The Wealth Finder team for their excellent work in recovering my shares from RIL and IEPF. <span class="text-muted">Despite challenges like Lost Certificates and shares stuck with IEPF, the team handled everything professionally and resolved my case in no time. A special thanks to Pieyusha for her personal attention and dedication.</span></p>
+          <div class="testimonial-footer">
+            <img src="images/Maneck-Jimmy-Patalwala-Testimonials.png" alt="Maneck Jimmy Patalwala" class="testimonial-avatar">
+            <div class="testimonial-info">
+              <strong>Maneck Jimmy Patalwala</strong>
+              <span>Surat, Gujarat</span>
+            </div>
+            <div class="testimonial-rating"><img src="images/star.svg" alt="Rating" class="w-auto"/> 4.5</div>
+          </div>
+        </div>
+        <!-- Row 6: image, text, text, image -->
+        <div class="testimonial-card testimonial-image testimonial-hidden">
+          <img src="images/Samuel-Maxmius-Pereira-Testimonials.png" alt="Testimonial" loading="lazy">
+        </div>
+        <div class="testimonial-card testimonial-text testimonial-hidden">
+          <p class="testimonial-quote">Thank you, The Wealth Finder, for recovering my lost shares! I was skeptical at first, but your team explained everything clearly and handled all the paperwork, <span class="text-muted">even with the long process. I'm thrilled to see my shares in my Demat account. Excellent service!</span></p>
+          <div class="testimonial-footer">
+            <img src="images/Samuel-Maxmius-Pereira-Testimonials.png" alt="Samuel Maxmius Pereira" class="testimonial-avatar">
+            <div class="testimonial-info">
+              <strong>Samuel Maxmius Pereira</strong>
+              <span>Mumbai, Maharashtra</span>
+            </div>
+            <div class="testimonial-rating"><img src="images/star.svg" alt="Rating" class="w-auto"/> 4.5</div>
+          </div>
+        </div>
+        <div class="testimonial-card testimonial-text testimonial-hidden">
+          <p class="testimonial-quote">My experience with The Wealth Finder was fantastic. From the initial stage of request till the end of receiving my shares the service from your officials were more customer oriented and encouraging. <span class="text-muted">Very user friendly and efficient, the service was fast. My special thanks to Madam Ankita and Mr. Pankaj.</span></p>
+          <div class="testimonial-footer">
+            <img src="images/Varatharaj-Venkatswamy-Testimonials.png" alt="Varatharaj Venkatswamy" class="testimonial-avatar">
+            <div class="testimonial-info">
+              <strong>Varatharaj Venkatswamy</strong>
+              <span>Coimbatore, Tamil Nadu</span>
+            </div>
+            <div class="testimonial-rating"><img src="images/star.svg" alt="Rating" class="w-auto"/> 4.5</div>
+          </div>
+        </div>
+        <div class="testimonial-card testimonial-image testimonial-hidden">
+          <img src="images/Varatharaj-Venkatswamy-Testimonials.png" alt="Testimonial" loading="lazy">
+        </div>
+      </div>
+      <div class="testimonials-readmore-wrap" data-reveal="up">
+        <button class="btn btn-secondary" id="toggleTestimonials" onclick="toggleTestimonials()">
+          <span>Read More</span>
+          <span class="btn-icon"><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="#03159D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 7h12M8 2l5 5-5 5" stroke="#03159D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </button>
       </div>
     </div>
   </section>

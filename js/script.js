@@ -1160,3 +1160,21 @@ document.querySelectorAll('.srv-form-tags').forEach(container => {
     onScroll();
   });
 })();
+
+/* ============================
+   TESTIMONIALS READ MORE TOGGLE
+   ============================ */
+function toggleTestimonials() {
+  const grid = document.querySelector('.testimonials-grid');
+  const btn = document.getElementById('toggleTestimonials');
+  if (!grid || !btn) return;
+
+  const label = btn.querySelector('span:first-child');
+  grid.classList.toggle('show-all');
+  if (grid.classList.contains('show-all')) {
+    label.textContent = 'Show Less';
+  } else {
+    label.textContent = 'Read More';
+    document.getElementById('testimonials').scrollIntoView({ behavior: 'smooth' });
+  }
+}

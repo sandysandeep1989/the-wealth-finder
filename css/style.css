@@ -1567,7 +1567,7 @@ input {
   position: absolute;
   top: 100%;
   left: 50%;
-  transform: translateX(-20%) translateY(8px);
+  transform: translateX(-100px) translateY(8px);
   min-width: 240px;
   background: var(--white);
   border-radius: 16px;
@@ -1577,6 +1577,7 @@ input {
   visibility: hidden;
   transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s;
   z-index: 100;
+  pointer-events: none;
 }
 
 /* Mega menu (two-column) */
@@ -1620,10 +1621,17 @@ input {
   background: transparent;
 }
 
+/* Wider bridge for mega dropdown to prevent jerk on left side */
+.nav-item.has-mega::after {
+  left: -150px;
+  width: calc(100% + 300px);
+}
+
 .nav-item.has-dropdown:hover > .nav-dropdown {
   opacity: 1;
   visibility: visible;
   transform: translateX(-100px) translateY(0);
+  pointer-events: auto;
 }
 
 .nav-item.has-dropdown:hover .chevron {
@@ -2702,12 +2710,31 @@ input {
   background: var(--neutral-200);
   border-radius: var(--radius-md);
   overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .testimonial-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+/* Testimonials read more toggle */
+.testimonial-hidden {
+  display: none;
+}
+
+.testimonials-grid.show-all .testimonial-hidden.testimonial-text {
+  display: flex;
+}
+
+.testimonials-grid.show-all .testimonial-hidden.testimonial-image {
+  display: block;
+}
+
+.testimonials-readmore-wrap {
+  text-align: center;
+  margin-top: 40px;
 }
 
 /* ============================
@@ -3152,7 +3179,7 @@ input {
   color: var(--white);
   position: relative;
   overflow: hidden;
-  padding-bottom: 380px;
+  padding-bottom: 440px;
 }
 
 .footer-top {
@@ -8874,6 +8901,7 @@ width: 48px;
   justify-content: flex-end;
   text-decoration: none;
   color: #fff;
+  width: 100%;
 }
 .blog-page .blog-card img {
   position: absolute;
@@ -10488,23 +10516,146 @@ background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
   margin-top: 80px;
   display: flex;
   justify-content: center;
+  position: relative;
+  z-index: 10;
   opacity: 0;
   transform: translateY(40px);
-   position: relative;
-     z-index: 10;
 }
-.heroSvg img {
-  max-width: 100%;
+
+/* Inline animated SVG */
+.hero-logo-svg {
+  width: 100%;
+  max-width: 890px;
   height: auto;
 }
 
+/* Stroke draw-on */
+.hero-logo-stroke {
+  fill: none;
+  stroke: url(#heroStrokeGrad);
+  stroke-width: 2;
+  stroke-dasharray: 4500;
+  stroke-dashoffset: 4500;
+}
+
+/* Fill fade-in */
+.hero-logo-fill {
+  fill: url(#heroFillGrad);
+  opacity: 0;
+}
+
+/* Glow behind logo */
+.hero-logo-glow {
+  position: absolute;
+  width: 60%;
+  height: 60%;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(74,99,253,0.3) 0%, transparent 70%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* Floating particles */
+.hero-logo-particle {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 11;
+}
+.hero-logo-particle--1 { width: 8px; height: 8px; background: rgba(255,255,255,0.4); top: 15%; left: 10%; }
+.hero-logo-particle--2 { width: 6px; height: 6px; background: rgba(255,255,255,0.3); top: 25%; right: 15%; }
+.hero-logo-particle--3 { width: 10px; height: 10px; background: rgba(255,255,255,0.25); bottom: 30%; left: 20%; }
+.hero-logo-particle--4 { width: 5px; height: 5px; background: rgba(255,255,255,0.35); bottom: 20%; right: 25%; }
+.hero-logo-particle--5 { width: 7px; height: 7px; background: rgba(255,255,255,0.2); top: 50%; left: 5%; }
+
+/* Triggered animations (tied to hero-animated) */
 .hero.hero-animated .heroSvg {
   animation: heroSvgIn 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
   animation-delay: calc(var(--hero-word-count, 10) * 0.04s + 1.3s);
 }
+
+.hero.hero-animated .hero-logo-stroke {
+  animation: heroLogoDrawPath 1.2s cubic-bezier(0.65, 0, 0.35, 1) forwards;
+  animation-delay: calc(var(--hero-word-count, 10) * 0.04s + 1.5s);
+}
+
+.hero.hero-animated .hero-logo-fill {
+  animation: heroLogoFillIn 1.2s ease forwards;
+  animation-delay: calc(var(--hero-word-count, 10) * 0.04s + 2.2s);
+}
+
+.hero.hero-animated .hero-logo-glow {
+  animation: heroLogoGlowPulse 1.5s cubic-bezier(0.16, 1, 0.3, 1) forwards,
+             heroLogoGlowBreathe 4s ease-in-out infinite;
+  animation-delay: calc(var(--hero-word-count, 10) * 0.04s + 2.2s),
+                   calc(var(--hero-word-count, 10) * 0.04s + 3.7s);
+}
+
+.hero.hero-animated .hero-logo-particle--1 {
+  animation: heroLogoParticleIn 0.6s ease forwards, heroLogoFloat1 6s ease-in-out infinite;
+  animation-delay: calc(var(--hero-word-count, 10) * 0.04s + 2.8s), calc(var(--hero-word-count, 10) * 0.04s + 3.4s);
+}
+.hero.hero-animated .hero-logo-particle--2 {
+  animation: heroLogoParticleIn 0.6s ease forwards, heroLogoFloat2 8s ease-in-out infinite;
+  animation-delay: calc(var(--hero-word-count, 10) * 0.04s + 3s), calc(var(--hero-word-count, 10) * 0.04s + 3.6s);
+}
+.hero.hero-animated .hero-logo-particle--3 {
+  animation: heroLogoParticleIn 0.6s ease forwards, heroLogoFloat3 7s ease-in-out infinite;
+  animation-delay: calc(var(--hero-word-count, 10) * 0.04s + 3.2s), calc(var(--hero-word-count, 10) * 0.04s + 3.8s);
+}
+.hero.hero-animated .hero-logo-particle--4 {
+  animation: heroLogoParticleIn 0.6s ease forwards, heroLogoFloat1 9s ease-in-out infinite;
+  animation-delay: calc(var(--hero-word-count, 10) * 0.04s + 3.4s), calc(var(--hero-word-count, 10) * 0.04s + 4s);
+}
+.hero.hero-animated .hero-logo-particle--5 {
+  animation: heroLogoParticleIn 0.6s ease forwards, heroLogoFloat2 5s ease-in-out infinite;
+  animation-delay: calc(var(--hero-word-count, 10) * 0.04s + 3.6s), calc(var(--hero-word-count, 10) * 0.04s + 4.2s);
+}
+
+/* Logo animation keyframes */
 @keyframes heroSvgIn {
   from { opacity: 0; transform: translateY(40px); }
   to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes heroLogoDrawPath {
+  to { stroke-dashoffset: 0; }
+}
+@keyframes heroLogoFillIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes heroLogoGlowPulse {
+  from { transform: translate(-50%, -50%) scale(0); opacity: 0; }
+  to   { transform: translate(-50%, -50%) scale(1); opacity: 1; }
+}
+@keyframes heroLogoGlowBreathe {
+  0%, 100% { transform: translate(-50%, -50%) scale(1); opacity: 0.6; }
+  50%      { transform: translate(-50%, -50%) scale(1.15); opacity: 1; }
+}
+@keyframes heroLogoParticleIn {
+  from { opacity: 0; transform: scale(0); }
+  to   { opacity: 1; transform: scale(1); }
+}
+@keyframes heroLogoFloat1 {
+  0%, 100% { transform: translate(0, 0); }
+  25%      { transform: translate(12px, -18px); }
+  50%      { transform: translate(-8px, -30px); }
+  75%      { transform: translate(16px, -12px); }
+}
+@keyframes heroLogoFloat2 {
+  0%, 100% { transform: translate(0, 0); }
+  33%      { transform: translate(-16px, 14px); }
+  66%      { transform: translate(10px, -20px); }
+}
+@keyframes heroLogoFloat3 {
+  0%, 100% { transform: translate(0, 0); }
+  25%      { transform: translate(20px, 10px); }
+  50%      { transform: translate(-10px, 25px); }
+  75%      { transform: translate(-20px, -8px); }
 }
 
 /* Mouse-follow glow (positioned by JS) */
@@ -10536,13 +10687,18 @@ background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
   .hero-btn-anim,
   .heroSvg,
   .hero-mouse-glow,
-  .hero-badge-dot::after {
+  .hero-badge-dot::after,
+  .hero-logo-stroke,
+  .hero-logo-fill,
+  .hero-logo-glow,
+  .hero-logo-particle {
     animation: none !important;
     opacity: 1 !important;
     transform: none !important;
     filter: none !important;
     transition: none !important;
   }
+  .hero-logo-stroke { stroke-dashoffset: 0 !important; }
   .hero-title-anim { opacity: 1 !important; }
 }
 
@@ -10564,6 +10720,8 @@ background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
   .hero-mouse-glow { display: none; }
   .hero-badge { font-size: 13px; padding: 6px 16px; }
   .hero-badge-anim { margin-bottom: 16px; }
+  .hero-logo-particle--4, .hero-logo-particle--5 { display: none; }
+  .hero-logo-glow { width: 80%; height: 80%; }
 }
 
 /* ============================
